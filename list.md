@@ -4,11 +4,32 @@ Do not remove 'blocklist\:' e 'allowlist\:'.
 You can write everything you want, everything will be ignored for exceptions of lines that starts with `- [x]` (checked backtick).
 
 ## blocklist:
-Blacklisted sites or lists 
-- [x] googleads.g.doubleclick.net
-- [x] list:https://adguardteam.github.io/HostlistsRegistry/assets/filter_1.txt
+# Filtri Base e Pubblicità
+- [x] list:https://easylist.to/easylist/easylist.txt
+- [x] list:https://filters.adtidy.org/extension/ublock/filters/2.txt
+- [x] list:https://filters.adtidy.org/extension/ublock/filters/11.txt
+
+# Privacy e Tracciamento
+- [x] list:https://easylist.to/easylist/easyprivacy.txt
+- [x] list:https://filters.adtidy.org/extension/ublock/filters/3.txt
+- [x] list:https://raw.githubusercontent.com/curbengh/phishing-filter/master/dist/utils.txt
+
+# Filtri Italiani (ITA-0)
+- [x] list:https://raw.githubusercontent.com/FiltersHeroes/ItalyList/master/italylist.txt
+
+# Fastidi (Annoyances, Cookie, Widget)
+- [x] list:https://secure.fanboy.co.nz/fanboy-cookiemonster.txt
+- [x] list:https://filters.adtidy.org/extension/ublock/filters/14.txt
+- [x] list:https://filters.adtidy.org/extension/ublock/filters/4.txt
+- [x] list:https://filters.adtidy.org/extension/ublock/filters/15.txt
+
+# Sicurezza
+- [x] list:https://raw.githubusercontent.com/DandelionSprout/adblock-lists/master/Wiki-based%20Lists/BadwareRisks.txt
+- [x] list:https://urlhaus.abuse.ch/downloads/hostfile/
 
 ## allowlist:
-Whitelisted sites or lists
+# Siti permessi estratti dal tuo JSON
 - [x] googleusercontent.com
 - [x] spotify.com
+- [x] www.esercito.difesa.it
+- [x] chromewebstore.google.com
