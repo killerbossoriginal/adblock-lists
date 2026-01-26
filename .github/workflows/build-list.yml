@@ -1,0 +1,108 @@
+name: Build Adblock Lists
+
+on:
+  push:
+    paths:
+      - "list.md" # Si avvia solo se modifichi manualmente list.md
+  schedule:
+    - cron: "0 */6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 # Necessario per fare il push correttamente
+
+      - name: Install tools
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y curl jq
+
+      - name: Get current date
+        id: date
+        run: |
+          echo "tag=$(date +'%Y%m%d-%H%M')" >> $GITHUB_OUTPUT
+          echo "display=$(date +'%Y-%m-%d %H:%M')" >> $GITHUB_OUTPUT
+
+      - name: Parse list.md and generate lists
+        run: |
+          # Crea la cartella 'lists' nella root della repo se non esiste
+          mkdir -p lists
+          BLOCK_TMP="block_raw.txt"
+          ALLOW_TMP="allow_raw.txt"
+
+          # Estrazione e pulizia
+          awk '/blocklist:/,/allowlist:/' list.md | grep "\[x\]" | sed 's/.*\[x\] //' | tr -d '\r' | sed 's/[[:space:]]*$//' > block_active.txt || true
+          awk '/allowlist:/,0' list.md | grep "\[x\]" | sed 's/.*\[x\] //' | tr -d '\r' | sed 's/[[:space:]]*$//' > allow_active.txt || true
+
+          # Processa blocklist
+          > "$BLOCK_TMP"
+          while read -r line || [ -n "$line" ]; do
+            [ -z "$line" ] && continue
+            if [[ "$line" == list:* ]]; then
+              url="${line#list:}"
+              curl -sL --connect-timeout 10 --retry 3 "$url" >> "$BLOCK_TMP" || echo "Errore download $url"
+            else
+              echo "$line" >> "$BLOCK_TMP"
+            fi
+          done < block_active.txt
+
+          # Processa allowlist
+          > "$ALLOW_TMP"
+          while read -r line || [ -n "$line" ]; do
+            [ -z "$line" ] && continue
+            if [[ "$line" == list:* ]]; then
+              url="${line#list:}"
+              curl -sL --connect-timeout 10 --retry 3 "$url" >> "$ALLOW_TMP" >> "$ALLOW_TMP" || echo "Errore download $url"
+            else
+              echo "$line" >> "$ALLOW_TMP"
+            fi
+          done < allow_active.txt
+
+          # Pulizia e formattazione
+          sed -i 's/^||//g; s/\^$//g' "$BLOCK_TMP" "$ALLOW_TMP"
+          sed -i '/^$/d; /^[!#]/d' "$BLOCK_TMP" "$ALLOW_TMP"
+
+          # Applica allowlist
+          if [ -s "$ALLOW_TMP" ]; then
+            grep -v -F -f "$ALLOW_TMP" "$BLOCK_TMP" > final_clean.txt || cp "$BLOCK_TMP" final_clean.txt
+          else
+            cp "$BLOCK_TMP" final_clean.txt
+          fi
+
+          # Genera i file definitivi dentro la cartella 'lists/'
+          sed 's/^/||/; s/$/^/' final_clean.txt > lists/combined_ublock.txt
+          sed 's/^/||/; s/$/^/' final_clean.txt > lists/combined_adguard.txt
+          sed 's/^/0.0.0.0 /' final_clean.txt > lists/combined_hosts.txt
+
+          # Pulizia file temporanei
+          rm "$BLOCK_TMP" "$ALLOW_TMP" block_active.txt allow_active.txt final_clean.txt
+
+      - name: Commit and Push changes
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add lists/*.txt
+          # [skip ci] nel messaggio evita che il commit faccia ripartire il workflow
+          git commit -m "Aggiornamento liste automatico: ${{ steps.date.outputs.display }} [skip ci]" || echo "Nessuna modifica da committare"
+          git push
+
+      - name: Create Release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: "auto-${{ steps.date.outputs.tag }}"
+          name: "Automated List Build ${{ steps.date.outputs.display }}"
+          files: |
+            lists/combined_ublock.txt
+            lists/combined_adguard.txt
+            lists/combined_hosts.txt
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
