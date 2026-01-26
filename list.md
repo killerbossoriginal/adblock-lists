@@ -3,9 +3,11 @@
 Do not remove 'blocklist\:' e 'allowlist\:'.
 You can write everything you want, everything will be ignored for exceptions of lines that starts with `- [x]` (checked backtick).
 
-## blocklist:
+## blocklist: 
 # Filtri Base e Pubblicità
 - [x] list:https://easylist.to/easylist/easylist.txt
+- [x] list:https://easylist.to/easylist/easyprivacy.txt
+- [x] list:https://big.oisd.nl
 - [x] list:https://filters.adtidy.org/extension/ublock/filters/2.txt
 - [x] list:https://filters.adtidy.org/extension/ublock/filters/11.txt
 
