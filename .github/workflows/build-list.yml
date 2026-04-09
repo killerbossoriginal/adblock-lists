@@ -45,27 +45,30 @@ jobs:
           block_raw="$workdir/block_raw.txt"
           allow_raw="$workdir/allow_raw.txt"
 
-          : > "$block_src"
-          : > "$allow_src"
-          : > "$block_raw"
-          : > "$allow_raw"
+          # Forza la creazione fisica dei file per evitare "No such file or directory"
+          touch "$block_src" "$allow_src" "$block_raw" "$allow_raw"
 
-          awk '
-            BEGIN { mode="" }
-            /^[[:space:]]*blocklist:[[:space:]]*$/ { mode="block"; next }
-            /^[[:space:]]*allowlist:[[:space:]]*$/ { mode="allow"; next }
-            /^[[:space:]]*[a-z]+:[[:space:]]*$/ && !/^[[:space:]]*(blocklist|allowlist):[[:space:]]*$/ { mode=""; next }
-            mode=="block" && /\[x\]/ {
-              sub(/^.*\[x\][[:space:]]*/, "", $0)
-              sub(/[[:space:]]+$/, "", $0)
-              if (length($0) > 0) print > "'"$block_src"'"
-            }
-            mode=="allow" && /\[x\]/ {
-              sub(/^.*\[x\][[:space:]]*/, "", $0)
-              sub(/[[:space:]]+$/, "", $0)
-              if (length($0) > 0) print > "'"$allow_src"'"
-            }
-          ' list.md
+          # Controlla che il file esista per evitare crash dell'awk
+          if [ -f "list.md" ]; then
+            awk -v bsrc="$block_src" -v asrc="$allow_src" '
+              BEGIN { mode="" }
+              /^[[:space:]]*blocklist:[[:space:]]*$/ { mode="block"; next }
+              /^[[:space:]]*allowlist:[[:space:]]*$/ { mode="allow"; next }
+              /^[[:space:]]*[a-z]+:[[:space:]]*$/ && !/^[[:space:]]*(blocklist|allowlist):[[:space:]]*$/ { mode=""; next }
+              mode=="block" && /\[x\]/ {
+                sub(/^.*\[x\][[:space:]]*/, "", $0)
+                sub(/[[:space:]]+$/, "", $0)
+                if (length($0) > 0) print >> bsrc
+              }
+              mode=="allow" && /\[x\]/ {
+                sub(/^.*\[x\][[:space:]]*/, "", $0)
+                sub(/[[:space:]]+$/, "", $0)
+                if (length($0) > 0) print >> asrc
+              }
+            ' list.md
+          else
+            echo "File list.md non trovato, procedo con liste vuote."
+          fi
 
           echo "Block sources: $(wc -l < "$block_src") righe"
           echo "Allow sources: $(wc -l < "$allow_src") righe"
@@ -93,9 +96,6 @@ jobs:
               echo "$line" >> "$allow_raw"
             fi
           done < "$allow_src"
-
-          echo "Block raw: $(wc -l < "$block_raw") righe"
-          echo "Allow raw: $(wc -l < "$allow_raw") righe"
 
           export WORKDIR="$workdir"
 
