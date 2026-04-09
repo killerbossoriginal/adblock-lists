@@ -45,24 +45,83 @@ jobs:
           block_raw="$workdir/block_raw.txt"
           allow_raw="$workdir/allow_raw.txt"
 
-          # 1. FORZA LA CREAZIONE DI TUTTI I FILE (Risolve l'errore "No such file or directory")
+          # Forza la creazione dei file
           touch "$block_src" "$allow_src" "$block_raw" "$allow_raw"
 
-          # 2. Usa -v per passare le variabili ad awk in modo sicuro
-          if [ -f "list.md" ]; then
-            awk -v bsrc="$block_src" -v asrc="$allow_src" '
-              BEGIN{mode=""}
-              /^[[:space:]]*blocklist:[[:space:]]*$/ {mode="block"; next}
-              /^[[:space:]]*allowlist:[[:space:]]*$/ {mode="allow"; next}
-              mode=="block" && /\[x\]/ { sub(/^.*\[x\][[:space:]]*/, "", $0); sub(/[[:space:]]+$/, "", $0); print >> bsrc }
-              mode=="allow" && /\[x\]/ { sub(/^.*\[x\][[:space:]]*/, "", $0); sub(/[[:space:]]+$/, "", $0); print >> asrc }
-            ' list.md
+          if [ ! -f "list.md" ]; then
+            echo "Errore: list.md non esiste"
+            exit 1
+          fi
+
+          # Rimuove \r (formato Windows) per sicurezza
+          sed 's/\r$//' list.md > "$workdir/list.normalized.md"
+
+          # Nuovo parser awk che supporta i markdown checkbox: "- [x] url"
+          awk -v bsrc="$block_src" -v asrc="$allow_src" '
+            BEGIN { mode="" }
+
+            /^[[:space:]]*blocklist:[[:space:]]*$/ {
+              mode="block"
+              next
+            }
+
+            /^[[:space:]]*allowlist:[[:space:]]*$/ {
+              mode="allow"
+              next
+            }
+
+            # Resetta la modalità se incontra un altro header che non è block/allow
+            /^[[:space:]]*[A-Za-z0-9_-]+:[[:space:]]*$/ && !/^[[:space:]]*(blocklist|allowlist):[[:space:]]*$/ {
+              mode=""
+              next
+            }
+
+            mode != "" {
+              line = $0
+              sub(/\r$/, "", line)
+
+              # Cerca le righe che iniziano con - [x] o - [X]
+              if (line ~ /^[[:space:]]*-[[:space:]]*\[[xX]\][[:space:]]+/) {
+                # Rimuove il prefisso della checkbox
+                sub(/^[[:space:]]*-[[:space:]]*\[[xX]\][[:space:]]+/, "", line)
+                # Rimuove spazi finali
+                sub(/[[:space:]]+$/, "", line)
+
+                if (length(line) > 0) {
+                  if (mode == "block") {
+                    print line >> bsrc
+                  } else if (mode == "allow") {
+                    print line >> asrc
+                  }
+                }
+              }
+            }
+          ' "$workdir/list.normalized.md"
+
+          # Debug utile per GitHub Actions
+          echo "=== DEBUG list.md ==="
+          cat "$workdir/list.normalized.md"
+          echo "=== DEBUG block sources ==="
+          cat "$block_src" || true
+          echo "=== DEBUG allow sources ==="
+          cat "$allow_src" || true
+
+          block_count="$(wc -l < "$block_src" | tr -d ' ')"
+          allow_count="$(wc -l < "$allow_src" | tr -d ' ')"
+
+          echo "Block sources: $block_count"
+          echo "Allow sources: $allow_count"
+
+          if [ "$block_count" -eq 0 ] && [ "$allow_count" -eq 0 ]; then
+            echo "Errore: nessuna voce [x] trovata in list.md"
+            exit 1
           fi
 
           while IFS= read -r line || [ -n "$line" ]; do
             [ -z "$line" ] && continue
             if [[ "$line" == list:* ]]; then
               url="${line#list:}"
+              echo "Downloading block: $url"
               curl -fsSL --connect-timeout 15 --retry 3 "$url" >> "$block_raw" || echo "! failed to download $url" >> "$block_raw"
               printf '\n' >> "$block_raw"
             else
@@ -74,6 +133,7 @@ jobs:
             [ -z "$line" ] && continue
             if [[ "$line" == list:* ]]; then
               url="${line#list:}"
+              echo "Downloading allow: $url"
               curl -fsSL --connect-timeout 15 --retry 3 "$url" >> "$allow_raw" || echo "! failed to download $url" >> "$allow_raw"
               printf '\n' >> "$allow_raw"
             else
@@ -88,6 +148,7 @@ jobs:
           import os
           from pathlib import Path
           from collections import OrderedDict
+          from datetime import datetime, timezone
 
           base = Path(os.environ["WORKDIR"])
           block_raw = (base / "block_raw.txt").read_text(encoding="utf-8", errors="ignore").splitlines()
@@ -102,15 +163,13 @@ jobs:
           dns_modifiers = ('dnstype=', 'dnsrewrite=', 'client=', 'ctag=', 'denyallow=')
 
           def clean(line):
-              line = line.replace('\r', '').strip()
-              return line
+              return line.replace('\r', '').strip()
 
           def is_comment(line):
               return not line or comment_re.match(line)
 
           def strip_inline_comment_domain(line):
-              line = line.split('#', 1)[0].strip()
-              return line
+              return line.split('#', 1)[0].strip()
 
           def canonical_domain(domain):
               d = domain.strip().strip('.').lower()
@@ -211,67 +270,58 @@ jobs:
               add_unique(dns_rules, f"@@||{dom}^", f"@@||{dom}^")
 
           def hosts_output():
-              out = OrderedDict()
-              for dom in block_domains:
-                  if dom not in allow_domains:
-                      out[f"0.0.0.0 {dom}"] = None
-              return list(out.keys())
+              return [f"0.0.0.0 {dom}" for dom in block_domains if dom not in allow_domains]
 
           def domains_output():
-              out = OrderedDict()
-              for dom in block_domains:
-                  if dom not in allow_domains:
-                      out[dom] = None
-              return list(out.keys())
+              return [dom for dom in block_domains if dom not in allow_domains]
 
           def dns_adblock_output():
-              out = OrderedDict()
-              for rule in dns_rules.values():
-                  if any(marker in rule for marker in cosmetic_markers):
-                      continue
-                  out[rule] = None
-              return list(out.keys())
+              return [rule for rule in dict.fromkeys(dns_rules.values()) if not any(m in rule for m in cosmetic_markers)]
 
           def browser_output():
-              out = OrderedDict()
-              for rule in browser_rules.values():
-                  out[rule] = None
-              return list(out.keys())
+              return list(dict.fromkeys(browser_rules.values()))
 
           browser_list = browser_output()
           dns_list = dns_adblock_output()
           hosts_list = hosts_output()
           domains_list = domains_output()
 
+          now = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+
           header = [
               "! Title: Combined custom list",
+              f"! Last modified: {now}",
+              f"! Entries: {len(browser_list)}",
               "! Generated automatically",
           ]
 
-          Path("lists/combined_ublock.txt").write_text(
-              "\n".join(header + [""] + browser_list) + "\n",
-              encoding="utf-8"
+          dns_header = [
+              "! Title: Combined custom list (DNS)",
+              f"! Last modified: {now}",
+              f"! Entries: {len(dns_list)}",
+              "! Generated automatically",
+          ]
+
+          lists_dir = Path("lists")
+          lists_dir.mkdir(exist_ok=True)
+
+          (lists_dir / "combined_ublock.txt").write_text(
+              "\n".join(header + [""] + browser_list) + "\n", encoding="utf-8"
+          )
+          (lists_dir / "combined_adguard.txt").write_text(
+              "\n".join(header + [""] + browser_list) + "\n", encoding="utf-8"
+          )
+          (lists_dir / "combined_dns_adblock.txt").write_text(
+              "\n".join(dns_header + [""] + dns_list) + "\n", encoding="utf-8"
+          )
+          (lists_dir / "combined_hosts.txt").write_text(
+              "\n".join(hosts_list) + ("\n" if hosts_list else ""), encoding="utf-8"
+          )
+          (lists_dir / "combined_domains.txt").write_text(
+              "\n".join(domains_list) + ("\n" if domains_list else ""), encoding="utf-8"
           )
 
-          Path("lists/combined_adguard.txt").write_text(
-              "\n".join(header + [""] + browser_list) + "\n",
-              encoding="utf-8"
-          )
-
-          Path("lists/combined_dns_adblock.txt").write_text(
-              "\n".join(header + [""] + dns_list) + "\n",
-              encoding="utf-8"
-          )
-
-          Path("lists/combined_hosts.txt").write_text(
-              "\n".join(hosts_list) + ("\n" if hosts_list else ""),
-              encoding="utf-8"
-          )
-
-          Path("lists/combined_domains.txt").write_text(
-              "\n".join(domains_list) + ("\n" if domains_list else ""),
-              encoding="utf-8"
-          )
+          print(f"Completato: browser={len(browser_list)}, dns={len(dns_list)}, hosts={len(hosts_list)}, domains={len(domains_list)}")
           PY
 
       - name: Commit and push changes
