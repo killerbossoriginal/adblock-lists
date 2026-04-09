@@ -3,9 +3,9 @@ name: Build Adblock Lists
 on:
   push:
     paths:
-      - "list.md" # Si avvia solo se modifichi manualmente list.md
+      - "list.md"
   schedule:
-    - cron: "0 */6 * * *"
+    - cron: "44 */6 * * *"
   workflow_dispatch:
 
 permissions:
@@ -19,90 +19,275 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0 # Necessario per fare il push correttamente
+          fetch-depth: 0
 
       - name: Install tools
         run: |
           sudo apt-get update
-          sudo apt-get install -y curl jq
+          sudo apt-get install -y curl gawk
 
       - name: Get current date
         id: date
         run: |
-          echo "tag=$(date +'%Y%m%d-%H%M')" >> $GITHUB_OUTPUT
-          echo "display=$(date +'%Y-%m-%d %H:%M')" >> $GITHUB_OUTPUT
+          echo "display=$(date +'%Y-%m-%d %H:%M')" >> "$GITHUB_OUTPUT"
 
-      - name: Parse list.md and generate lists
+      - name: Parse list.md, compile and generate compatibility outputs
+        shell: bash
         run: |
-          # Crea la cartella 'lists' nella root della repo se non esiste
+          set -euo pipefail
+
           mkdir -p lists
-          BLOCK_TMP="block_raw.txt"
-          ALLOW_TMP="allow_raw.txt"
+          workdir="$(mktemp -d)"
+          trap 'rm -rf "$workdir"' EXIT
 
-          # Estrazione e pulizia
-          awk '/blocklist:/,/allowlist:/' list.md | grep "\[x\]" | sed 's/.*\[x\] //' | tr -d '\r' | sed 's/[[:space:]]*$//' > block_active.txt || true
-          awk '/allowlist:/,0' list.md | grep "\[x\]" | sed 's/.*\[x\] //' | tr -d '\r' | sed 's/[[:space:]]*$//' > allow_active.txt || true
+          block_src="$workdir/block_sources.txt"
+          allow_src="$workdir/allow_sources.txt"
+          block_raw="$workdir/block_raw.txt"
+          allow_raw="$workdir/allow_raw.txt"
 
-          # Processa blocklist
-          > "$BLOCK_TMP"
-          while read -r line || [ -n "$line" ]; do
+          : > "$block_src"
+          : > "$allow_src"
+          : > "$block_raw"
+          : > "$allow_raw"
+
+          awk '
+            BEGIN { mode="" }
+            /^[[:space:]]*blocklist:[[:space:]]*$/ { mode="block"; next }
+            /^[[:space:]]*allowlist:[[:space:]]*$/ { mode="allow"; next }
+            /^[[:space:]]*[a-z]+:[[:space:]]*$/ && !/^[[:space:]]*(blocklist|allowlist):[[:space:]]*$/ { mode=""; next }
+            mode=="block" && /\[x\]/ {
+              sub(/^.*\[x\][[:space:]]*/, "", $0)
+              sub(/[[:space:]]+$/, "", $0)
+              if (length($0) > 0) print > "'"$block_src"'"
+            }
+            mode=="allow" && /\[x\]/ {
+              sub(/^.*\[x\][[:space:]]*/, "", $0)
+              sub(/[[:space:]]+$/, "", $0)
+              if (length($0) > 0) print > "'"$allow_src"'"
+            }
+          ' list.md
+
+          echo "Block sources: $(wc -l < "$block_src") righe"
+          echo "Allow sources: $(wc -l < "$allow_src") righe"
+
+          while IFS= read -r line || [ -n "$line" ]; do
             [ -z "$line" ] && continue
             if [[ "$line" == list:* ]]; then
               url="${line#list:}"
-              curl -sL --connect-timeout 10 --retry 3 "$url" >> "$BLOCK_TMP" || echo "Errore download $url"
+              echo "Downloading block: $url"
+              curl -fsSL --connect-timeout 15 --retry 3 "$url" >> "$block_raw" || echo "! failed to download $url" >> "$block_raw"
+              printf '\n' >> "$block_raw"
             else
-              echo "$line" >> "$BLOCK_TMP"
+              echo "$line" >> "$block_raw"
             fi
-          done < block_active.txt
+          done < "$block_src"
 
-          # Processa allowlist
-          > "$ALLOW_TMP"
-          while read -r line || [ -n "$line" ]; do
+          while IFS= read -r line || [ -n "$line" ]; do
             [ -z "$line" ] && continue
             if [[ "$line" == list:* ]]; then
               url="${line#list:}"
-              curl -sL --connect-timeout 10 --retry 3 "$url" >> "$ALLOW_TMP" >> "$ALLOW_TMP" || echo "Errore download $url"
+              echo "Downloading allow: $url"
+              curl -fsSL --connect-timeout 15 --retry 3 "$url" >> "$allow_raw" || echo "! failed to download $url" >> "$allow_raw"
+              printf '\n' >> "$allow_raw"
             else
-              echo "$line" >> "$ALLOW_TMP"
+              echo "$line" >> "$allow_raw"
             fi
-          done < allow_active.txt
+          done < "$allow_src"
 
-          # Pulizia e formattazione
-          sed -i 's/^||//g; s/\^$//g' "$BLOCK_TMP" "$ALLOW_TMP"
-          sed -i '/^$/d; /^[!#]/d' "$BLOCK_TMP" "$ALLOW_TMP"
+          echo "Block raw: $(wc -l < "$block_raw") righe"
+          echo "Allow raw: $(wc -l < "$allow_raw") righe"
 
-          # Applica allowlist
-          if [ -s "$ALLOW_TMP" ]; then
-            grep -v -F -f "$ALLOW_TMP" "$BLOCK_TMP" > final_clean.txt || cp "$BLOCK_TMP" final_clean.txt
-          else
-            cp "$BLOCK_TMP" final_clean.txt
-          fi
+          export WORKDIR="$workdir"
 
-          # Genera i file definitivi dentro la cartella 'lists/'
-          sed 's/^/||/; s/$/^/' final_clean.txt > lists/combined_ublock.txt
-          sed 's/^/||/; s/$/^/' final_clean.txt > lists/combined_adguard.txt
-          sed 's/^/0.0.0.0 /' final_clean.txt > lists/combined_hosts.txt
+          python3 <<'PY'
+          import re
+          import os
+          from pathlib import Path
+          from collections import OrderedDict
+          from datetime import datetime, timezone
 
-          # Pulizia file temporanei
-          rm "$BLOCK_TMP" "$ALLOW_TMP" block_active.txt allow_active.txt final_clean.txt
+          base = Path(os.environ["WORKDIR"])
 
-      - name: Commit and Push changes
+          block_raw_path = base / "block_raw.txt"
+          allow_raw_path = base / "allow_raw.txt"
+
+          block_raw = block_raw_path.read_text(encoding="utf-8", errors="ignore").splitlines() if block_raw_path.exists() else []
+          allow_raw = allow_raw_path.read_text(encoding="utf-8", errors="ignore").splitlines() if allow_raw_path.exists() else []
+
+          domain_re = re.compile(r'^(?:[a-z0-9](?:[a-z0-9-]{0,61}[a-z0-9])?\.)+[a-z]{2,}$', re.I)
+          hosts_re = re.compile(r'^(0\.0\.0\.0|127\.0\.0\.1|::1)\s+([A-Za-z0-9._-]+)(?:\s+#.*)?$')
+          comment_re = re.compile(r'^\s*[!#]')
+          adblock_exception_re = re.compile(r'^@@')
+          cosmetic_markers = ('##', '#@#', '#$#', '#%#', '#?#')
+          likely_network_markers = ('||', '|http', '|https', '$', '*', '/', '^')
+          dns_modifiers = ('dnstype=', 'dnsrewrite=', 'client=', 'ctag=', 'denyallow=')
+
+          def clean(line):
+              return line.replace('\r', '').strip()
+
+          def is_comment(line):
+              return not line or bool(comment_re.match(line))
+
+          def strip_inline_comment_domain(line):
+              return line.split('#', 1)[0].strip()
+
+          def canonical_domain(domain):
+              d = domain.strip().strip('.').lower()
+              return d if domain_re.match(d) else None
+
+          def classify(line):
+              raw = clean(line)
+              if is_comment(raw):
+                  return None
+
+              m = hosts_re.match(raw)
+              if m:
+                  dom = canonical_domain(m.group(2))
+                  if dom:
+                      return ("domain_block", dom, raw)
+
+              maybe_domain = canonical_domain(strip_inline_comment_domain(raw))
+              if maybe_domain:
+                  if raw.startswith('@@'):
+                      return ("domain_exception", maybe_domain, raw)
+                  return ("domain_block", maybe_domain, raw)
+
+              if any(marker in raw for marker in cosmetic_markers):
+                  return ("cosmetic", raw, raw)
+
+              if adblock_exception_re.match(raw):
+                  return ("exception_rule", raw, raw)
+
+              if any(dm in raw for dm in dns_modifiers):
+                  return ("dns_rule", raw, raw)
+
+              if raw.startswith('/'):
+                  return ("network_rule", raw, raw)
+
+              if any(tok in raw for tok in likely_network_markers):
+                  return ("network_rule", raw, raw)
+
+              return ("opaque_rule", raw, raw)
+
+          def add_unique(store, key, value):
+              if key not in store:
+                  store[key] = value
+
+          block_domains = OrderedDict()
+          allow_domains = OrderedDict()
+          browser_rules = OrderedDict()
+          dns_rules = OrderedDict()
+          cosmetic_rules = OrderedDict()
+          opaque_rules = OrderedDict()
+
+          for line in block_raw:
+              item = classify(line)
+              if not item:
+                  continue
+              kind, key, raw = item
+              if kind == "domain_block":
+                  add_unique(block_domains, key, key)
+              elif kind == "network_rule":
+                  add_unique(browser_rules, raw, raw)
+              elif kind == "dns_rule":
+                  add_unique(browser_rules, raw, raw)
+                  add_unique(dns_rules, raw, raw)
+              elif kind == "cosmetic":
+                  add_unique(cosmetic_rules, raw, raw)
+                  add_unique(browser_rules, raw, raw)
+              elif kind == "opaque_rule":
+                  add_unique(browser_rules, raw, raw)
+                  add_unique(opaque_rules, raw, raw)
+              elif kind == "exception_rule":
+                  add_unique(browser_rules, raw, raw)
+
+          for line in allow_raw:
+              item = classify(line)
+              if not item:
+                  continue
+              kind, key, raw = item
+              if kind == "domain_exception":
+                  add_unique(allow_domains, key, key)
+              elif kind == "domain_block":
+                  add_unique(allow_domains, key, key)
+              elif kind == "exception_rule":
+                  add_unique(browser_rules, raw, raw)
+                  if any(dm in raw for dm in dns_modifiers) or raw.startswith('@@||') or raw.startswith('@@/'):
+                      add_unique(dns_rules, raw, raw)
+              elif kind == "cosmetic":
+                  add_unique(browser_rules, raw, raw)
+              else:
+                  if not raw.startswith('@@'):
+                      raw = '@@' + raw
+                  add_unique(browser_rules, raw, raw)
+
+          for dom in block_domains:
+              add_unique(browser_rules, f"||{dom}^", f"||{dom}^")
+              add_unique(dns_rules, f"||{dom}^", f"||{dom}^")
+
+          for dom in allow_domains:
+              add_unique(browser_rules, f"@@||{dom}^", f"@@||{dom}^")
+              add_unique(dns_rules, f"@@||{dom}^", f"@@||{dom}^")
+
+          def hosts_output():
+              return [f"0.0.0.0 {dom}" for dom in block_domains if dom not in allow_domains]
+
+          def domains_output():
+              return [dom for dom in block_domains if dom not in allow_domains]
+
+          def dns_adblock_output():
+              return [rule for rule in dict.fromkeys(dns_rules.values()) if not any(m in rule for m in cosmetic_markers)]
+
+          def browser_output():
+              return list(dict.fromkeys(browser_rules.values()))
+
+          browser_list = browser_output()
+          dns_list = dns_adblock_output()
+          hosts_list = hosts_output()
+          domains_list = domains_output()
+
+          now = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+
+          header = [
+              "! Title: Combined custom list",
+              f"! Last modified: {now}",
+              f"! Entries: {len(browser_list)}",
+              "! Generated automatically",
+          ]
+
+          dns_header = [
+              "! Title: Combined custom list (DNS)",
+              f"! Last modified: {now}",
+              f"! Entries: {len(dns_list)}",
+              "! Generated automatically",
+          ]
+
+          lists_dir = Path("lists")
+          lists_dir.mkdir(exist_ok=True)
+
+          (lists_dir / "combined_ublock.txt").write_text(
+              "\n".join(header + [""] + browser_list) + "\n", encoding="utf-8"
+          )
+          (lists_dir / "combined_adguard.txt").write_text(
+              "\n".join(header + [""] + browser_list) + "\n", encoding="utf-8"
+          )
+          (lists_dir / "combined_dns_adblock.txt").write_text(
+              "\n".join(dns_header + [""] + dns_list) + "\n", encoding="utf-8"
+          )
+          (lists_dir / "combined_hosts.txt").write_text(
+              "\n".join(hosts_list) + ("\n" if hosts_list else ""), encoding="utf-8"
+          )
+          (lists_dir / "combined_domains.txt").write_text(
+              "\n".join(domains_list) + ("\n" if domains_list else ""), encoding="utf-8"
+          )
+
+          print(f"Completato: browser={len(browser_list)}, dns={len(dns_list)}, hosts={len(hosts_list)}, domains={len(domains_list)}")
+          PY
+
+      - name: Commit and push changes
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           git add lists/*.txt
-          # [skip ci] nel messaggio evita che il commit faccia ripartire il workflow
-          git commit -m "Aggiornamento liste automatico: ${{ steps.date.outputs.display }} [skip ci]" || echo "Nessuna modifica da committare"
+          git commit -m "Aggiornamento liste automatico: ${{ steps.date.outputs.display }}" || echo "Nessuna modifica da committare"
           git push
-
-      - name: Create Release
-        uses: softprops/action-gh-release@v2
-        with:
-          tag_name: "auto-${{ steps.date.outputs.tag }}"
-          name: "Automated List Build ${{ steps.date.outputs.display }}"
-          files: |
-            lists/combined_ublock.txt
-            lists/combined_adguard.txt
-            lists/combined_hosts.txt
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
