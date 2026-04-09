@@ -45,39 +45,24 @@ jobs:
           block_raw="$workdir/block_raw.txt"
           allow_raw="$workdir/allow_raw.txt"
 
-          # Forza la creazione fisica dei file per evitare "No such file or directory"
+          # 1. FORZA LA CREAZIONE DI TUTTI I FILE (Risolve l'errore "No such file or directory")
           touch "$block_src" "$allow_src" "$block_raw" "$allow_raw"
 
-          # Controlla che il file esista per evitare crash dell'awk
+          # 2. Usa -v per passare le variabili ad awk in modo sicuro
           if [ -f "list.md" ]; then
             awk -v bsrc="$block_src" -v asrc="$allow_src" '
-              BEGIN { mode="" }
-              /^[[:space:]]*blocklist:[[:space:]]*$/ { mode="block"; next }
-              /^[[:space:]]*allowlist:[[:space:]]*$/ { mode="allow"; next }
-              /^[[:space:]]*[a-z]+:[[:space:]]*$/ && !/^[[:space:]]*(blocklist|allowlist):[[:space:]]*$/ { mode=""; next }
-              mode=="block" && /\[x\]/ {
-                sub(/^.*\[x\][[:space:]]*/, "", $0)
-                sub(/[[:space:]]+$/, "", $0)
-                if (length($0) > 0) print >> bsrc
-              }
-              mode=="allow" && /\[x\]/ {
-                sub(/^.*\[x\][[:space:]]*/, "", $0)
-                sub(/[[:space:]]+$/, "", $0)
-                if (length($0) > 0) print >> asrc
-              }
+              BEGIN{mode=""}
+              /^[[:space:]]*blocklist:[[:space:]]*$/ {mode="block"; next}
+              /^[[:space:]]*allowlist:[[:space:]]*$/ {mode="allow"; next}
+              mode=="block" && /\[x\]/ { sub(/^.*\[x\][[:space:]]*/, "", $0); sub(/[[:space:]]+$/, "", $0); print >> bsrc }
+              mode=="allow" && /\[x\]/ { sub(/^.*\[x\][[:space:]]*/, "", $0); sub(/[[:space:]]+$/, "", $0); print >> asrc }
             ' list.md
-          else
-            echo "File list.md non trovato, procedo con liste vuote."
           fi
-
-          echo "Block sources: $(wc -l < "$block_src") righe"
-          echo "Allow sources: $(wc -l < "$allow_src") righe"
 
           while IFS= read -r line || [ -n "$line" ]; do
             [ -z "$line" ] && continue
             if [[ "$line" == list:* ]]; then
               url="${line#list:}"
-              echo "Downloading block: $url"
               curl -fsSL --connect-timeout 15 --retry 3 "$url" >> "$block_raw" || echo "! failed to download $url" >> "$block_raw"
               printf '\n' >> "$block_raw"
             else
@@ -89,7 +74,6 @@ jobs:
             [ -z "$line" ] && continue
             if [[ "$line" == list:* ]]; then
               url="${line#list:}"
-              echo "Downloading allow: $url"
               curl -fsSL --connect-timeout 15 --retry 3 "$url" >> "$allow_raw" || echo "! failed to download $url" >> "$allow_raw"
               printf '\n' >> "$allow_raw"
             else
@@ -104,15 +88,10 @@ jobs:
           import os
           from pathlib import Path
           from collections import OrderedDict
-          from datetime import datetime, timezone
 
           base = Path(os.environ["WORKDIR"])
-
-          block_raw_path = base / "block_raw.txt"
-          allow_raw_path = base / "allow_raw.txt"
-
-          block_raw = block_raw_path.read_text(encoding="utf-8", errors="ignore").splitlines() if block_raw_path.exists() else []
-          allow_raw = allow_raw_path.read_text(encoding="utf-8", errors="ignore").splitlines() if allow_raw_path.exists() else []
+          block_raw = (base / "block_raw.txt").read_text(encoding="utf-8", errors="ignore").splitlines()
+          allow_raw = (base / "allow_raw.txt").read_text(encoding="utf-8", errors="ignore").splitlines()
 
           domain_re = re.compile(r'^(?:[a-z0-9](?:[a-z0-9-]{0,61}[a-z0-9])?\.)+[a-z]{2,}$', re.I)
           hosts_re = re.compile(r'^(0\.0\.0\.0|127\.0\.0\.1|::1)\s+([A-Za-z0-9._-]+)(?:\s+#.*)?$')
@@ -123,13 +102,15 @@ jobs:
           dns_modifiers = ('dnstype=', 'dnsrewrite=', 'client=', 'ctag=', 'denyallow=')
 
           def clean(line):
-              return line.replace('\r', '').strip()
+              line = line.replace('\r', '').strip()
+              return line
 
           def is_comment(line):
-              return not line or bool(comment_re.match(line))
+              return not line or comment_re.match(line)
 
           def strip_inline_comment_domain(line):
-              return line.split('#', 1)[0].strip()
+              line = line.split('#', 1)[0].strip()
+              return line
 
           def canonical_domain(domain):
               d = domain.strip().strip('.').lower()
@@ -230,58 +211,67 @@ jobs:
               add_unique(dns_rules, f"@@||{dom}^", f"@@||{dom}^")
 
           def hosts_output():
-              return [f"0.0.0.0 {dom}" for dom in block_domains if dom not in allow_domains]
+              out = OrderedDict()
+              for dom in block_domains:
+                  if dom not in allow_domains:
+                      out[f"0.0.0.0 {dom}"] = None
+              return list(out.keys())
 
           def domains_output():
-              return [dom for dom in block_domains if dom not in allow_domains]
+              out = OrderedDict()
+              for dom in block_domains:
+                  if dom not in allow_domains:
+                      out[dom] = None
+              return list(out.keys())
 
           def dns_adblock_output():
-              return [rule for rule in dict.fromkeys(dns_rules.values()) if not any(m in rule for m in cosmetic_markers)]
+              out = OrderedDict()
+              for rule in dns_rules.values():
+                  if any(marker in rule for marker in cosmetic_markers):
+                      continue
+                  out[rule] = None
+              return list(out.keys())
 
           def browser_output():
-              return list(dict.fromkeys(browser_rules.values()))
+              out = OrderedDict()
+              for rule in browser_rules.values():
+                  out[rule] = None
+              return list(out.keys())
 
           browser_list = browser_output()
           dns_list = dns_adblock_output()
           hosts_list = hosts_output()
           domains_list = domains_output()
 
-          now = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
-
           header = [
               "! Title: Combined custom list",
-              f"! Last modified: {now}",
-              f"! Entries: {len(browser_list)}",
               "! Generated automatically",
           ]
 
-          dns_header = [
-              "! Title: Combined custom list (DNS)",
-              f"! Last modified: {now}",
-              f"! Entries: {len(dns_list)}",
-              "! Generated automatically",
-          ]
-
-          lists_dir = Path("lists")
-          lists_dir.mkdir(exist_ok=True)
-
-          (lists_dir / "combined_ublock.txt").write_text(
-              "\n".join(header + [""] + browser_list) + "\n", encoding="utf-8"
-          )
-          (lists_dir / "combined_adguard.txt").write_text(
-              "\n".join(header + [""] + browser_list) + "\n", encoding="utf-8"
-          )
-          (lists_dir / "combined_dns_adblock.txt").write_text(
-              "\n".join(dns_header + [""] + dns_list) + "\n", encoding="utf-8"
-          )
-          (lists_dir / "combined_hosts.txt").write_text(
-              "\n".join(hosts_list) + ("\n" if hosts_list else ""), encoding="utf-8"
-          )
-          (lists_dir / "combined_domains.txt").write_text(
-              "\n".join(domains_list) + ("\n" if domains_list else ""), encoding="utf-8"
+          Path("lists/combined_ublock.txt").write_text(
+              "\n".join(header + [""] + browser_list) + "\n",
+              encoding="utf-8"
           )
 
-          print(f"Completato: browser={len(browser_list)}, dns={len(dns_list)}, hosts={len(hosts_list)}, domains={len(domains_list)}")
+          Path("lists/combined_adguard.txt").write_text(
+              "\n".join(header + [""] + browser_list) + "\n",
+              encoding="utf-8"
+          )
+
+          Path("lists/combined_dns_adblock.txt").write_text(
+              "\n".join(header + [""] + dns_list) + "\n",
+              encoding="utf-8"
+          )
+
+          Path("lists/combined_hosts.txt").write_text(
+              "\n".join(hosts_list) + ("\n" if hosts_list else ""),
+              encoding="utf-8"
+          )
+
+          Path("lists/combined_domains.txt").write_text(
+              "\n".join(domains_list) + ("\n" if domains_list else ""),
+              encoding="utf-8"
+          )
           PY
 
       - name: Commit and push changes
