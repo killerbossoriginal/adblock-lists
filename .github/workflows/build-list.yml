@@ -45,7 +45,6 @@ jobs:
           block_raw="$workdir/block_raw.txt"
           allow_raw="$workdir/allow_raw.txt"
 
-          # Forza la creazione dei file
           touch "$block_src" "$allow_src" "$block_raw" "$allow_raw"
 
           if [ ! -f "list.md" ]; then
@@ -53,38 +52,34 @@ jobs:
             exit 1
           fi
 
-          # Rimuove \r (formato Windows) per sicurezza
           sed 's/\r$//' list.md > "$workdir/list.normalized.md"
 
-          # Nuovo parser awk che supporta i markdown checkbox: "- [x] url"
           awk -v bsrc="$block_src" -v asrc="$allow_src" '
             BEGIN { mode="" }
 
-            /^[[:space:]]*blocklist:[[:space:]]*$/ {
+            # Cerca blocklist: ignorando eventuali # o spazi prima
+            /^[[:space:]]*(#+)?[[:space:]]*blocklist:[[:space:]]*$/ {
               mode="block"
               next
             }
 
-            /^[[:space:]]*allowlist:[[:space:]]*$/ {
+            # Cerca allowlist: ignorando eventuali # o spazi prima
+            /^[[:space:]]*(#+)?[[:space:]]*allowlist:[[:space:]]*$/ {
               mode="allow"
               next
             }
 
-            # Resetta la modalità se incontra un altro header che non è block/allow
-            /^[[:space:]]*[A-Za-z0-9_-]+:[[:space:]]*$/ && !/^[[:space:]]*(blocklist|allowlist):[[:space:]]*$/ {
-              mode=""
+            # Ignora righe vuote o commenti markdown normali (singolo #)
+            /^[[:space:]]*$/ || /^[[:space:]]*#[^#]/ {
               next
             }
 
             mode != "" {
               line = $0
-              sub(/\r$/, "", line)
 
-              # Cerca le righe che iniziano con - [x] o - [X]
+              # Se è una checkbox attiva: "- [x] list:URL" oppure "- [x] dominio"
               if (line ~ /^[[:space:]]*-[[:space:]]*\[[xX]\][[:space:]]+/) {
-                # Rimuove il prefisso della checkbox
                 sub(/^[[:space:]]*-[[:space:]]*\[[xX]\][[:space:]]+/, "", line)
-                # Rimuove spazi finali
                 sub(/[[:space:]]+$/, "", line)
 
                 if (length(line) > 0) {
@@ -98,9 +93,6 @@ jobs:
             }
           ' "$workdir/list.normalized.md"
 
-          # Debug utile per GitHub Actions
-          echo "=== DEBUG list.md ==="
-          cat "$workdir/list.normalized.md"
           echo "=== DEBUG block sources ==="
           cat "$block_src" || true
           echo "=== DEBUG allow sources ==="
