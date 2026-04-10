@@ -4503,6 +4503,7 @@
 0.0.0.0 delicious-audio.com
 0.0.0.0 trshow.info
 0.0.0.0 ru-clip.com
+0.0.0.0 planetf1.com
 0.0.0.0 ftuapps.farlad.com
 0.0.0.0 torupload.com
 0.0.0.0 cloudfam.io
@@ -8859,7 +8860,6 @@
 0.0.0.0 totalcsgo.com
 0.0.0.0 fieldandstream.com
 0.0.0.0 popphoto.com
-0.0.0.0 planetf1.com
 0.0.0.0 olyrix.com
 0.0.0.0 theaviationist.com
 0.0.0.0 ygoprodeck.com
@@ -9062,6 +9062,7 @@
 0.0.0.0 tunemovie.fun
 0.0.0.0 www.youtube.com
 0.0.0.0 hentai-id.tv
+0.0.0.0 hotchamas.com
 0.0.0.0 porntourist.com
 0.0.0.0 porntn.com
 0.0.0.0 tik.porn
@@ -9072,7 +9073,6 @@
 0.0.0.0 tr.motor1.com
 0.0.0.0 xmoviesforyou.com
 0.0.0.0 dokkandb.com
-0.0.0.0 fikfap.com
 0.0.0.0 kodi-guide.com
 0.0.0.0 hq-porner.com
 0.0.0.0 tunein.com

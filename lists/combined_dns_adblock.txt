@@ -1,5 +1,5 @@
 ! Title: Combined custom list (DNS)
-! Last modified: 2026-04-10T03:51:31Z
+! Last modified: 2026-04-10T08:10:59Z
 ! Entries: 14029
 ! Generated automatically
 
@@ -4530,6 +4530,7 @@ $script,3p,denyallow=doodcdn.io|doodcdn.io|fastly.net|statically.io|sharecast.ws
 ||delicious-audio.com^
 ||trshow.info^
 ||ru-clip.com^
+||planetf1.com^
 ||ftuapps.farlad.com^
 ||torupload.com^
 ||cloudfam.io^
@@ -8886,7 +8887,6 @@ $script,3p,denyallow=doodcdn.io|doodcdn.io|fastly.net|statically.io|sharecast.ws
 ||totalcsgo.com^
 ||fieldandstream.com^
 ||popphoto.com^
-||planetf1.com^
 ||olyrix.com^
 ||theaviationist.com^
 ||ygoprodeck.com^
@@ -9089,6 +9089,7 @@ $script,3p,denyallow=doodcdn.io|doodcdn.io|fastly.net|statically.io|sharecast.ws
 ||tunemovie.fun^
 ||www.youtube.com^
 ||hentai-id.tv^
+||hotchamas.com^
 ||porntourist.com^
 ||porntn.com^
 ||tik.porn^
@@ -9099,7 +9100,6 @@ $script,3p,denyallow=doodcdn.io|doodcdn.io|fastly.net|statically.io|sharecast.ws
 ||tr.motor1.com^
 ||xmoviesforyou.com^
 ||dokkandb.com^
-||fikfap.com^
 ||kodi-guide.com^
 ||hq-porner.com^
 ||tunein.com^
