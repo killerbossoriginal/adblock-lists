@@ -1,6 +1,6 @@
 ! Title: Combined custom list (DNS)
-! Last modified: 2026-04-09T20:34:31Z
-! Entries: 14028
+! Last modified: 2026-04-10T03:51:31Z
+! Entries: 14029
 ! Generated automatically
 
 /ads?client=
@@ -3578,6 +3578,7 @@ $script,3p,denyallow=doodcdn.io|doodcdn.io|fastly.net|statically.io|sharecast.ws
 ||bitcoin-otc.com^
 ||anikuro.to^
 ||m.koreatimes.co.kr^
+||elevenforum.com^
 ||whatmobile.com.pk^
 ||realpython.com^
 ||marketbeat.com^
@@ -4424,6 +4425,7 @@ $script,3p,denyallow=doodcdn.io|doodcdn.io|fastly.net|statically.io|sharecast.ws
 ||j2dw.ngo^
 ||haxnode.net^
 ||premierftp.net^
+||clarinsusa.com^
 ||viduyy.com^
 ||nlcosplay.com^
 ||modapk.world^
@@ -10474,7 +10476,6 @@ $script,3p,denyallow=doodcdn.io|doodcdn.io|fastly.net|statically.io|sharecast.ws
 ||thetimes.co.uk^
 ||scienceabc.com^
 ||backbook.me^
-||elevenforum.com^
 ||rocketleague.tracker.network^
 ||hentaihorizon.com^
 ||obf-io.deobfuscate.io^

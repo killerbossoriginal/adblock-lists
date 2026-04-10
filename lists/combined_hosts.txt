@@ -3551,6 +3551,7 @@
 0.0.0.0 bitcoin-otc.com
 0.0.0.0 anikuro.to
 0.0.0.0 m.koreatimes.co.kr
+0.0.0.0 elevenforum.com
 0.0.0.0 whatmobile.com.pk
 0.0.0.0 realpython.com
 0.0.0.0 marketbeat.com
@@ -4397,6 +4398,7 @@
 0.0.0.0 j2dw.ngo
 0.0.0.0 haxnode.net
 0.0.0.0 premierftp.net
+0.0.0.0 clarinsusa.com
 0.0.0.0 viduyy.com
 0.0.0.0 nlcosplay.com
 0.0.0.0 modapk.world
@@ -10447,7 +10449,6 @@
 0.0.0.0 thetimes.co.uk
 0.0.0.0 scienceabc.com
 0.0.0.0 backbook.me
-0.0.0.0 elevenforum.com
 0.0.0.0 rocketleague.tracker.network
 0.0.0.0 hentaihorizon.com
 0.0.0.0 obf-io.deobfuscate.io
