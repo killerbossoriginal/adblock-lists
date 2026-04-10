@@ -145,6 +145,7 @@
 0.0.0.0 infosecurity-magazine.com
 0.0.0.0 iedrc.org
 0.0.0.0 thelincolnite.co.uk
+0.0.0.0 ranking.sanrio.co.jp
 0.0.0.0 gizmodo.jp
 0.0.0.0 vukajlija.com
 0.0.0.0 realgfporn.com
@@ -13709,6 +13710,7 @@
 0.0.0.0 repo.hackyouriphone.org
 0.0.0.0 circleofcricket.com
 0.0.0.0 esladvice.com
+0.0.0.0 uanal.com
 0.0.0.0 555.porn
 0.0.0.0 nhregister.com
 0.0.0.0 fulltv.tv
