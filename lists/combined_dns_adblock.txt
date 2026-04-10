@@ -1,6 +1,6 @@
 ! Title: Combined custom list (DNS)
-! Last modified: 2026-04-10T14:01:52Z
-! Entries: 14031
+! Last modified: 2026-04-10T19:30:44Z
+! Entries: 14032
 ! Generated automatically
 
 /ads?client=
@@ -9090,6 +9090,8 @@ $script,3p,denyallow=doodcdn.io|doodcdn.io|fastly.net|statically.io|sharecast.ws
 ||tunemovie.fun^
 ||www.youtube.com^
 ||hentai-id.tv^
+||gamerant.com^
+||katfile.ws^
 ||hotchamas.com^
 ||porntourist.com^
 ||porntn.com^
@@ -12523,7 +12525,6 @@ $script,3p,denyallow=doodcdn.io|doodcdn.io|fastly.net|statically.io|sharecast.ws
 ||northumberlandgazette.co.uk^
 ||mangoporn.net^
 ||pantagraph.com^
-||gamerant.com^
 ||vidwatch.me^
 ||gamecopyworld.eu^
 ||maxconsole.com^
@@ -13737,7 +13738,7 @@ $script,3p,denyallow=doodcdn.io|doodcdn.io|fastly.net|statically.io|sharecast.ws
 ||repo.hackyouriphone.org^
 ||circleofcricket.com^
 ||esladvice.com^
-||uanal.com^
+||pornuse.com^
 ||555.porn^
 ||nhregister.com^
 ||fulltv.tv^

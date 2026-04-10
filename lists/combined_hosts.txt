@@ -9063,6 +9063,8 @@
 0.0.0.0 tunemovie.fun
 0.0.0.0 www.youtube.com
 0.0.0.0 hentai-id.tv
+0.0.0.0 gamerant.com
+0.0.0.0 katfile.ws
 0.0.0.0 hotchamas.com
 0.0.0.0 porntourist.com
 0.0.0.0 porntn.com
@@ -12496,7 +12498,6 @@
 0.0.0.0 northumberlandgazette.co.uk
 0.0.0.0 mangoporn.net
 0.0.0.0 pantagraph.com
-0.0.0.0 gamerant.com
 0.0.0.0 vidwatch.me
 0.0.0.0 gamecopyworld.eu
 0.0.0.0 maxconsole.com
@@ -13710,7 +13711,7 @@
 0.0.0.0 repo.hackyouriphone.org
 0.0.0.0 circleofcricket.com
 0.0.0.0 esladvice.com
-0.0.0.0 uanal.com
+0.0.0.0 pornuse.com
 0.0.0.0 555.porn
 0.0.0.0 nhregister.com
 0.0.0.0 fulltv.tv
