@@ -2178,6 +2178,7 @@
 0.0.0.0 apkmirror.com
 0.0.0.0 secretchicago.com
 0.0.0.0 safeway.com
+0.0.0.0 dicoall.com
 0.0.0.0 css3generator.com
 0.0.0.0 truckinginfo.com
 0.0.0.0 di.fm
@@ -4504,6 +4505,7 @@
 0.0.0.0 delicious-audio.com
 0.0.0.0 trshow.info
 0.0.0.0 ru-clip.com
+0.0.0.0 cnxxx.org
 0.0.0.0 planetf1.com
 0.0.0.0 ftuapps.farlad.com
 0.0.0.0 torupload.com
@@ -9063,6 +9065,7 @@
 0.0.0.0 tunemovie.fun
 0.0.0.0 www.youtube.com
 0.0.0.0 hentai-id.tv
+0.0.0.0 cums.net
 0.0.0.0 gamerant.com
 0.0.0.0 katfile.ws
 0.0.0.0 hotchamas.com
