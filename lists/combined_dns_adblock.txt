@@ -1,5 +1,5 @@
 ! Title: Combined custom list (DNS)
-! Last modified: 2026-04-12T13:45:52Z
+! Last modified: 2026-04-12T19:26:30Z
 ! Entries: 14037
 ! Generated automatically
 
@@ -2051,6 +2051,7 @@ $script,3p,denyallow=doodcdn.io|doodcdn.io|fastly.net|statically.io|sharecast.ws
 ||ablogtowatch.com^
 ||gfinityesports.com^
 ||newagebd.net^
+||vecteezy.com^
 ||cryptorank.io^
 ||cryptopolitan.com^
 ||avitrader.com^
@@ -2080,7 +2081,6 @@ $script,3p,denyallow=doodcdn.io|doodcdn.io|fastly.net|statically.io|sharecast.ws
 ||pixabay.com^
 ||yourbittorrent.com^
 ||textcompare.org^
-||vecteezy.com^
 ||futuregaming.io^
 ||cgpress.org^
 ||chorus.fm^

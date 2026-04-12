@@ -2024,6 +2024,7 @@
 0.0.0.0 ablogtowatch.com
 0.0.0.0 gfinityesports.com
 0.0.0.0 newagebd.net
+0.0.0.0 vecteezy.com
 0.0.0.0 cryptorank.io
 0.0.0.0 cryptopolitan.com
 0.0.0.0 avitrader.com
@@ -2053,7 +2054,6 @@
 0.0.0.0 pixabay.com
 0.0.0.0 yourbittorrent.com
 0.0.0.0 textcompare.org
-0.0.0.0 vecteezy.com
 0.0.0.0 futuregaming.io
 0.0.0.0 cgpress.org
 0.0.0.0 chorus.fm
