@@ -2443,6 +2443,7 @@
 0.0.0.0 privateproperty.co.za
 0.0.0.0 ottverse.com
 0.0.0.0 leftlion.co.uk
+0.0.0.0 comicbook.com
 0.0.0.0 dayspring.com
 0.0.0.0 torrentleech.org
 0.0.0.0 shacknews.com
@@ -3220,6 +3221,7 @@
 0.0.0.0 amp.theguardian.com
 0.0.0.0 claudelog.com
 0.0.0.0 vrbo.com
+0.0.0.0 twitch.tv
 0.0.0.0 coles.com.au
 0.0.0.0 argos.co.uk
 0.0.0.0 you.com
@@ -3761,7 +3763,6 @@
 0.0.0.0 canucksarmy.com
 0.0.0.0 utrips.com
 0.0.0.0 wlevradio.com
-0.0.0.0 twitch.tv
 0.0.0.0 burnerapp.com
 0.0.0.0 mail.yahoo.com
 0.0.0.0 finance.yahoo.com
@@ -3984,6 +3985,7 @@
 0.0.0.0 javur.com
 0.0.0.0 trueamateurporn.org
 0.0.0.0 gay.bingo
+0.0.0.0 acg-hentai.com
 0.0.0.0 ftopx.com
 0.0.0.0 sex3.com
 0.0.0.0 playvids.com
@@ -8974,7 +8976,6 @@
 0.0.0.0 ctv.ca
 0.0.0.0 brisbanetimes.com.au
 0.0.0.0 up-4.net
-0.0.0.0 comicbook.com
 0.0.0.0 javdoe.com
 0.0.0.0 news.com.au
 0.0.0.0 review-hub.co.uk

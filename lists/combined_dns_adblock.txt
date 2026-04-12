@@ -1,6 +1,6 @@
 ! Title: Combined custom list (DNS)
-! Last modified: 2026-04-11T19:23:27Z
-! Entries: 14035
+! Last modified: 2026-04-12T03:54:59Z
+! Entries: 14036
 ! Generated automatically
 
 /ads?client=
@@ -2470,6 +2470,7 @@ $script,3p,denyallow=doodcdn.io|doodcdn.io|fastly.net|statically.io|sharecast.ws
 ||privateproperty.co.za^
 ||ottverse.com^
 ||leftlion.co.uk^
+||comicbook.com^
 ||dayspring.com^
 ||torrentleech.org^
 ||shacknews.com^
@@ -3247,6 +3248,7 @@ $script,3p,denyallow=doodcdn.io|doodcdn.io|fastly.net|statically.io|sharecast.ws
 ||amp.theguardian.com^
 ||claudelog.com^
 ||vrbo.com^
+||twitch.tv^
 ||coles.com.au^
 ||argos.co.uk^
 ||you.com^
@@ -3788,7 +3790,6 @@ $script,3p,denyallow=doodcdn.io|doodcdn.io|fastly.net|statically.io|sharecast.ws
 ||canucksarmy.com^
 ||utrips.com^
 ||wlevradio.com^
-||twitch.tv^
 ||burnerapp.com^
 ||mail.yahoo.com^
 ||finance.yahoo.com^
@@ -4011,6 +4012,7 @@ $script,3p,denyallow=doodcdn.io|doodcdn.io|fastly.net|statically.io|sharecast.ws
 ||javur.com^
 ||trueamateurporn.org^
 ||gay.bingo^
+||acg-hentai.com^
 ||ftopx.com^
 ||sex3.com^
 ||playvids.com^
@@ -9001,7 +9003,6 @@ $script,3p,denyallow=doodcdn.io|doodcdn.io|fastly.net|statically.io|sharecast.ws
 ||ctv.ca^
 ||brisbanetimes.com.au^
 ||up-4.net^
-||comicbook.com^
 ||javdoe.com^
 ||news.com.au^
 ||review-hub.co.uk^
