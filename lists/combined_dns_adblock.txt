@@ -1,6 +1,6 @@
 ! Title: Combined custom list (DNS)
-! Last modified: 2026-04-12T07:52:06Z
-! Entries: 14036
+! Last modified: 2026-04-12T13:45:52Z
+! Entries: 14037
 ! Generated automatically
 
 /ads?client=
@@ -5410,6 +5410,7 @@ $script,3p,denyallow=doodcdn.io|doodcdn.io|fastly.net|statically.io|sharecast.ws
 ||tutflix.org^
 ||sexbjcam.com^
 ||wgod.co^
+||thepoorcoder.com^
 ||imagefu.com^
 ||appsumo.com^
 ||fitdynamos.com^
