@@ -1,6 +1,6 @@
 ! Title: Combined custom list (DNS)
-! Last modified: 2026-04-13T04:02:20Z
-! Entries: 14038
+! Last modified: 2026-04-13T08:34:43Z
+! Entries: 14039
 ! Generated automatically
 
 /ads?client=
@@ -7984,6 +7984,7 @@ $script,3p,denyallow=doodcdn.io|doodcdn.io|fastly.net|statically.io|sharecast.ws
 ||athirvu.in^
 ||cinema.dinamalar.com^
 ||vatantat.ru^
+||animewaku.com^
 ||overmovies.com^
 ||go-manga.com^
 ||doomovie-free.com^

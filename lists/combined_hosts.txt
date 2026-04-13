@@ -7957,6 +7957,7 @@
 0.0.0.0 athirvu.in
 0.0.0.0 cinema.dinamalar.com
 0.0.0.0 vatantat.ru
+0.0.0.0 animewaku.com
 0.0.0.0 overmovies.com
 0.0.0.0 go-manga.com
 0.0.0.0 doomovie-free.com
