@@ -1378,6 +1378,7 @@
 0.0.0.0 theasianparent.com
 0.0.0.0 gtagarage.com
 0.0.0.0 bangkokpost.com
+0.0.0.0 smailpro.com
 0.0.0.0 gameshub.com
 0.0.0.0 batimes.com.ar
 0.0.0.0 lowfuelmotorsport.com
@@ -1965,6 +1966,7 @@
 0.0.0.0 medscape.com
 0.0.0.0 ixbt.games
 0.0.0.0 vitalmtb.com
+0.0.0.0 myinstants.com
 0.0.0.0 datetimego.com
 0.0.0.0 tiermaker.com
 0.0.0.0 golflink.com
@@ -2488,6 +2490,7 @@
 0.0.0.0 techbone.net
 0.0.0.0 musicbusinessworldwide.com
 0.0.0.0 ctinsider.com
+0.0.0.0 global.morningstar.com
 0.0.0.0 thestar.com.my
 0.0.0.0 gamezone.com
 0.0.0.0 ghanaweb.com
@@ -2551,7 +2554,6 @@
 0.0.0.0 autosport.com
 0.0.0.0 cryptoticker.io
 0.0.0.0 boardgameoracle.com
-0.0.0.0 myinstants.com
 0.0.0.0 spy.com
 0.0.0.0 zerolives.com
 0.0.0.0 cutecoloringpagesforkids.com
@@ -4507,6 +4509,7 @@
 0.0.0.0 delicious-audio.com
 0.0.0.0 trshow.info
 0.0.0.0 ru-clip.com
+0.0.0.0 elamigosgamez.net
 0.0.0.0 cnxxx.org
 0.0.0.0 planetf1.com
 0.0.0.0 ftuapps.farlad.com
@@ -9068,6 +9071,9 @@
 0.0.0.0 tunemovie.fun
 0.0.0.0 www.youtube.com
 0.0.0.0 hentai-id.tv
+0.0.0.0 tubeasiancams.com
+0.0.0.0 cumcams.cc
+0.0.0.0 onlychickshub.com
 0.0.0.0 sporked.com
 0.0.0.0 cums.net
 0.0.0.0 gamerant.com
@@ -9194,7 +9200,6 @@
 0.0.0.0 mm.lv
 0.0.0.0 123movienow.cc
 0.0.0.0 latlong.net
-0.0.0.0 dw.com
 0.0.0.0 medex.com.bd
 0.0.0.0 fullvideosporn.com
 0.0.0.0 bitcointreasuries.net
@@ -9618,7 +9623,6 @@
 0.0.0.0 kare11.com
 0.0.0.0 comick.io
 0.0.0.0 cinemadeck.com
-0.0.0.0 smailpro.com
 0.0.0.0 only-brunettes.com
 0.0.0.0 9to5toys.com
 0.0.0.0 workora.space

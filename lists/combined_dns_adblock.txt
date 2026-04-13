@@ -1,6 +1,6 @@
 ! Title: Combined custom list (DNS)
-! Last modified: 2026-04-13T08:34:43Z
-! Entries: 14039
+! Last modified: 2026-04-13T14:17:15Z
+! Entries: 14043
 ! Generated automatically
 
 /ads?client=
@@ -1405,6 +1405,7 @@ $script,3p,denyallow=doodcdn.io|doodcdn.io|fastly.net|statically.io|sharecast.ws
 ||theasianparent.com^
 ||gtagarage.com^
 ||bangkokpost.com^
+||smailpro.com^
 ||gameshub.com^
 ||batimes.com.ar^
 ||lowfuelmotorsport.com^
@@ -1992,6 +1993,7 @@ $script,3p,denyallow=doodcdn.io|doodcdn.io|fastly.net|statically.io|sharecast.ws
 ||medscape.com^
 ||ixbt.games^
 ||vitalmtb.com^
+||myinstants.com^
 ||datetimego.com^
 ||tiermaker.com^
 ||golflink.com^
@@ -2515,6 +2517,7 @@ $script,3p,denyallow=doodcdn.io|doodcdn.io|fastly.net|statically.io|sharecast.ws
 ||techbone.net^
 ||musicbusinessworldwide.com^
 ||ctinsider.com^
+||global.morningstar.com^
 ||thestar.com.my^
 ||gamezone.com^
 ||ghanaweb.com^
@@ -2578,7 +2581,6 @@ $script,3p,denyallow=doodcdn.io|doodcdn.io|fastly.net|statically.io|sharecast.ws
 ||autosport.com^
 ||cryptoticker.io^
 ||boardgameoracle.com^
-||myinstants.com^
 ||spy.com^
 ||zerolives.com^
 ||cutecoloringpagesforkids.com^
@@ -4534,6 +4536,7 @@ $script,3p,denyallow=doodcdn.io|doodcdn.io|fastly.net|statically.io|sharecast.ws
 ||delicious-audio.com^
 ||trshow.info^
 ||ru-clip.com^
+||elamigosgamez.net^
 ||cnxxx.org^
 ||planetf1.com^
 ||ftuapps.farlad.com^
@@ -9095,6 +9098,9 @@ $script,3p,denyallow=doodcdn.io|doodcdn.io|fastly.net|statically.io|sharecast.ws
 ||tunemovie.fun^
 ||www.youtube.com^
 ||hentai-id.tv^
+||tubeasiancams.com^
+||cumcams.cc^
+||onlychickshub.com^
 ||sporked.com^
 ||cums.net^
 ||gamerant.com^
@@ -9221,7 +9227,6 @@ $script,3p,denyallow=doodcdn.io|doodcdn.io|fastly.net|statically.io|sharecast.ws
 ||mm.lv^
 ||123movienow.cc^
 ||latlong.net^
-||dw.com^
 ||medex.com.bd^
 ||fullvideosporn.com^
 ||bitcointreasuries.net^
@@ -9645,7 +9650,6 @@ $script,3p,denyallow=doodcdn.io|doodcdn.io|fastly.net|statically.io|sharecast.ws
 ||kare11.com^
 ||comick.io^
 ||cinemadeck.com^
-||smailpro.com^
 ||only-brunettes.com^
 ||9to5toys.com^
 ||workora.space^
