@@ -3695,7 +3695,6 @@
 0.0.0.0 booking.com
 0.0.0.0 truthsocial.com
 0.0.0.0 thisday.app
-0.0.0.0 downornot.net
 0.0.0.0 90min.com
 0.0.0.0 5dariyanews.com
 0.0.0.0 streeteasy.com
@@ -3794,6 +3793,7 @@
 0.0.0.0 digg.com
 0.0.0.0 docs.openwebui.com
 0.0.0.0 dotesports.com
+0.0.0.0 downornot.net
 0.0.0.0 dropstab.com
 0.0.0.0 fiverr.com
 0.0.0.0 gamersnexus.net
@@ -3988,7 +3988,6 @@
 0.0.0.0 trueamateurporn.org
 0.0.0.0 gay.bingo
 0.0.0.0 acg-hentai.com
-0.0.0.0 ftopx.com
 0.0.0.0 sex3.com
 0.0.0.0 playvids.com
 0.0.0.0 todaygirls.co.uk
@@ -4009,7 +4008,6 @@
 0.0.0.0 lewdzone.com
 0.0.0.0 punishworld.com
 0.0.0.0 freeadultcomix.com
-0.0.0.0 hotmovs.tube
 0.0.0.0 fuqer.com
 0.0.0.0 sextb.net
 0.0.0.0 hobby.porn
@@ -4271,10 +4269,11 @@
 0.0.0.0 porn00.org
 0.0.0.0 pornzog.com
 0.0.0.0 ooxxx.com
+0.0.0.0 hotmovs.tube
 0.0.0.0 peachurbate.com
+0.0.0.0 upornia.tube
 0.0.0.0 porntop.com
 0.0.0.0 zbporn.tv
-0.0.0.0 upornia.tube
 0.0.0.0 yiffer.xyz
 0.0.0.0 reddxxx.com
 0.0.0.0 123av.com
@@ -8262,6 +8261,7 @@
 0.0.0.0 callistanise.com
 0.0.0.0 hentaila.com
 0.0.0.0 cyberfile.me
+0.0.0.0 veziaici.net
 0.0.0.0 fastream.to
 0.0.0.0 khoindvn.io.vn
 0.0.0.0 you-porn.com
@@ -9071,6 +9071,7 @@
 0.0.0.0 tunemovie.fun
 0.0.0.0 www.youtube.com
 0.0.0.0 hentai-id.tv
+0.0.0.0 appagg.com
 0.0.0.0 tubeasiancams.com
 0.0.0.0 cumcams.cc
 0.0.0.0 onlychickshub.com
@@ -9194,7 +9195,6 @@
 0.0.0.0 mythav.org
 0.0.0.0 urlebird.com
 0.0.0.0 ziperto.com
-0.0.0.0 appagg.com
 0.0.0.0 thegamebusiness.com
 0.0.0.0 manhuarmtl.com
 0.0.0.0 mm.lv
