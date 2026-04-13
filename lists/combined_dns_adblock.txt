@@ -1,6 +1,6 @@
 ! Title: Combined custom list (DNS)
-! Last modified: 2026-04-12T19:26:30Z
-! Entries: 14037
+! Last modified: 2026-04-13T04:02:20Z
+! Entries: 14038
 ! Generated automatically
 
 /ads?client=
@@ -9094,6 +9094,7 @@ $script,3p,denyallow=doodcdn.io|doodcdn.io|fastly.net|statically.io|sharecast.ws
 ||tunemovie.fun^
 ||www.youtube.com^
 ||hentai-id.tv^
+||sporked.com^
 ||cums.net^
 ||gamerant.com^
 ||katfile.ws^

@@ -9067,6 +9067,7 @@
 0.0.0.0 tunemovie.fun
 0.0.0.0 www.youtube.com
 0.0.0.0 hentai-id.tv
+0.0.0.0 sporked.com
 0.0.0.0 cums.net
 0.0.0.0 gamerant.com
 0.0.0.0 katfile.ws
