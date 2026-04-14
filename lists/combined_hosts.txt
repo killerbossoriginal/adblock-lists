@@ -4401,6 +4401,7 @@
 0.0.0.0 bospedia.com
 0.0.0.0 fc-lc.com
 0.0.0.0 j2dw.ngo
+0.0.0.0 igay69.com
 0.0.0.0 haxnode.net
 0.0.0.0 premierftp.net
 0.0.0.0 clarinsusa.com
@@ -9071,6 +9072,7 @@
 0.0.0.0 tunemovie.fun
 0.0.0.0 www.youtube.com
 0.0.0.0 hentai-id.tv
+0.0.0.0 mcpservers.org
 0.0.0.0 appagg.com
 0.0.0.0 tubeasiancams.com
 0.0.0.0 cumcams.cc
@@ -9466,7 +9468,6 @@
 0.0.0.0 anal.media
 0.0.0.0 ossels.ai
 0.0.0.0 krem.com
-0.0.0.0 igay69.com
 0.0.0.0 minecraftuuid.com
 0.0.0.0 polybuzz.ai
 0.0.0.0 gq-magazine.co.uk
