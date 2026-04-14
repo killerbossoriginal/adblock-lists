@@ -1321,6 +1321,7 @@
 0.0.0.0 outlookindia.com
 0.0.0.0 gifgit.com
 0.0.0.0 geoguessr.com
+0.0.0.0 minefun.io
 0.0.0.0 queerty.com
 0.0.0.0 outsports.com
 0.0.0.0 wordfind.com

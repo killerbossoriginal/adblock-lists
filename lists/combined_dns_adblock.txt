@@ -1,6 +1,6 @@
 ! Title: Combined custom list (DNS)
-! Last modified: 2026-04-14T14:21:45Z
-! Entries: 14045
+! Last modified: 2026-04-14T19:51:24Z
+! Entries: 14046
 ! Generated automatically
 
 /ads?client=
@@ -1348,6 +1348,7 @@ $script,3p,denyallow=doodcdn.io|doodcdn.io|fastly.net|statically.io|sharecast.ws
 ||outlookindia.com^
 ||gifgit.com^
 ||geoguessr.com^
+||minefun.io^
 ||queerty.com^
 ||outsports.com^
 ||wordfind.com^
