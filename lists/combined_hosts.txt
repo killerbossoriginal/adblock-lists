@@ -10542,6 +10542,7 @@
 0.0.0.0 reason.com
 0.0.0.0 vatcalculator.co.uk
 0.0.0.0 footyfull.com
+0.0.0.0 xanimu.top
 0.0.0.0 smsfadviser.com
 0.0.0.0 fishlore.com
 0.0.0.0 urbanize.city

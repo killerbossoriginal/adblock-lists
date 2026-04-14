@@ -1,6 +1,6 @@
 ! Title: Combined custom list (DNS)
-! Last modified: 2026-04-14T03:53:14Z
-! Entries: 14044
+! Last modified: 2026-04-14T08:14:22Z
+! Entries: 14045
 ! Generated automatically
 
 /ads?client=
@@ -10569,6 +10569,7 @@ $script,3p,denyallow=doodcdn.io|doodcdn.io|fastly.net|statically.io|sharecast.ws
 ||reason.com^
 ||vatcalculator.co.uk^
 ||footyfull.com^
+||xanimu.top^
 ||smsfadviser.com^
 ||fishlore.com^
 ||urbanize.city^
