@@ -5626,7 +5626,6 @@
 0.0.0.0 itopmusic.com
 0.0.0.0 pockettactics.com
 0.0.0.0 allpcworld.com
-0.0.0.0 mexashare.com
 0.0.0.0 kizi.com
 0.0.0.0 mackie100projects.altervista.org
 0.0.0.0 safelink.miuipedia.com
@@ -9072,6 +9071,9 @@
 0.0.0.0 tunemovie.fun
 0.0.0.0 www.youtube.com
 0.0.0.0 hentai-id.tv
+0.0.0.0 heavyfetish.com
+0.0.0.0 xfree.com
+0.0.0.0 reddclips.com
 0.0.0.0 mcpservers.org
 0.0.0.0 appagg.com
 0.0.0.0 tubeasiancams.com
@@ -10915,7 +10917,6 @@
 0.0.0.0 drtuber.desi
 0.0.0.0 windowsnoticias.com
 0.0.0.0 cryptonews.com.au
-0.0.0.0 xfree.com
 0.0.0.0 pornteentube.tv
 0.0.0.0 xxxtube1.com
 0.0.0.0 cartoonporn.com
@@ -11080,7 +11081,6 @@
 0.0.0.0 nflstreams.me
 0.0.0.0 gaypornlove.net
 0.0.0.0 asmhentai.com
-0.0.0.0 heavyfetish.com
 0.0.0.0 css-tricks.com
 0.0.0.0 sportsgambler.com
 0.0.0.0 pornlist.tv

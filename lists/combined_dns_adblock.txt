@@ -1,5 +1,5 @@
 ! Title: Combined custom list (DNS)
-! Last modified: 2026-04-14T08:14:22Z
+! Last modified: 2026-04-14T14:21:45Z
 ! Entries: 14045
 ! Generated automatically
 
@@ -5653,7 +5653,6 @@ $script,3p,denyallow=doodcdn.io|doodcdn.io|fastly.net|statically.io|sharecast.ws
 ||itopmusic.com^
 ||pockettactics.com^
 ||allpcworld.com^
-||mexashare.com^
 ||kizi.com^
 ||mackie100projects.altervista.org^
 ||safelink.miuipedia.com^
@@ -9099,6 +9098,9 @@ $script,3p,denyallow=doodcdn.io|doodcdn.io|fastly.net|statically.io|sharecast.ws
 ||tunemovie.fun^
 ||www.youtube.com^
 ||hentai-id.tv^
+||heavyfetish.com^
+||xfree.com^
+||reddclips.com^
 ||mcpservers.org^
 ||appagg.com^
 ||tubeasiancams.com^
@@ -10942,7 +10944,6 @@ $script,3p,denyallow=doodcdn.io|doodcdn.io|fastly.net|statically.io|sharecast.ws
 ||drtuber.desi^
 ||windowsnoticias.com^
 ||cryptonews.com.au^
-||xfree.com^
 ||pornteentube.tv^
 ||xxxtube1.com^
 ||cartoonporn.com^
@@ -11107,7 +11108,6 @@ $script,3p,denyallow=doodcdn.io|doodcdn.io|fastly.net|statically.io|sharecast.ws
 ||nflstreams.me^
 ||gaypornlove.net^
 ||asmhentai.com^
-||heavyfetish.com^
 ||css-tricks.com^
 ||sportsgambler.com^
 ||pornlist.tv^
