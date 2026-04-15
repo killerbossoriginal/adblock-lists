@@ -1,5 +1,5 @@
 ! Title: Combined custom list (DNS)
-! Last modified: 2026-04-15T08:16:10Z
+! Last modified: 2026-04-15T14:13:12Z
 ! Entries: 14048
 ! Generated automatically
 
@@ -380,7 +380,6 @@ $script,3p,denyallow=doodcdn.io|doodcdn.io|fastly.net|statically.io|sharecast.ws
 ||1000logos.net^
 ||klz9.com^
 ||alchetron.com^
-||alternet.org^
 ||straitstimes.com^
 ||myandroid.org^
 ||djchuang.com^
@@ -566,7 +565,6 @@ $script,3p,denyallow=doodcdn.io|doodcdn.io|fastly.net|statically.io|sharecast.ws
 ||lust-goddess.com^
 ||diep.io^
 ||tmo.report^
-||gulfnews.com^
 ||realclearpolitics.com^
 ||tribunnews.com^
 ||ndtvgames.com^
@@ -732,6 +730,7 @@ $script,3p,denyallow=doodcdn.io|doodcdn.io|fastly.net|statically.io|sharecast.ws
 ||vocm.com^
 ||bbc.com^
 ||farooqkperogi.com^
+||alternet.org^
 ||foodnetwork.com^
 ||washingtonpost.com^
 ||sportsnet.ca^
@@ -1349,7 +1348,6 @@ $script,3p,denyallow=doodcdn.io|doodcdn.io|fastly.net|statically.io|sharecast.ws
 ||outlookindia.com^
 ||gifgit.com^
 ||geoguessr.com^
-||minefun.io^
 ||queerty.com^
 ||outsports.com^
 ||wordfind.com^
@@ -1671,7 +1669,6 @@ $script,3p,denyallow=doodcdn.io|doodcdn.io|fastly.net|statically.io|sharecast.ws
 ||dissentmagazine.org^
 ||fakenamegenerator.com^
 ||boldsky.com^
-||boston.com^
 ||userbenchmark.com^
 ||cnbctv18.com^
 ||lonestarlive.com^
@@ -1877,7 +1874,6 @@ $script,3p,denyallow=doodcdn.io|doodcdn.io|fastly.net|statically.io|sharecast.ws
 ||powerpyx.com^
 ||patriotnewsfeed.com^
 ||wltreport.com^
-||stoppress.co.nz^
 ||coinmarketcap.com^
 ||holyrood.com^
 ||roseindia.net^
@@ -2603,7 +2599,6 @@ $script,3p,denyallow=doodcdn.io|doodcdn.io|fastly.net|statically.io|sharecast.ws
 ||old.reddit.com^
 ||allthatsinteresting.com^
 ||seura.fi^
-||afaqs.com^
 ||meilleurpronostic.fr^
 ||danpatrick.com^
 ||horriblevideos.com^
@@ -3781,7 +3776,6 @@ $script,3p,denyallow=doodcdn.io|doodcdn.io|fastly.net|statically.io|sharecast.ws
 ||picrew.me^
 ||sciencetimes.com^
 ||iheart.com^
-||thetakeout.com^
 ||kidspot.com.au^
 ||ootrandomizer.com^
 ||gazette.com^
@@ -9075,6 +9069,7 @@ $script,3p,denyallow=doodcdn.io|doodcdn.io|fastly.net|statically.io|sharecast.ws
 ||esport.aftonbladet.se^
 ||therebel.media^
 ||gadgets.ndtv.com^
+||afaqs.com^
 ||cdkeys.com^
 ||worldfree4u.lol^
 ||trictrac.net^
@@ -9101,6 +9096,10 @@ $script,3p,denyallow=doodcdn.io|doodcdn.io|fastly.net|statically.io|sharecast.ws
 ||tunemovie.fun^
 ||www.youtube.com^
 ||hentai-id.tv^
+||sexydixy.com^
+||avrebo.com^
+||mtpro.xyz^
+||ddownload.com^
 ||zdrive.to^
 ||ctcdwm.com^
 ||heavyfetish.com^
@@ -9200,7 +9199,6 @@ $script,3p,denyallow=doodcdn.io|doodcdn.io|fastly.net|statically.io|sharecast.ws
 ||primesrc.me^
 ||primevid.click^
 ||2short.club^
-||mtpro.xyz^
 ||oddsportal.com^
 ||hentaihand.com^
 ||templetoons.com^
@@ -9978,6 +9976,7 @@ $script,3p,denyallow=doodcdn.io|doodcdn.io|fastly.net|statically.io|sharecast.ws
 ||papergames.io^
 ||budgetlightforum.com^
 ||nudogram.com^
+||gulfnews.com^
 ||tactics.tools^
 ||dpm.lol^
 ||hdaud.io^
@@ -11809,6 +11808,7 @@ $script,3p,denyallow=doodcdn.io|doodcdn.io|fastly.net|statically.io|sharecast.ws
 ||community.hackintoshshop.com^
 ||thec64community.online^
 ||wikidiff.com^
+||boston.com^
 ||shesfreaky.com^
 ||gbhackers.com^
 ||cellularnews.com^

@@ -353,7 +353,6 @@ agar.io
 1000logos.net
 klz9.com
 alchetron.com
-alternet.org
 straitstimes.com
 myandroid.org
 djchuang.com
@@ -539,7 +538,6 @@ webgames.io
 lust-goddess.com
 diep.io
 tmo.report
-gulfnews.com
 realclearpolitics.com
 tribunnews.com
 ndtvgames.com
@@ -705,6 +703,7 @@ open.spotify.com
 vocm.com
 bbc.com
 farooqkperogi.com
+alternet.org
 foodnetwork.com
 washingtonpost.com
 sportsnet.ca
@@ -1322,7 +1321,6 @@ upi.com
 outlookindia.com
 gifgit.com
 geoguessr.com
-minefun.io
 queerty.com
 outsports.com
 wordfind.com
@@ -1644,7 +1642,6 @@ bleepingcomputer.com
 dissentmagazine.org
 fakenamegenerator.com
 boldsky.com
-boston.com
 userbenchmark.com
 cnbctv18.com
 lonestarlive.com
@@ -1850,7 +1847,6 @@ cookingwithdog.com
 powerpyx.com
 patriotnewsfeed.com
 wltreport.com
-stoppress.co.nz
 coinmarketcap.com
 holyrood.com
 roseindia.net
@@ -2576,7 +2572,6 @@ cryptobriefing.com
 old.reddit.com
 allthatsinteresting.com
 seura.fi
-afaqs.com
 meilleurpronostic.fr
 danpatrick.com
 horriblevideos.com
@@ -3754,7 +3749,6 @@ historydefined.net
 picrew.me
 sciencetimes.com
 iheart.com
-thetakeout.com
 kidspot.com.au
 ootrandomizer.com
 gazette.com
@@ -9048,6 +9042,7 @@ saavn.com
 esport.aftonbladet.se
 therebel.media
 gadgets.ndtv.com
+afaqs.com
 cdkeys.com
 worldfree4u.lol
 trictrac.net
@@ -9074,6 +9069,10 @@ animeflv.net
 tunemovie.fun
 www.youtube.com
 hentai-id.tv
+sexydixy.com
+avrebo.com
+mtpro.xyz
+ddownload.com
 zdrive.to
 ctcdwm.com
 heavyfetish.com
@@ -9173,7 +9172,6 @@ iqsaved.com
 primesrc.me
 primevid.click
 2short.club
-mtpro.xyz
 oddsportal.com
 hentaihand.com
 templetoons.com
@@ -9951,6 +9949,7 @@ usersdrive.com
 papergames.io
 budgetlightforum.com
 nudogram.com
+gulfnews.com
 tactics.tools
 dpm.lol
 hdaud.io
@@ -11782,6 +11781,7 @@ spellchecker.net
 community.hackintoshshop.com
 thec64community.online
 wikidiff.com
+boston.com
 shesfreaky.com
 gbhackers.com
 cellularnews.com

@@ -353,7 +353,6 @@
 0.0.0.0 1000logos.net
 0.0.0.0 klz9.com
 0.0.0.0 alchetron.com
-0.0.0.0 alternet.org
 0.0.0.0 straitstimes.com
 0.0.0.0 myandroid.org
 0.0.0.0 djchuang.com
@@ -539,7 +538,6 @@
 0.0.0.0 lust-goddess.com
 0.0.0.0 diep.io
 0.0.0.0 tmo.report
-0.0.0.0 gulfnews.com
 0.0.0.0 realclearpolitics.com
 0.0.0.0 tribunnews.com
 0.0.0.0 ndtvgames.com
@@ -705,6 +703,7 @@
 0.0.0.0 vocm.com
 0.0.0.0 bbc.com
 0.0.0.0 farooqkperogi.com
+0.0.0.0 alternet.org
 0.0.0.0 foodnetwork.com
 0.0.0.0 washingtonpost.com
 0.0.0.0 sportsnet.ca
@@ -1322,7 +1321,6 @@
 0.0.0.0 outlookindia.com
 0.0.0.0 gifgit.com
 0.0.0.0 geoguessr.com
-0.0.0.0 minefun.io
 0.0.0.0 queerty.com
 0.0.0.0 outsports.com
 0.0.0.0 wordfind.com
@@ -1644,7 +1642,6 @@
 0.0.0.0 dissentmagazine.org
 0.0.0.0 fakenamegenerator.com
 0.0.0.0 boldsky.com
-0.0.0.0 boston.com
 0.0.0.0 userbenchmark.com
 0.0.0.0 cnbctv18.com
 0.0.0.0 lonestarlive.com
@@ -1850,7 +1847,6 @@
 0.0.0.0 powerpyx.com
 0.0.0.0 patriotnewsfeed.com
 0.0.0.0 wltreport.com
-0.0.0.0 stoppress.co.nz
 0.0.0.0 coinmarketcap.com
 0.0.0.0 holyrood.com
 0.0.0.0 roseindia.net
@@ -2576,7 +2572,6 @@
 0.0.0.0 old.reddit.com
 0.0.0.0 allthatsinteresting.com
 0.0.0.0 seura.fi
-0.0.0.0 afaqs.com
 0.0.0.0 meilleurpronostic.fr
 0.0.0.0 danpatrick.com
 0.0.0.0 horriblevideos.com
@@ -3754,7 +3749,6 @@
 0.0.0.0 picrew.me
 0.0.0.0 sciencetimes.com
 0.0.0.0 iheart.com
-0.0.0.0 thetakeout.com
 0.0.0.0 kidspot.com.au
 0.0.0.0 ootrandomizer.com
 0.0.0.0 gazette.com
@@ -9048,6 +9042,7 @@
 0.0.0.0 esport.aftonbladet.se
 0.0.0.0 therebel.media
 0.0.0.0 gadgets.ndtv.com
+0.0.0.0 afaqs.com
 0.0.0.0 cdkeys.com
 0.0.0.0 worldfree4u.lol
 0.0.0.0 trictrac.net
@@ -9074,6 +9069,10 @@
 0.0.0.0 tunemovie.fun
 0.0.0.0 www.youtube.com
 0.0.0.0 hentai-id.tv
+0.0.0.0 sexydixy.com
+0.0.0.0 avrebo.com
+0.0.0.0 mtpro.xyz
+0.0.0.0 ddownload.com
 0.0.0.0 zdrive.to
 0.0.0.0 ctcdwm.com
 0.0.0.0 heavyfetish.com
@@ -9173,7 +9172,6 @@
 0.0.0.0 primesrc.me
 0.0.0.0 primevid.click
 0.0.0.0 2short.club
-0.0.0.0 mtpro.xyz
 0.0.0.0 oddsportal.com
 0.0.0.0 hentaihand.com
 0.0.0.0 templetoons.com
@@ -9951,6 +9949,7 @@
 0.0.0.0 papergames.io
 0.0.0.0 budgetlightforum.com
 0.0.0.0 nudogram.com
+0.0.0.0 gulfnews.com
 0.0.0.0 tactics.tools
 0.0.0.0 dpm.lol
 0.0.0.0 hdaud.io
@@ -11782,6 +11781,7 @@
 0.0.0.0 community.hackintoshshop.com
 0.0.0.0 thec64community.online
 0.0.0.0 wikidiff.com
+0.0.0.0 boston.com
 0.0.0.0 shesfreaky.com
 0.0.0.0 gbhackers.com
 0.0.0.0 cellularnews.com
