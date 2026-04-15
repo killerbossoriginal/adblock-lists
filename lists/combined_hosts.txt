@@ -3754,6 +3754,7 @@
 0.0.0.0 picrew.me
 0.0.0.0 sciencetimes.com
 0.0.0.0 iheart.com
+0.0.0.0 thetakeout.com
 0.0.0.0 kidspot.com.au
 0.0.0.0 ootrandomizer.com
 0.0.0.0 gazette.com
@@ -9073,6 +9074,7 @@
 0.0.0.0 tunemovie.fun
 0.0.0.0 www.youtube.com
 0.0.0.0 hentai-id.tv
+0.0.0.0 zdrive.to
 0.0.0.0 ctcdwm.com
 0.0.0.0 heavyfetish.com
 0.0.0.0 xfree.com

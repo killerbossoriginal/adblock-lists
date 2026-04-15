@@ -1,6 +1,6 @@
 ! Title: Combined custom list (DNS)
-! Last modified: 2026-04-15T03:51:48Z
-! Entries: 14046
+! Last modified: 2026-04-15T08:16:10Z
+! Entries: 14048
 ! Generated automatically
 
 /ads?client=
@@ -3781,6 +3781,7 @@ $script,3p,denyallow=doodcdn.io|doodcdn.io|fastly.net|statically.io|sharecast.ws
 ||picrew.me^
 ||sciencetimes.com^
 ||iheart.com^
+||thetakeout.com^
 ||kidspot.com.au^
 ||ootrandomizer.com^
 ||gazette.com^
@@ -9100,6 +9101,7 @@ $script,3p,denyallow=doodcdn.io|doodcdn.io|fastly.net|statically.io|sharecast.ws
 ||tunemovie.fun^
 ||www.youtube.com^
 ||hentai-id.tv^
+||zdrive.to^
 ||ctcdwm.com^
 ||heavyfetish.com^
 ||xfree.com^
