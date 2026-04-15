@@ -353,6 +353,7 @@ agar.io
 1000logos.net
 klz9.com
 alchetron.com
+alternet.org
 straitstimes.com
 myandroid.org
 djchuang.com
@@ -538,6 +539,7 @@ webgames.io
 lust-goddess.com
 diep.io
 tmo.report
+gulfnews.com
 realclearpolitics.com
 tribunnews.com
 ndtvgames.com
@@ -703,7 +705,6 @@ open.spotify.com
 vocm.com
 bbc.com
 farooqkperogi.com
-alternet.org
 foodnetwork.com
 washingtonpost.com
 sportsnet.ca
@@ -1643,6 +1644,7 @@ bleepingcomputer.com
 dissentmagazine.org
 fakenamegenerator.com
 boldsky.com
+boston.com
 userbenchmark.com
 cnbctv18.com
 lonestarlive.com
@@ -1848,6 +1850,7 @@ cookingwithdog.com
 powerpyx.com
 patriotnewsfeed.com
 wltreport.com
+stoppress.co.nz
 coinmarketcap.com
 holyrood.com
 roseindia.net
@@ -2573,6 +2576,7 @@ cryptobriefing.com
 old.reddit.com
 allthatsinteresting.com
 seura.fi
+afaqs.com
 meilleurpronostic.fr
 danpatrick.com
 horriblevideos.com
@@ -4510,6 +4514,7 @@ igg-games.com
 delicious-audio.com
 trshow.info
 ru-clip.com
+camsfinder.com
 elamigosgamez.net
 cnxxx.org
 planetf1.com
@@ -5583,7 +5588,6 @@ sombex.com
 1filesharing.com
 mobinozer.com
 nulledteam.com
-tv-onlinehd.com
 turkdown.com
 antdownloadmanager.com
 besttechinfo.com
@@ -5670,7 +5674,6 @@ freestocks.org
 youtubemultidownloader.com
 leechpremium.net
 myuploadedpremium.de
-ps4news.com
 cs-fundamentals.com
 alemdarleech.com
 anonymousemail.me
@@ -5679,7 +5682,6 @@ playretrogames.com
 bank-codes.com
 ur.ly
 1001tracklists.com
-wallpapersite.com
 haxmaps.com
 openculture.com
 gktoday.in
@@ -9045,7 +9047,6 @@ saavn.com
 esport.aftonbladet.se
 therebel.media
 gadgets.ndtv.com
-afaqs.com
 cdkeys.com
 worldfree4u.lol
 trictrac.net
@@ -9072,6 +9073,7 @@ animeflv.net
 tunemovie.fun
 www.youtube.com
 hentai-id.tv
+ctcdwm.com
 heavyfetish.com
 xfree.com
 reddclips.com
@@ -9947,7 +9949,6 @@ usersdrive.com
 papergames.io
 budgetlightforum.com
 nudogram.com
-gulfnews.com
 tactics.tools
 dpm.lol
 hdaud.io
@@ -11779,7 +11780,6 @@ spellchecker.net
 community.hackintoshshop.com
 thec64community.online
 wikidiff.com
-boston.com
 shesfreaky.com
 gbhackers.com
 cellularnews.com

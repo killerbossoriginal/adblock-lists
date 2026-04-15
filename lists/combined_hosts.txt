@@ -353,6 +353,7 @@
 0.0.0.0 1000logos.net
 0.0.0.0 klz9.com
 0.0.0.0 alchetron.com
+0.0.0.0 alternet.org
 0.0.0.0 straitstimes.com
 0.0.0.0 myandroid.org
 0.0.0.0 djchuang.com
@@ -538,6 +539,7 @@
 0.0.0.0 lust-goddess.com
 0.0.0.0 diep.io
 0.0.0.0 tmo.report
+0.0.0.0 gulfnews.com
 0.0.0.0 realclearpolitics.com
 0.0.0.0 tribunnews.com
 0.0.0.0 ndtvgames.com
@@ -703,7 +705,6 @@
 0.0.0.0 vocm.com
 0.0.0.0 bbc.com
 0.0.0.0 farooqkperogi.com
-0.0.0.0 alternet.org
 0.0.0.0 foodnetwork.com
 0.0.0.0 washingtonpost.com
 0.0.0.0 sportsnet.ca
@@ -1643,6 +1644,7 @@
 0.0.0.0 dissentmagazine.org
 0.0.0.0 fakenamegenerator.com
 0.0.0.0 boldsky.com
+0.0.0.0 boston.com
 0.0.0.0 userbenchmark.com
 0.0.0.0 cnbctv18.com
 0.0.0.0 lonestarlive.com
@@ -1848,6 +1850,7 @@
 0.0.0.0 powerpyx.com
 0.0.0.0 patriotnewsfeed.com
 0.0.0.0 wltreport.com
+0.0.0.0 stoppress.co.nz
 0.0.0.0 coinmarketcap.com
 0.0.0.0 holyrood.com
 0.0.0.0 roseindia.net
@@ -2573,6 +2576,7 @@
 0.0.0.0 old.reddit.com
 0.0.0.0 allthatsinteresting.com
 0.0.0.0 seura.fi
+0.0.0.0 afaqs.com
 0.0.0.0 meilleurpronostic.fr
 0.0.0.0 danpatrick.com
 0.0.0.0 horriblevideos.com
@@ -4510,6 +4514,7 @@
 0.0.0.0 delicious-audio.com
 0.0.0.0 trshow.info
 0.0.0.0 ru-clip.com
+0.0.0.0 camsfinder.com
 0.0.0.0 elamigosgamez.net
 0.0.0.0 cnxxx.org
 0.0.0.0 planetf1.com
@@ -5583,7 +5588,6 @@
 0.0.0.0 1filesharing.com
 0.0.0.0 mobinozer.com
 0.0.0.0 nulledteam.com
-0.0.0.0 tv-onlinehd.com
 0.0.0.0 turkdown.com
 0.0.0.0 antdownloadmanager.com
 0.0.0.0 besttechinfo.com
@@ -5670,7 +5674,6 @@
 0.0.0.0 youtubemultidownloader.com
 0.0.0.0 leechpremium.net
 0.0.0.0 myuploadedpremium.de
-0.0.0.0 ps4news.com
 0.0.0.0 cs-fundamentals.com
 0.0.0.0 alemdarleech.com
 0.0.0.0 anonymousemail.me
@@ -5679,7 +5682,6 @@
 0.0.0.0 bank-codes.com
 0.0.0.0 ur.ly
 0.0.0.0 1001tracklists.com
-0.0.0.0 wallpapersite.com
 0.0.0.0 haxmaps.com
 0.0.0.0 openculture.com
 0.0.0.0 gktoday.in
@@ -9045,7 +9047,6 @@
 0.0.0.0 esport.aftonbladet.se
 0.0.0.0 therebel.media
 0.0.0.0 gadgets.ndtv.com
-0.0.0.0 afaqs.com
 0.0.0.0 cdkeys.com
 0.0.0.0 worldfree4u.lol
 0.0.0.0 trictrac.net
@@ -9072,6 +9073,7 @@
 0.0.0.0 tunemovie.fun
 0.0.0.0 www.youtube.com
 0.0.0.0 hentai-id.tv
+0.0.0.0 ctcdwm.com
 0.0.0.0 heavyfetish.com
 0.0.0.0 xfree.com
 0.0.0.0 reddclips.com
@@ -9947,7 +9949,6 @@
 0.0.0.0 papergames.io
 0.0.0.0 budgetlightforum.com
 0.0.0.0 nudogram.com
-0.0.0.0 gulfnews.com
 0.0.0.0 tactics.tools
 0.0.0.0 dpm.lol
 0.0.0.0 hdaud.io
@@ -11779,7 +11780,6 @@
 0.0.0.0 community.hackintoshshop.com
 0.0.0.0 thec64community.online
 0.0.0.0 wikidiff.com
-0.0.0.0 boston.com
 0.0.0.0 shesfreaky.com
 0.0.0.0 gbhackers.com
 0.0.0.0 cellularnews.com
