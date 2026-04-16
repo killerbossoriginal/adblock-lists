@@ -1882,7 +1882,6 @@ thejournal-news.net
 jokersupdates.com
 worldscreen.com
 pastebin.com
-amateurphotographer.com
 receive-sms.cc
 floridasportsman.com
 journeyjunket.com
@@ -2957,6 +2956,7 @@ minecraftlist.org
 historyextra.com
 stationx.net
 stadiumtalk.com
+twitch.tv
 conservativebrief.com
 hardwaretimes.com
 how2electronics.com
@@ -3223,7 +3223,6 @@ ginx.tv
 amp.theguardian.com
 claudelog.com
 vrbo.com
-twitch.tv
 coles.com.au
 argos.co.uk
 you.com
@@ -5084,7 +5083,6 @@ viu.tv
 androidecuatoriano.xyz
 osmanonline.co.uk
 sportsplays.com
-techcyan.com
 upzone.ga
 techacrobat.com
 sbchill.com
@@ -5171,7 +5169,6 @@ fcportables.com
 rakuten.tv
 vijaysolution.com
 raider.io
-ustream.click
 bestreamsports.org
 opentunnel.net
 howdy.id

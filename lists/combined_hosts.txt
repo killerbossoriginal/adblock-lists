@@ -1882,7 +1882,6 @@
 0.0.0.0 jokersupdates.com
 0.0.0.0 worldscreen.com
 0.0.0.0 pastebin.com
-0.0.0.0 amateurphotographer.com
 0.0.0.0 receive-sms.cc
 0.0.0.0 floridasportsman.com
 0.0.0.0 journeyjunket.com
@@ -2957,6 +2956,7 @@
 0.0.0.0 historyextra.com
 0.0.0.0 stationx.net
 0.0.0.0 stadiumtalk.com
+0.0.0.0 twitch.tv
 0.0.0.0 conservativebrief.com
 0.0.0.0 hardwaretimes.com
 0.0.0.0 how2electronics.com
@@ -3223,7 +3223,6 @@
 0.0.0.0 amp.theguardian.com
 0.0.0.0 claudelog.com
 0.0.0.0 vrbo.com
-0.0.0.0 twitch.tv
 0.0.0.0 coles.com.au
 0.0.0.0 argos.co.uk
 0.0.0.0 you.com
@@ -5084,7 +5083,6 @@
 0.0.0.0 androidecuatoriano.xyz
 0.0.0.0 osmanonline.co.uk
 0.0.0.0 sportsplays.com
-0.0.0.0 techcyan.com
 0.0.0.0 upzone.ga
 0.0.0.0 techacrobat.com
 0.0.0.0 sbchill.com
@@ -5171,7 +5169,6 @@
 0.0.0.0 rakuten.tv
 0.0.0.0 vijaysolution.com
 0.0.0.0 raider.io
-0.0.0.0 ustream.click
 0.0.0.0 bestreamsports.org
 0.0.0.0 opentunnel.net
 0.0.0.0 howdy.id

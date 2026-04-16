@@ -1,6 +1,6 @@
 ! Title: Combined custom list (DNS)
-! Last modified: 2026-04-15T19:51:10Z
-! Entries: 14049
+! Last modified: 2026-04-16T03:58:34Z
+! Entries: 14046
 ! Generated automatically
 
 /ads?client=
@@ -1909,7 +1909,6 @@ $script,3p,denyallow=doodcdn.io|doodcdn.io|fastly.net|statically.io|sharecast.ws
 ||jokersupdates.com^
 ||worldscreen.com^
 ||pastebin.com^
-||amateurphotographer.com^
 ||receive-sms.cc^
 ||floridasportsman.com^
 ||journeyjunket.com^
@@ -2984,6 +2983,7 @@ $script,3p,denyallow=doodcdn.io|doodcdn.io|fastly.net|statically.io|sharecast.ws
 ||historyextra.com^
 ||stationx.net^
 ||stadiumtalk.com^
+||twitch.tv^
 ||conservativebrief.com^
 ||hardwaretimes.com^
 ||how2electronics.com^
@@ -3250,7 +3250,6 @@ $script,3p,denyallow=doodcdn.io|doodcdn.io|fastly.net|statically.io|sharecast.ws
 ||amp.theguardian.com^
 ||claudelog.com^
 ||vrbo.com^
-||twitch.tv^
 ||coles.com.au^
 ||argos.co.uk^
 ||you.com^
@@ -5111,7 +5110,6 @@ $script,3p,denyallow=doodcdn.io|doodcdn.io|fastly.net|statically.io|sharecast.ws
 ||androidecuatoriano.xyz^
 ||osmanonline.co.uk^
 ||sportsplays.com^
-||techcyan.com^
 ||upzone.ga^
 ||techacrobat.com^
 ||sbchill.com^
@@ -5198,7 +5196,6 @@ $script,3p,denyallow=doodcdn.io|doodcdn.io|fastly.net|statically.io|sharecast.ws
 ||rakuten.tv^
 ||vijaysolution.com^
 ||raider.io^
-||ustream.click^
 ||bestreamsports.org^
 ||opentunnel.net^
 ||howdy.id^
