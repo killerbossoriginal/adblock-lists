@@ -393,7 +393,6 @@
 0.0.0.0 soccerbase.com
 0.0.0.0 euroweeklynews.com
 0.0.0.0 interest.co.nz
-0.0.0.0 sourceforge.net
 0.0.0.0 israelnationalnews.com
 0.0.0.0 gamesfree.com
 0.0.0.0 4teachers.org
@@ -745,6 +744,7 @@
 0.0.0.0 appleinsider.com
 0.0.0.0 pocketgamer.com
 0.0.0.0 cellmapper.net
+0.0.0.0 sourceforge.net
 0.0.0.0 mytuner-radio.com
 0.0.0.0 moviemistakes.com
 0.0.0.0 standard.co.uk
@@ -9067,6 +9067,7 @@
 0.0.0.0 tunemovie.fun
 0.0.0.0 www.youtube.com
 0.0.0.0 hentai-id.tv
+0.0.0.0 mmsi01.com
 0.0.0.0 soopage.com
 0.0.0.0 gardeningknowhow.com
 0.0.0.0 fileserve.com
@@ -13733,7 +13734,6 @@
 0.0.0.0 nhregister.com
 0.0.0.0 fulltv.tv
 0.0.0.0 fulltv.com.ar
-0.0.0.0 mmsi01.com
 0.0.0.0 charismanews.com
 0.0.0.0 it.quora.com
 0.0.0.0 gameme.eu

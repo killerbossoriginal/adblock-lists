@@ -1,5 +1,5 @@
 ! Title: Combined custom list (DNS)
-! Last modified: 2026-04-16T08:16:32Z
+! Last modified: 2026-04-16T14:23:58Z
 ! Entries: 14049
 ! Generated automatically
 
@@ -420,7 +420,6 @@ $script,3p,denyallow=doodcdn.io|doodcdn.io|fastly.net|statically.io|sharecast.ws
 ||soccerbase.com^
 ||euroweeklynews.com^
 ||interest.co.nz^
-||sourceforge.net^
 ||israelnationalnews.com^
 ||gamesfree.com^
 ||4teachers.org^
@@ -772,6 +771,7 @@ $script,3p,denyallow=doodcdn.io|doodcdn.io|fastly.net|statically.io|sharecast.ws
 ||appleinsider.com^
 ||pocketgamer.com^
 ||cellmapper.net^
+||sourceforge.net^
 ||mytuner-radio.com^
 ||moviemistakes.com^
 ||standard.co.uk^
@@ -9094,6 +9094,7 @@ $script,3p,denyallow=doodcdn.io|doodcdn.io|fastly.net|statically.io|sharecast.ws
 ||tunemovie.fun^
 ||www.youtube.com^
 ||hentai-id.tv^
+||mmsi01.com^
 ||soopage.com^
 ||gardeningknowhow.com^
 ||fileserve.com^
@@ -13760,7 +13761,6 @@ $script,3p,denyallow=doodcdn.io|doodcdn.io|fastly.net|statically.io|sharecast.ws
 ||nhregister.com^
 ||fulltv.tv^
 ||fulltv.com.ar^
-||mmsi01.com^
 ||charismanews.com^
 ||it.quora.com^
 ||gameme.eu^
