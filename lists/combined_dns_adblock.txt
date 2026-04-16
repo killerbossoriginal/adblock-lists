@@ -1,6 +1,6 @@
 ! Title: Combined custom list (DNS)
-! Last modified: 2026-04-16T03:58:34Z
-! Entries: 14046
+! Last modified: 2026-04-16T08:16:32Z
+! Entries: 14049
 ! Generated automatically
 
 /ads?client=
@@ -2603,6 +2603,7 @@ $script,3p,denyallow=doodcdn.io|doodcdn.io|fastly.net|statically.io|sharecast.ws
 ||horriblevideos.com^
 ||play.typeracer.com^
 ||caspianpost.com^
+||medicalxpress.com^
 ||blabbermouth.net^
 ||newskarnataka.com^
 ||startuphub.ai^
@@ -9093,6 +9094,8 @@ $script,3p,denyallow=doodcdn.io|doodcdn.io|fastly.net|statically.io|sharecast.ws
 ||tunemovie.fun^
 ||www.youtube.com^
 ||hentai-id.tv^
+||soopage.com^
+||gardeningknowhow.com^
 ||fileserve.com^
 ||sexydixy.com^
 ||avrebo.com^

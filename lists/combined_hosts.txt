@@ -2576,6 +2576,7 @@
 0.0.0.0 horriblevideos.com
 0.0.0.0 play.typeracer.com
 0.0.0.0 caspianpost.com
+0.0.0.0 medicalxpress.com
 0.0.0.0 blabbermouth.net
 0.0.0.0 newskarnataka.com
 0.0.0.0 startuphub.ai
@@ -9066,6 +9067,8 @@
 0.0.0.0 tunemovie.fun
 0.0.0.0 www.youtube.com
 0.0.0.0 hentai-id.tv
+0.0.0.0 soopage.com
+0.0.0.0 gardeningknowhow.com
 0.0.0.0 fileserve.com
 0.0.0.0 sexydixy.com
 0.0.0.0 avrebo.com
