@@ -1,6 +1,6 @@
 ! Title: Combined custom list (DNS)
-! Last modified: 2026-04-16T19:48:05Z
-! Entries: 14049
+! Last modified: 2026-04-17T03:55:20Z
+! Entries: 14046
 ! Generated automatically
 
 /ads?client=
@@ -5109,6 +5109,7 @@ $script,3p,denyallow=doodcdn.io|doodcdn.io|fastly.net|statically.io|sharecast.ws
 ||hdstockimages.com^
 ||viu.tv^
 ||androidecuatoriano.xyz^
+||healthy4pepole.com^
 ||osmanonline.co.uk^
 ||sportsplays.com^
 ||upzone.ga^
@@ -5205,7 +5206,6 @@ $script,3p,denyallow=doodcdn.io|doodcdn.io|fastly.net|statically.io|sharecast.ws
 ||course-downloader.com^
 ||modshost.net^
 ||gpudrops.com^
-||bitsfree.net^
 ||dudestream.com^
 ||juba-get.com^
 ||store.asus.com^
@@ -5231,7 +5231,6 @@ $script,3p,denyallow=doodcdn.io|doodcdn.io|fastly.net|statically.io|sharecast.ws
 ||helmiau.com^
 ||spigotunlocked.org^
 ||strtapeadblocker.art^
-||healthy4pepole.com^
 ||tweakcentral.net^
 ||utils.surf^
 ||jav68.net^
@@ -5262,7 +5261,6 @@ $script,3p,denyallow=doodcdn.io|doodcdn.io|fastly.net|statically.io|sharecast.ws
 ||youfiles.net^
 ||allarewin.space^
 ||aruble.net^
-||redirect.dafontvn.com^
 ||hackr.io^
 ||r3owners.net^
 ||racedepartment.com^
@@ -5276,12 +5274,10 @@ $script,3p,denyallow=doodcdn.io|doodcdn.io|fastly.net|statically.io|sharecast.ws
 ||toolxox.com^
 ||adinserter.pro^
 ||itscybertech.com^
-||top1iq.com^
 ||coin-free.com^
 ||filmzie.com^
 ||larvelfaucet.com^
 ||totalcalc.com^
-||ricettafitness.com^
 ||ninja.io^
 ||games.word.tips^
 ||3dzip.org^
@@ -6000,6 +5996,7 @@ $script,3p,denyallow=doodcdn.io|doodcdn.io|fastly.net|statically.io|sharecast.ws
 ||eprevodilac.com^
 ||njuskalo.hr^
 ||mob.hr^
+||mediaguru.cz^
 ||cas.sk^
 ||novinky.cz^
 ||telekomunikace.cz^

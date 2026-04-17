@@ -5082,6 +5082,7 @@
 0.0.0.0 hdstockimages.com
 0.0.0.0 viu.tv
 0.0.0.0 androidecuatoriano.xyz
+0.0.0.0 healthy4pepole.com
 0.0.0.0 osmanonline.co.uk
 0.0.0.0 sportsplays.com
 0.0.0.0 upzone.ga
@@ -5178,7 +5179,6 @@
 0.0.0.0 course-downloader.com
 0.0.0.0 modshost.net
 0.0.0.0 gpudrops.com
-0.0.0.0 bitsfree.net
 0.0.0.0 dudestream.com
 0.0.0.0 juba-get.com
 0.0.0.0 store.asus.com
@@ -5204,7 +5204,6 @@
 0.0.0.0 helmiau.com
 0.0.0.0 spigotunlocked.org
 0.0.0.0 strtapeadblocker.art
-0.0.0.0 healthy4pepole.com
 0.0.0.0 tweakcentral.net
 0.0.0.0 utils.surf
 0.0.0.0 jav68.net
@@ -5235,7 +5234,6 @@
 0.0.0.0 youfiles.net
 0.0.0.0 allarewin.space
 0.0.0.0 aruble.net
-0.0.0.0 redirect.dafontvn.com
 0.0.0.0 hackr.io
 0.0.0.0 r3owners.net
 0.0.0.0 racedepartment.com
@@ -5249,12 +5247,10 @@
 0.0.0.0 toolxox.com
 0.0.0.0 adinserter.pro
 0.0.0.0 itscybertech.com
-0.0.0.0 top1iq.com
 0.0.0.0 coin-free.com
 0.0.0.0 filmzie.com
 0.0.0.0 larvelfaucet.com
 0.0.0.0 totalcalc.com
-0.0.0.0 ricettafitness.com
 0.0.0.0 ninja.io
 0.0.0.0 games.word.tips
 0.0.0.0 3dzip.org
@@ -5973,6 +5969,7 @@
 0.0.0.0 eprevodilac.com
 0.0.0.0 njuskalo.hr
 0.0.0.0 mob.hr
+0.0.0.0 mediaguru.cz
 0.0.0.0 cas.sk
 0.0.0.0 novinky.cz
 0.0.0.0 telekomunikace.cz
