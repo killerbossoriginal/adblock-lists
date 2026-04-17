@@ -7952,6 +7952,7 @@
 0.0.0.0 athirvu.in
 0.0.0.0 cinema.dinamalar.com
 0.0.0.0 vatantat.ru
+0.0.0.0 jav24hda.com
 0.0.0.0 animewaku.com
 0.0.0.0 overmovies.com
 0.0.0.0 go-manga.com
@@ -9064,6 +9065,7 @@
 0.0.0.0 tunemovie.fun
 0.0.0.0 www.youtube.com
 0.0.0.0 hentai-id.tv
+0.0.0.0 athlonoutdoors.com
 0.0.0.0 mmsi01.com
 0.0.0.0 soopage.com
 0.0.0.0 gardeningknowhow.com
