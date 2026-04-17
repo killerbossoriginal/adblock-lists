@@ -1,5 +1,5 @@
 ! Title: Combined custom list (DNS)
-! Last modified: 2026-04-17T14:06:04Z
+! Last modified: 2026-04-17T19:43:38Z
 ! Entries: 14049
 ! Generated automatically
 
@@ -4171,6 +4171,7 @@ $script,3p,denyallow=doodcdn.io|doodcdn.io|fastly.net|statically.io|sharecast.ws
 ||trannygem.com^
 ||vivud.com^
 ||e-hentai.org^
+||myhentaicomics.com^
 ||escortdirectory.com^
 ||socialmediagirls.com^
 ||alastonsuomi.com^
@@ -8905,7 +8906,6 @@ $script,3p,denyallow=doodcdn.io|doodcdn.io|fastly.net|statically.io|sharecast.ws
 ||lyricstranslate.com^
 ||news.zerkalo.io^
 ||swiggy.com^
-||myhentaicomics.com^
 ||xxxporn.me^
 ||questaseratv.it^
 ||ff14angler.com^
