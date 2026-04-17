@@ -1,6 +1,6 @@
 ! Title: Combined custom list (DNS)
-! Last modified: 2026-04-17T08:15:30Z
-! Entries: 14048
+! Last modified: 2026-04-17T14:06:04Z
+! Entries: 14049
 ! Generated automatically
 
 /ads?client=
@@ -4536,6 +4536,7 @@ $script,3p,denyallow=doodcdn.io|doodcdn.io|fastly.net|statically.io|sharecast.ws
 ||delicious-audio.com^
 ||trshow.info^
 ||ru-clip.com^
+||mtpro.xyz^
 ||camsfinder.com^
 ||elamigosgamez.net^
 ||cnxxx.org^
@@ -9092,6 +9093,8 @@ $script,3p,denyallow=doodcdn.io|doodcdn.io|fastly.net|statically.io|sharecast.ws
 ||tunemovie.fun^
 ||www.youtube.com^
 ||hentai-id.tv^
+||cybersecuritynews.com^
+||guessthe.game^
 ||athlonoutdoors.com^
 ||mmsi01.com^
 ||soopage.com^
@@ -9099,7 +9102,6 @@ $script,3p,denyallow=doodcdn.io|doodcdn.io|fastly.net|statically.io|sharecast.ws
 ||fileserve.com^
 ||sexydixy.com^
 ||avrebo.com^
-||mtpro.xyz^
 ||ddownload.com^
 ||zdrive.to^
 ||ctcdwm.com^
@@ -10232,7 +10234,6 @@ $script,3p,denyallow=doodcdn.io|doodcdn.io|fastly.net|statically.io|sharecast.ws
 ||trannyvideosx.com^
 ||hydrahd.com^
 ||ssstik.cam^
-||cybersecuritynews.com^
 ||getavataaars.com^
 ||ntr-games.com^
 ||blackedjav.com^

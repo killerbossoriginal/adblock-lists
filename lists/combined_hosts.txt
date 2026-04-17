@@ -4509,6 +4509,7 @@
 0.0.0.0 delicious-audio.com
 0.0.0.0 trshow.info
 0.0.0.0 ru-clip.com
+0.0.0.0 mtpro.xyz
 0.0.0.0 camsfinder.com
 0.0.0.0 elamigosgamez.net
 0.0.0.0 cnxxx.org
@@ -9065,6 +9066,8 @@
 0.0.0.0 tunemovie.fun
 0.0.0.0 www.youtube.com
 0.0.0.0 hentai-id.tv
+0.0.0.0 cybersecuritynews.com
+0.0.0.0 guessthe.game
 0.0.0.0 athlonoutdoors.com
 0.0.0.0 mmsi01.com
 0.0.0.0 soopage.com
@@ -9072,7 +9075,6 @@
 0.0.0.0 fileserve.com
 0.0.0.0 sexydixy.com
 0.0.0.0 avrebo.com
-0.0.0.0 mtpro.xyz
 0.0.0.0 ddownload.com
 0.0.0.0 zdrive.to
 0.0.0.0 ctcdwm.com
@@ -10205,7 +10207,6 @@
 0.0.0.0 trannyvideosx.com
 0.0.0.0 hydrahd.com
 0.0.0.0 ssstik.cam
-0.0.0.0 cybersecuritynews.com
 0.0.0.0 getavataaars.com
 0.0.0.0 ntr-games.com
 0.0.0.0 blackedjav.com
