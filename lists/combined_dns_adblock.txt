@@ -1,6 +1,6 @@
 ! Title: Combined custom list (DNS)
-! Last modified: 2026-04-18T07:44:31Z
-! Entries: 14049
+! Last modified: 2026-04-18T13:47:23Z
+! Entries: 14051
 ! Generated automatically
 
 /ads?client=
@@ -9093,6 +9093,9 @@ $script,3p,denyallow=doodcdn.io|doodcdn.io|fastly.net|statically.io|sharecast.ws
 ||tunemovie.fun^
 ||www.youtube.com^
 ||hentai-id.tv^
+||vpzserver.com^
+||fithelptipz.com^
+||athlonsports.com^
 ||cybersecuritynews.com^
 ||guessthe.game^
 ||athlonoutdoors.com^
@@ -9915,7 +9918,6 @@ $script,3p,denyallow=doodcdn.io|doodcdn.io|fastly.net|statically.io|sharecast.ws
 ||uploadnow.io^
 ||grandforksherald.com^
 ||djerycom.ug^
-||athlonsports.com^
 ||tribune.net.ph^
 ||soccer-100.com^
 ||cloud.getpczone.com^

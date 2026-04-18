@@ -9066,6 +9066,9 @@
 0.0.0.0 tunemovie.fun
 0.0.0.0 www.youtube.com
 0.0.0.0 hentai-id.tv
+0.0.0.0 vpzserver.com
+0.0.0.0 fithelptipz.com
+0.0.0.0 athlonsports.com
 0.0.0.0 cybersecuritynews.com
 0.0.0.0 guessthe.game
 0.0.0.0 athlonoutdoors.com
@@ -9888,7 +9891,6 @@
 0.0.0.0 uploadnow.io
 0.0.0.0 grandforksherald.com
 0.0.0.0 djerycom.ug
-0.0.0.0 athlonsports.com
 0.0.0.0 tribune.net.ph
 0.0.0.0 soccer-100.com
 0.0.0.0 cloud.getpczone.com
