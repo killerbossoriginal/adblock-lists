@@ -1,5 +1,5 @@
 ! Title: Combined custom list (DNS)
-! Last modified: 2026-04-18T13:47:23Z
+! Last modified: 2026-04-18T19:28:24Z
 ! Entries: 14051
 ! Generated automatically
 
@@ -1409,7 +1409,6 @@ $script,3p,denyallow=doodcdn.io|doodcdn.io|fastly.net|statically.io|sharecast.ws
 ||gameshub.com^
 ||batimes.com.ar^
 ||lowfuelmotorsport.com^
-||dna-launcher.apkrabi.com^
 ||bestcrazygames.com^
 ||solscan.io^
 ||auto.hindustantimes.com^
@@ -6705,6 +6704,7 @@ $script,3p,denyallow=doodcdn.io|doodcdn.io|fastly.net|statically.io|sharecast.ws
 ||movie76.com^
 ||wardhanime.net^
 ||dm5.com^
+||vocegiallorossa.it^
 ||open.online^
 ||hdblog.it^
 ||capitolivm.it^
