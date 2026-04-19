@@ -1,6 +1,6 @@
 ! Title: Combined custom list (DNS)
-! Last modified: 2026-04-19T13:45:30Z
-! Entries: 14053
+! Last modified: 2026-04-19T19:29:08Z
+! Entries: 14054
 ! Generated automatically
 
 /ads?client=
@@ -100,6 +100,7 @@ $script,3p,denyallow=doodcdn.io|doodcdn.io|fastly.net|statically.io|sharecast.ws
 ||jabank-tokushima.or.jp^
 ||huffingtonpost.co.uk^
 ||kpanews.co.kr^
+||5chmm.jp^
 ||genshinimpactcalculator.com^
 ||weatherwx.com^
 ||boots.com^

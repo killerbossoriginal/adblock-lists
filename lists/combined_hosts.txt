@@ -73,6 +73,7 @@
 0.0.0.0 jabank-tokushima.or.jp
 0.0.0.0 huffingtonpost.co.uk
 0.0.0.0 kpanews.co.kr
+0.0.0.0 5chmm.jp
 0.0.0.0 genshinimpactcalculator.com
 0.0.0.0 weatherwx.com
 0.0.0.0 boots.com
