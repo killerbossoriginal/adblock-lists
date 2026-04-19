@@ -3240,6 +3240,7 @@
 0.0.0.0 complaintsingapore.com
 0.0.0.0 thepiratebay.org
 0.0.0.0 auto.creavite.co
+0.0.0.0 lightnovelpub.org
 0.0.0.0 businessaccountingbasics.co.uk
 0.0.0.0 linuxlookup.com
 0.0.0.0 audiobookbay.is
