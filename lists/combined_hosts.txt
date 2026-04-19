@@ -2297,6 +2297,7 @@
 0.0.0.0 myabandonware.com
 0.0.0.0 infobetting.com
 0.0.0.0 fifetoday.co.uk
+0.0.0.0 ynetnews.com
 0.0.0.0 instacart.com
 0.0.0.0 flicksmore.com
 0.0.0.0 lifesitenews.com

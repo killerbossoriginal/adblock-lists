@@ -1,6 +1,6 @@
 ! Title: Combined custom list (DNS)
-! Last modified: 2026-04-18T19:28:24Z
-! Entries: 14051
+! Last modified: 2026-04-19T03:58:51Z
+! Entries: 14052
 ! Generated automatically
 
 /ads?client=
@@ -2324,6 +2324,7 @@ $script,3p,denyallow=doodcdn.io|doodcdn.io|fastly.net|statically.io|sharecast.ws
 ||myabandonware.com^
 ||infobetting.com^
 ||fifetoday.co.uk^
+||ynetnews.com^
 ||instacart.com^
 ||flicksmore.com^
 ||lifesitenews.com^
