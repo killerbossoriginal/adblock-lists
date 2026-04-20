@@ -1,6 +1,6 @@
 ! Title: Combined custom list (DNS)
-! Last modified: 2026-04-20T04:02:05Z
-! Entries: 14054
+! Last modified: 2026-04-20T08:59:31Z
+! Entries: 14058
 ! Generated automatically
 
 /ads?client=
@@ -524,6 +524,7 @@ $script,3p,denyallow=doodcdn.io|doodcdn.io|fastly.net|statically.io|sharecast.ws
 ||coinhub.wiki^
 ||scanboat.com^
 ||allnewspipeline.com^
+||readfrom.net^
 ||outputter.io^
 ||fextralife.com^
 ||blastingnews.com^
@@ -8133,6 +8134,8 @@ $script,3p,denyallow=doodcdn.io|doodcdn.io|fastly.net|statically.io|sharecast.ws
 ||thuvienphapluat.vn^
 ||24h.com.vn^
 ||giavang.org^
+||holitv.org^
+||motphimr.io^
 ||embedrb.com^
 ||truyenqq.com.vn^
 ||biphim.mx^
@@ -9096,6 +9099,7 @@ $script,3p,denyallow=doodcdn.io|doodcdn.io|fastly.net|statically.io|sharecast.ws
 ||tunemovie.fun^
 ||www.youtube.com^
 ||hentai-id.tv^
+||style.yahoo.com^
 ||vpzserver.com^
 ||fithelptipz.com^
 ||athlonsports.com^

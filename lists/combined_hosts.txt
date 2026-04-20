@@ -497,6 +497,7 @@
 0.0.0.0 coinhub.wiki
 0.0.0.0 scanboat.com
 0.0.0.0 allnewspipeline.com
+0.0.0.0 readfrom.net
 0.0.0.0 outputter.io
 0.0.0.0 fextralife.com
 0.0.0.0 blastingnews.com
@@ -8106,6 +8107,8 @@
 0.0.0.0 thuvienphapluat.vn
 0.0.0.0 24h.com.vn
 0.0.0.0 giavang.org
+0.0.0.0 holitv.org
+0.0.0.0 motphimr.io
 0.0.0.0 embedrb.com
 0.0.0.0 truyenqq.com.vn
 0.0.0.0 biphim.mx
@@ -9069,6 +9072,7 @@
 0.0.0.0 tunemovie.fun
 0.0.0.0 www.youtube.com
 0.0.0.0 hentai-id.tv
+0.0.0.0 style.yahoo.com
 0.0.0.0 vpzserver.com
 0.0.0.0 fithelptipz.com
 0.0.0.0 athlonsports.com
