@@ -4513,6 +4513,7 @@
 0.0.0.0 delicious-audio.com
 0.0.0.0 trshow.info
 0.0.0.0 ru-clip.com
+0.0.0.0 links.lootlabs.gg
 0.0.0.0 file-me.top
 0.0.0.0 mtpro.xyz
 0.0.0.0 camsfinder.com
@@ -6241,6 +6242,8 @@
 0.0.0.0 imovies.cc
 0.0.0.0 livesport.ge
 0.0.0.0 autopapa.ge
+0.0.0.0 news247.gr
+0.0.0.0 carandmotor.gr
 0.0.0.0 lexigram.gr
 0.0.0.0 caroto.gr
 0.0.0.0 tovima.gr
@@ -6330,7 +6333,6 @@
 0.0.0.0 protothema.gr
 0.0.0.0 kefaloniapress.gr
 0.0.0.0 xo.gr
-0.0.0.0 news247.gr
 0.0.0.0 angroid.gr
 0.0.0.0 iefimerida.gr
 0.0.0.0 parapolitika.gr
@@ -9073,6 +9075,7 @@
 0.0.0.0 tunemovie.fun
 0.0.0.0 www.youtube.com
 0.0.0.0 hentai-id.tv
+0.0.0.0 affpaying.com
 0.0.0.0 moneywise.com
 0.0.0.0 porn4days.pw
 0.0.0.0 style.yahoo.com
@@ -9556,7 +9559,6 @@
 0.0.0.0 lame.buanzo.org
 0.0.0.0 datavaults.co
 0.0.0.0 cutout.pro
-0.0.0.0 civitai.com
 0.0.0.0 now.gg
 0.0.0.0 predb.net
 0.0.0.0 lovingsiren.com
@@ -11102,7 +11104,6 @@
 0.0.0.0 sportsgambler.com
 0.0.0.0 pornlist.tv
 0.0.0.0 editingcorp.com
-0.0.0.0 affpaying.com
 0.0.0.0 anycodes.com
 0.0.0.0 daftsex.net
 0.0.0.0 sexodi.com
@@ -13740,6 +13741,7 @@
 0.0.0.0 camera.aeonax.com
 0.0.0.0 repo.hackyouriphone.org
 0.0.0.0 circleofcricket.com
+0.0.0.0 watch.shout-tv.com
 0.0.0.0 esladvice.com
 0.0.0.0 pornuse.com
 0.0.0.0 555.porn

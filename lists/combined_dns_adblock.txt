@@ -1,6 +1,6 @@
 ! Title: Combined custom list (DNS)
-! Last modified: 2026-04-20T14:22:34Z
-! Entries: 14061
+! Last modified: 2026-04-20T19:43:05Z
+! Entries: 14063
 ! Generated automatically
 
 /ads?client=
@@ -4540,6 +4540,7 @@ $script,3p,denyallow=doodcdn.io|doodcdn.io|fastly.net|statically.io|sharecast.ws
 ||delicious-audio.com^
 ||trshow.info^
 ||ru-clip.com^
+||links.lootlabs.gg^
 ||file-me.top^
 ||mtpro.xyz^
 ||camsfinder.com^
@@ -6268,6 +6269,8 @@ $script,3p,denyallow=doodcdn.io|doodcdn.io|fastly.net|statically.io|sharecast.ws
 ||imovies.cc^
 ||livesport.ge^
 ||autopapa.ge^
+||news247.gr^
+||carandmotor.gr^
 ||lexigram.gr^
 ||caroto.gr^
 ||tovima.gr^
@@ -6357,7 +6360,6 @@ $script,3p,denyallow=doodcdn.io|doodcdn.io|fastly.net|statically.io|sharecast.ws
 ||protothema.gr^
 ||kefaloniapress.gr^
 ||xo.gr^
-||news247.gr^
 ||angroid.gr^
 ||iefimerida.gr^
 ||parapolitika.gr^
@@ -9100,6 +9102,7 @@ $script,3p,denyallow=doodcdn.io|doodcdn.io|fastly.net|statically.io|sharecast.ws
 ||tunemovie.fun^
 ||www.youtube.com^
 ||hentai-id.tv^
+||affpaying.com^
 ||moneywise.com^
 ||porn4days.pw^
 ||style.yahoo.com^
@@ -9583,7 +9586,6 @@ $script,3p,denyallow=doodcdn.io|doodcdn.io|fastly.net|statically.io|sharecast.ws
 ||lame.buanzo.org^
 ||datavaults.co^
 ||cutout.pro^
-||civitai.com^
 ||now.gg^
 ||predb.net^
 ||lovingsiren.com^
@@ -11129,7 +11131,6 @@ $script,3p,denyallow=doodcdn.io|doodcdn.io|fastly.net|statically.io|sharecast.ws
 ||sportsgambler.com^
 ||pornlist.tv^
 ||editingcorp.com^
-||affpaying.com^
 ||anycodes.com^
 ||daftsex.net^
 ||sexodi.com^
@@ -13767,6 +13768,7 @@ $script,3p,denyallow=doodcdn.io|doodcdn.io|fastly.net|statically.io|sharecast.ws
 ||camera.aeonax.com^
 ||repo.hackyouriphone.org^
 ||circleofcricket.com^
+||watch.shout-tv.com^
 ||esladvice.com^
 ||pornuse.com^
 ||555.porn^
