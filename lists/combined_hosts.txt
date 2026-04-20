@@ -4513,6 +4513,7 @@
 0.0.0.0 delicious-audio.com
 0.0.0.0 trshow.info
 0.0.0.0 ru-clip.com
+0.0.0.0 file-me.top
 0.0.0.0 mtpro.xyz
 0.0.0.0 camsfinder.com
 0.0.0.0 elamigosgamez.net
@@ -9072,6 +9073,8 @@
 0.0.0.0 tunemovie.fun
 0.0.0.0 www.youtube.com
 0.0.0.0 hentai-id.tv
+0.0.0.0 moneywise.com
+0.0.0.0 porn4days.pw
 0.0.0.0 style.yahoo.com
 0.0.0.0 vpzserver.com
 0.0.0.0 fithelptipz.com

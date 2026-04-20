@@ -1,6 +1,6 @@
 ! Title: Combined custom list (DNS)
-! Last modified: 2026-04-20T08:59:31Z
-! Entries: 14058
+! Last modified: 2026-04-20T14:22:34Z
+! Entries: 14061
 ! Generated automatically
 
 /ads?client=
@@ -4540,6 +4540,7 @@ $script,3p,denyallow=doodcdn.io|doodcdn.io|fastly.net|statically.io|sharecast.ws
 ||delicious-audio.com^
 ||trshow.info^
 ||ru-clip.com^
+||file-me.top^
 ||mtpro.xyz^
 ||camsfinder.com^
 ||elamigosgamez.net^
@@ -9099,6 +9100,8 @@ $script,3p,denyallow=doodcdn.io|doodcdn.io|fastly.net|statically.io|sharecast.ws
 ||tunemovie.fun^
 ||www.youtube.com^
 ||hentai-id.tv^
+||moneywise.com^
+||porn4days.pw^
 ||style.yahoo.com^
 ||vpzserver.com^
 ||fithelptipz.com^
