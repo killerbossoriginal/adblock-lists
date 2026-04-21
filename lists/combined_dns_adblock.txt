@@ -1,6 +1,6 @@
 ! Title: Combined custom list (DNS)
-! Last modified: 2026-04-21T03:56:03Z
-! Entries: 14063
+! Last modified: 2026-04-21T08:21:44Z
+! Entries: 14064
 ! Generated automatically
 
 /ads?client=
@@ -1198,6 +1198,7 @@ $script,3p,denyallow=doodcdn.io|doodcdn.io|fastly.net|statically.io|sharecast.ws
 ||britannicaenglish.com^
 ||this.org^
 ||natlawreview.com^
+||complex.com^
 ||carexpert.com.au^
 ||jeffdornik.com^
 ||coderwall.com^
@@ -2424,7 +2425,6 @@ $script,3p,denyallow=doodcdn.io|doodcdn.io|fastly.net|statically.io|sharecast.ws
 ||thelincolnianonline.com^
 ||fantasygames.nascar.com^
 ||golfworkoutprogram.com^
-||complex.com^
 ||laweekly.com^
 ||apkpac.com^
 ||racingtv.com^
@@ -9103,6 +9103,7 @@ $script,3p,denyallow=doodcdn.io|doodcdn.io|fastly.net|statically.io|sharecast.ws
 ||tunemovie.fun^
 ||www.youtube.com^
 ||hentai-id.tv^
+||mangadex.com^
 ||affpaying.com^
 ||moneywise.com^
 ||porn4days.pw^

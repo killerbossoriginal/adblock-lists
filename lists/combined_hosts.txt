@@ -1171,6 +1171,7 @@
 0.0.0.0 britannicaenglish.com
 0.0.0.0 this.org
 0.0.0.0 natlawreview.com
+0.0.0.0 complex.com
 0.0.0.0 carexpert.com.au
 0.0.0.0 jeffdornik.com
 0.0.0.0 coderwall.com
@@ -2397,7 +2398,6 @@
 0.0.0.0 thelincolnianonline.com
 0.0.0.0 fantasygames.nascar.com
 0.0.0.0 golfworkoutprogram.com
-0.0.0.0 complex.com
 0.0.0.0 laweekly.com
 0.0.0.0 apkpac.com
 0.0.0.0 racingtv.com
@@ -9076,6 +9076,7 @@
 0.0.0.0 tunemovie.fun
 0.0.0.0 www.youtube.com
 0.0.0.0 hentai-id.tv
+0.0.0.0 mangadex.com
 0.0.0.0 affpaying.com
 0.0.0.0 moneywise.com
 0.0.0.0 porn4days.pw
