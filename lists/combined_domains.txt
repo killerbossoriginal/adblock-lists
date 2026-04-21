@@ -4565,6 +4565,7 @@ tryigit.dev
 hitslink.xyz
 bigshare.io
 rez.jbnews.it.com
+rpmplay.online
 lootup.me
 apply.gokiwi.in
 walitex.com
@@ -4587,6 +4588,7 @@ forum.sbenny.com
 resulthubdtu.com
 uptopacks.com
 spigotunlocked.com
+h5.4j.com
 vidnest.io
 nasdaqfutures.org
 mytemp-mail.com
@@ -4669,6 +4671,7 @@ nontonx.com
 zeperfs.com
 panuvideo.com
 cardiagn.com
+cookinggames.com
 payskip.org
 vedetta.org
 assistouest.fr
@@ -4679,6 +4682,7 @@ pokemon-project.com
 apkhosto.com
 dramafren.org
 izarc.org
+girlgames.com
 www.msn.com
 weshare.is
 solobari.it
@@ -6303,7 +6307,9 @@ tainio-mania.online
 coverapi.store
 queen.gr
 kathimerini.gr
+alphatv.gr
 ladylike.gr
+sigmatv.com
 sportday.gr
 omegatv.com.cy
 lamiareport.gr
@@ -7170,6 +7176,7 @@ miasto.in
 hiperinfo.pl
 ostrow24.tv
 cda-hd.cc
+ipla.tv
 polskawliczbach.pl
 oglaszamy24.pl
 szukampracy.pl
@@ -13841,6 +13848,7 @@ thedenverchannel.com
 paulandshark.com
 playbill.com
 autotempest.com
+screenrant.com
 vnptioffice.vn
 dmax.de
 libsyn.com

@@ -4565,6 +4565,7 @@
 0.0.0.0 hitslink.xyz
 0.0.0.0 bigshare.io
 0.0.0.0 rez.jbnews.it.com
+0.0.0.0 rpmplay.online
 0.0.0.0 lootup.me
 0.0.0.0 apply.gokiwi.in
 0.0.0.0 walitex.com
@@ -4587,6 +4588,7 @@
 0.0.0.0 resulthubdtu.com
 0.0.0.0 uptopacks.com
 0.0.0.0 spigotunlocked.com
+0.0.0.0 h5.4j.com
 0.0.0.0 vidnest.io
 0.0.0.0 nasdaqfutures.org
 0.0.0.0 mytemp-mail.com
@@ -4669,6 +4671,7 @@
 0.0.0.0 zeperfs.com
 0.0.0.0 panuvideo.com
 0.0.0.0 cardiagn.com
+0.0.0.0 cookinggames.com
 0.0.0.0 payskip.org
 0.0.0.0 vedetta.org
 0.0.0.0 assistouest.fr
@@ -4679,6 +4682,7 @@
 0.0.0.0 apkhosto.com
 0.0.0.0 dramafren.org
 0.0.0.0 izarc.org
+0.0.0.0 girlgames.com
 0.0.0.0 www.msn.com
 0.0.0.0 weshare.is
 0.0.0.0 solobari.it
@@ -6303,7 +6307,9 @@
 0.0.0.0 coverapi.store
 0.0.0.0 queen.gr
 0.0.0.0 kathimerini.gr
+0.0.0.0 alphatv.gr
 0.0.0.0 ladylike.gr
+0.0.0.0 sigmatv.com
 0.0.0.0 sportday.gr
 0.0.0.0 omegatv.com.cy
 0.0.0.0 lamiareport.gr
@@ -7170,6 +7176,7 @@
 0.0.0.0 hiperinfo.pl
 0.0.0.0 ostrow24.tv
 0.0.0.0 cda-hd.cc
+0.0.0.0 ipla.tv
 0.0.0.0 polskawliczbach.pl
 0.0.0.0 oglaszamy24.pl
 0.0.0.0 szukampracy.pl
@@ -13841,6 +13848,7 @@
 0.0.0.0 paulandshark.com
 0.0.0.0 playbill.com
 0.0.0.0 autotempest.com
+0.0.0.0 screenrant.com
 0.0.0.0 vnptioffice.vn
 0.0.0.0 dmax.de
 0.0.0.0 libsyn.com
