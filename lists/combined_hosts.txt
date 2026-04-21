@@ -1263,6 +1263,7 @@
 0.0.0.0 fanfox.net
 0.0.0.0 wapt.com
 0.0.0.0 mydramalist.com
+0.0.0.0 vesselfinder.com
 0.0.0.0 news.ssbcrack.com
 0.0.0.0 nationalreview.com
 0.0.0.0 accesswdun.com
@@ -10143,7 +10144,6 @@
 0.0.0.0 kickasssubtitles.com
 0.0.0.0 convert-me.com
 0.0.0.0 sitepoint.com
-0.0.0.0 vesselfinder.com
 0.0.0.0 react.libhunt.com
 0.0.0.0 eggnsemulator.com
 0.0.0.0 fileplanet.com

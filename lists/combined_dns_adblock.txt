@@ -1,5 +1,5 @@
 ! Title: Combined custom list (DNS)
-! Last modified: 2026-04-20T19:43:05Z
+! Last modified: 2026-04-21T03:56:03Z
 ! Entries: 14063
 ! Generated automatically
 
@@ -1290,6 +1290,7 @@ $script,3p,denyallow=doodcdn.io|doodcdn.io|fastly.net|statically.io|sharecast.ws
 ||fanfox.net^
 ||wapt.com^
 ||mydramalist.com^
+||vesselfinder.com^
 ||news.ssbcrack.com^
 ||nationalreview.com^
 ||accesswdun.com^
@@ -10170,7 +10171,6 @@ $script,3p,denyallow=doodcdn.io|doodcdn.io|fastly.net|statically.io|sharecast.ws
 ||kickasssubtitles.com^
 ||convert-me.com^
 ||sitepoint.com^
-||vesselfinder.com^
 ||react.libhunt.com^
 ||eggnsemulator.com^
 ||fileplanet.com^
