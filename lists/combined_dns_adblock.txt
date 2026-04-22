@@ -1,5 +1,5 @@
 ! Title: Combined custom list (DNS)
-! Last modified: 2026-04-22T03:51:19Z
+! Last modified: 2026-04-22T08:19:25Z
 ! Entries: 14070
 ! Generated automatically
 
@@ -1698,6 +1698,7 @@ $script,3p,denyallow=doodcdn.io|doodcdn.io|fastly.net|statically.io|sharecast.ws
 ||gamemodding.com^
 ||hellenicshippingnews.com^
 ||snokido.com^
+||dailymail.com^
 ||weatherpro.com^
 ||techspot.com^
 ||netweather.tv^
@@ -9107,11 +9108,11 @@ $script,3p,denyallow=doodcdn.io|doodcdn.io|fastly.net|statically.io|sharecast.ws
 ||tunemovie.fun^
 ||www.youtube.com^
 ||hentai-id.tv^
+||simplywall.st^
+||eneba.com^
 ||tag24.com^
-||dailymail.com^
 ||mangadex.com^
 ||affpaying.com^
-||moneywise.com^
 ||porn4days.pw^
 ||style.yahoo.com^
 ||vpzserver.com^
@@ -9982,7 +9983,6 @@ $script,3p,denyallow=doodcdn.io|doodcdn.io|fastly.net|statically.io|sharecast.ws
 ||theoldreader.com^
 ||redd.tube^
 ||xraws.com^
-||simplywall.st^
 ||krx18.com^
 ||xiaomitime.com^
 ||dailyecho.co.uk^

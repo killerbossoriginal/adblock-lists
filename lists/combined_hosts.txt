@@ -1671,6 +1671,7 @@
 0.0.0.0 gamemodding.com
 0.0.0.0 hellenicshippingnews.com
 0.0.0.0 snokido.com
+0.0.0.0 dailymail.com
 0.0.0.0 weatherpro.com
 0.0.0.0 techspot.com
 0.0.0.0 netweather.tv
@@ -9080,11 +9081,11 @@
 0.0.0.0 tunemovie.fun
 0.0.0.0 www.youtube.com
 0.0.0.0 hentai-id.tv
+0.0.0.0 simplywall.st
+0.0.0.0 eneba.com
 0.0.0.0 tag24.com
-0.0.0.0 dailymail.com
 0.0.0.0 mangadex.com
 0.0.0.0 affpaying.com
-0.0.0.0 moneywise.com
 0.0.0.0 porn4days.pw
 0.0.0.0 style.yahoo.com
 0.0.0.0 vpzserver.com
@@ -9955,7 +9956,6 @@
 0.0.0.0 theoldreader.com
 0.0.0.0 redd.tube
 0.0.0.0 xraws.com
-0.0.0.0 simplywall.st
 0.0.0.0 krx18.com
 0.0.0.0 xiaomitime.com
 0.0.0.0 dailyecho.co.uk
