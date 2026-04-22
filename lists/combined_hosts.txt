@@ -4990,7 +4990,6 @@
 0.0.0.0 mcafee-com.com
 0.0.0.0 scamtel.com
 0.0.0.0 archivebate.com
-0.0.0.0 getthit.com
 0.0.0.0 shabdkosh.com
 0.0.0.0 amateurporn.co
 0.0.0.0 shroomers.app
@@ -5527,7 +5526,6 @@
 0.0.0.0 toolforge.org
 0.0.0.0 ievaphone.com
 0.0.0.0 roya.tv
-0.0.0.0 findandfound.ga
 0.0.0.0 breatheheavy.com
 0.0.0.0 call2friends.com
 0.0.0.0 dropgalaxy.com
@@ -5561,7 +5559,6 @@
 0.0.0.0 howtofixwindows.com
 0.0.0.0 sznlink.xyz
 0.0.0.0 u-s-news.com
-0.0.0.0 journaldev.com
 0.0.0.0 softwarecrackguru.com
 0.0.0.0 play.anghami.com
 0.0.0.0 joblo.com
@@ -13314,7 +13311,6 @@
 0.0.0.0 justporno.tv
 0.0.0.0 hitc.com
 0.0.0.0 mixcloud.com
-0.0.0.0 mycokerewards.com
 0.0.0.0 pattayatalk.com
 0.0.0.0 thefix.nine.com.au
 0.0.0.0 eenadu.net

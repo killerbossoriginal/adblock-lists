@@ -1,6 +1,6 @@
 ! Title: Combined custom list (DNS)
-! Last modified: 2026-04-21T19:48:29Z
-! Entries: 14074
+! Last modified: 2026-04-22T03:51:19Z
+! Entries: 14070
 ! Generated automatically
 
 /ads?client=
@@ -5017,7 +5017,6 @@ $script,3p,denyallow=doodcdn.io|doodcdn.io|fastly.net|statically.io|sharecast.ws
 ||mcafee-com.com^
 ||scamtel.com^
 ||archivebate.com^
-||getthit.com^
 ||shabdkosh.com^
 ||amateurporn.co^
 ||shroomers.app^
@@ -5554,7 +5553,6 @@ $script,3p,denyallow=doodcdn.io|doodcdn.io|fastly.net|statically.io|sharecast.ws
 ||toolforge.org^
 ||ievaphone.com^
 ||roya.tv^
-||findandfound.ga^
 ||breatheheavy.com^
 ||call2friends.com^
 ||dropgalaxy.com^
@@ -5588,7 +5586,6 @@ $script,3p,denyallow=doodcdn.io|doodcdn.io|fastly.net|statically.io|sharecast.ws
 ||howtofixwindows.com^
 ||sznlink.xyz^
 ||u-s-news.com^
-||journaldev.com^
 ||softwarecrackguru.com^
 ||play.anghami.com^
 ||joblo.com^
@@ -13341,7 +13338,6 @@ $script,3p,denyallow=doodcdn.io|doodcdn.io|fastly.net|statically.io|sharecast.ws
 ||justporno.tv^
 ||hitc.com^
 ||mixcloud.com^
-||mycokerewards.com^
 ||pattayatalk.com^
 ||thefix.nine.com.au^
 ||eenadu.net^
