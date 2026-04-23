@@ -1,5 +1,5 @@
 ! Title: Combined custom list (DNS)
-! Last modified: 2026-04-23T08:23:55Z
+! Last modified: 2026-04-23T14:22:26Z
 ! Entries: 14067
 ! Generated automatically
 
@@ -4542,6 +4542,7 @@ $script,3p,denyallow=doodcdn.io|doodcdn.io|fastly.net|statically.io|sharecast.ws
 ||delicious-audio.com^
 ||trshow.info^
 ||ru-clip.com^
+||rule34hentai.net^
 ||links.lootlabs.gg^
 ||file-me.top^
 ||camsfinder.com^
@@ -8546,7 +8547,6 @@ $script,3p,denyallow=doodcdn.io|doodcdn.io|fastly.net|statically.io|sharecast.ws
 ||imgdawgknuttz.com^
 ||hdmovie20.com^
 ||hispasexy.org^
-||rule34hentai.net^
 ||drivelinks.in^
 ||freeplayervideo.com^
 ||gifhq.com^

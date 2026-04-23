@@ -4515,6 +4515,7 @@
 0.0.0.0 delicious-audio.com
 0.0.0.0 trshow.info
 0.0.0.0 ru-clip.com
+0.0.0.0 rule34hentai.net
 0.0.0.0 links.lootlabs.gg
 0.0.0.0 file-me.top
 0.0.0.0 camsfinder.com
@@ -8519,7 +8520,6 @@
 0.0.0.0 imgdawgknuttz.com
 0.0.0.0 hdmovie20.com
 0.0.0.0 hispasexy.org
-0.0.0.0 rule34hentai.net
 0.0.0.0 drivelinks.in
 0.0.0.0 freeplayervideo.com
 0.0.0.0 gifhq.com
