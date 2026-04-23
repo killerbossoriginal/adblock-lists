@@ -1,6 +1,6 @@
 ! Title: Combined custom list (DNS)
-! Last modified: 2026-04-23T03:57:24Z
-! Entries: 14066
+! Last modified: 2026-04-23T08:23:55Z
+! Entries: 14067
 ! Generated automatically
 
 /ads?client=
@@ -8292,6 +8292,7 @@ $script,3p,denyallow=doodcdn.io|doodcdn.io|fastly.net|statically.io|sharecast.ws
 ||lectortaurus.com^
 ||manhwa68.com^
 ||callistanise.com^
+||buddyporn.com^
 ||hentaila.com^
 ||cyberfile.me^
 ||veziaici.net^

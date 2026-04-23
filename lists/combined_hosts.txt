@@ -8265,6 +8265,7 @@
 0.0.0.0 lectortaurus.com
 0.0.0.0 manhwa68.com
 0.0.0.0 callistanise.com
+0.0.0.0 buddyporn.com
 0.0.0.0 hentaila.com
 0.0.0.0 cyberfile.me
 0.0.0.0 veziaici.net
