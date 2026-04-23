@@ -1,6 +1,6 @@
 ! Title: Combined custom list (DNS)
-! Last modified: 2026-04-22T19:49:32Z
-! Entries: 14070
+! Last modified: 2026-04-23T03:57:24Z
+! Entries: 14066
 ! Generated automatically
 
 /ads?client=
@@ -3733,6 +3733,7 @@ $script,3p,denyallow=doodcdn.io|doodcdn.io|fastly.net|statically.io|sharecast.ws
 ||aboutyou.de^
 ||autotrader.co.uk^
 ||yahoo.com^
+||livpost.co.uk^
 ||hwbusters.com^
 ||the-independent.com^
 ||lifeandstylemag.com^
@@ -4501,7 +4502,6 @@ $script,3p,denyallow=doodcdn.io|doodcdn.io|fastly.net|statically.io|sharecast.ws
 ||worldwidefaucet.com^
 ||xprime4u.lat^
 ||torrinomedica.it^
-||modijiurl.com^
 ||worthitorwoke.com^
 ||realtormontreal.ca^
 ||djnonstopmusic.in^
@@ -4544,7 +4544,6 @@ $script,3p,denyallow=doodcdn.io|doodcdn.io|fastly.net|statically.io|sharecast.ws
 ||ru-clip.com^
 ||links.lootlabs.gg^
 ||file-me.top^
-||mtpro.xyz^
 ||camsfinder.com^
 ||elamigosgamez.net^
 ||cnxxx.org^
@@ -5242,7 +5241,6 @@ $script,3p,denyallow=doodcdn.io|doodcdn.io|fastly.net|statically.io|sharecast.ws
 ||crast.net^
 ||helmiau.com^
 ||spigotunlocked.org^
-||strtapeadblocker.art^
 ||tweakcentral.net^
 ||utils.surf^
 ||jav68.net^
@@ -5305,7 +5303,6 @@ $script,3p,denyallow=doodcdn.io|doodcdn.io|fastly.net|statically.io|sharecast.ws
 ||learngeom.com^
 ||b2bhint.com^
 ||footy.to^
-||kituweh.xyz^
 ||btcadspace.com^
 ||mrlabtest.com^
 ||streamsb.net^
@@ -5326,14 +5323,12 @@ $script,3p,denyallow=doodcdn.io|doodcdn.io|fastly.net|statically.io|sharecast.ws
 ||studyis.xyz^
 ||tubeload.co^
 ||sadeempc.com^
-||gplpalace.one^
 ||htmlsave.com^
 ||apkandroidhub.in^
 ||sgxnifty.org^
 ||faucethero.com^
 ||freecoursesite.com^
 ||quizack.com^
-||toolss.net^
 ||toeflmocks.com^
 ||mm9841.cc^
 ||examsnet.com^
@@ -9108,6 +9103,7 @@ $script,3p,denyallow=doodcdn.io|doodcdn.io|fastly.net|statically.io|sharecast.ws
 ||tunemovie.fun^
 ||www.youtube.com^
 ||hentai-id.tv^
+||mavink.com^
 ||simplywall.st^
 ||eneba.com^
 ||tag24.com^

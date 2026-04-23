@@ -3706,6 +3706,7 @@
 0.0.0.0 aboutyou.de
 0.0.0.0 autotrader.co.uk
 0.0.0.0 yahoo.com
+0.0.0.0 livpost.co.uk
 0.0.0.0 hwbusters.com
 0.0.0.0 the-independent.com
 0.0.0.0 lifeandstylemag.com
@@ -4474,7 +4475,6 @@
 0.0.0.0 worldwidefaucet.com
 0.0.0.0 xprime4u.lat
 0.0.0.0 torrinomedica.it
-0.0.0.0 modijiurl.com
 0.0.0.0 worthitorwoke.com
 0.0.0.0 realtormontreal.ca
 0.0.0.0 djnonstopmusic.in
@@ -4517,7 +4517,6 @@
 0.0.0.0 ru-clip.com
 0.0.0.0 links.lootlabs.gg
 0.0.0.0 file-me.top
-0.0.0.0 mtpro.xyz
 0.0.0.0 camsfinder.com
 0.0.0.0 elamigosgamez.net
 0.0.0.0 cnxxx.org
@@ -5215,7 +5214,6 @@
 0.0.0.0 crast.net
 0.0.0.0 helmiau.com
 0.0.0.0 spigotunlocked.org
-0.0.0.0 strtapeadblocker.art
 0.0.0.0 tweakcentral.net
 0.0.0.0 utils.surf
 0.0.0.0 jav68.net
@@ -5278,7 +5276,6 @@
 0.0.0.0 learngeom.com
 0.0.0.0 b2bhint.com
 0.0.0.0 footy.to
-0.0.0.0 kituweh.xyz
 0.0.0.0 btcadspace.com
 0.0.0.0 mrlabtest.com
 0.0.0.0 streamsb.net
@@ -5299,14 +5296,12 @@
 0.0.0.0 studyis.xyz
 0.0.0.0 tubeload.co
 0.0.0.0 sadeempc.com
-0.0.0.0 gplpalace.one
 0.0.0.0 htmlsave.com
 0.0.0.0 apkandroidhub.in
 0.0.0.0 sgxnifty.org
 0.0.0.0 faucethero.com
 0.0.0.0 freecoursesite.com
 0.0.0.0 quizack.com
-0.0.0.0 toolss.net
 0.0.0.0 toeflmocks.com
 0.0.0.0 mm9841.cc
 0.0.0.0 examsnet.com
@@ -9081,6 +9076,7 @@
 0.0.0.0 tunemovie.fun
 0.0.0.0 www.youtube.com
 0.0.0.0 hentai-id.tv
+0.0.0.0 mavink.com
 0.0.0.0 simplywall.st
 0.0.0.0 eneba.com
 0.0.0.0 tag24.com
