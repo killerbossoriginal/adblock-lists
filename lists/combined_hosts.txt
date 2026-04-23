@@ -9077,6 +9077,7 @@
 0.0.0.0 tunemovie.fun
 0.0.0.0 www.youtube.com
 0.0.0.0 hentai-id.tv
+0.0.0.0 braflix.win
 0.0.0.0 mavink.com
 0.0.0.0 simplywall.st
 0.0.0.0 eneba.com
