@@ -3670,6 +3670,7 @@
 0.0.0.0 thedailyjagran.com
 0.0.0.0 neonheightsservers.com
 0.0.0.0 evreporter.com
+0.0.0.0 linuxhaxor.net
 0.0.0.0 celebmafia.com
 0.0.0.0 priceline.com
 0.0.0.0 freshdirect.com
@@ -5969,6 +5970,7 @@
 0.0.0.0 eprevodilac.com
 0.0.0.0 njuskalo.hr
 0.0.0.0 mob.hr
+0.0.0.0 fxstreet.cz
 0.0.0.0 mediaguru.cz
 0.0.0.0 cas.sk
 0.0.0.0 novinky.cz
@@ -9072,6 +9074,7 @@
 0.0.0.0 tunemovie.fun
 0.0.0.0 www.youtube.com
 0.0.0.0 hentai-id.tv
+0.0.0.0 aetv.com
 0.0.0.0 nine.com.au
 0.0.0.0 primagames.com
 0.0.0.0 braflix.win

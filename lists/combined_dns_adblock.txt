@@ -1,6 +1,6 @@
 ! Title: Combined custom list (DNS)
-! Last modified: 2026-04-24T08:35:07Z
-! Entries: 14063
+! Last modified: 2026-04-24T14:16:20Z
+! Entries: 14066
 ! Generated automatically
 
 /ads?client=
@@ -3697,6 +3697,7 @@ $script,3p,denyallow=doodcdn.io|doodcdn.io|fastly.net|statically.io|sharecast.ws
 ||thedailyjagran.com^
 ||neonheightsservers.com^
 ||evreporter.com^
+||linuxhaxor.net^
 ||celebmafia.com^
 ||priceline.com^
 ||freshdirect.com^
@@ -5996,6 +5997,7 @@ $script,3p,denyallow=doodcdn.io|doodcdn.io|fastly.net|statically.io|sharecast.ws
 ||eprevodilac.com^
 ||njuskalo.hr^
 ||mob.hr^
+||fxstreet.cz^
 ||mediaguru.cz^
 ||cas.sk^
 ||novinky.cz^
@@ -9099,6 +9101,7 @@ $script,3p,denyallow=doodcdn.io|doodcdn.io|fastly.net|statically.io|sharecast.ws
 ||tunemovie.fun^
 ||www.youtube.com^
 ||hentai-id.tv^
+||aetv.com^
 ||nine.com.au^
 ||primagames.com^
 ||braflix.win^
