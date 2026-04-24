@@ -1,5 +1,5 @@
 ! Title: Combined custom list (DNS)
-! Last modified: 2026-04-24T14:16:20Z
+! Last modified: 2026-04-24T19:37:29Z
 ! Entries: 14066
 ! Generated automatically
 
@@ -392,6 +392,7 @@ $script,3p,denyallow=doodcdn.io|doodcdn.io|fastly.net|statically.io|sharecast.ws
 ||partnerkin.com^
 ||filmibeat.com^
 ||kyivindependent.com^
+||mindbodygreen.com^
 ||mybanktracker.com^
 ||thesun.co.uk^
 ||timesofmalta.com^
@@ -722,6 +723,7 @@ $script,3p,denyallow=doodcdn.io|doodcdn.io|fastly.net|statically.io|sharecast.ws
 ||friv.com^
 ||irishnews.com^
 ||ebab.com^
+||metoffice.gov.uk^
 ||dailydooh.com^
 ||sansabanews.com^
 ||techrepublic.com^
@@ -1065,6 +1067,7 @@ $script,3p,denyallow=doodcdn.io|doodcdn.io|fastly.net|statically.io|sharecast.ws
 ||aviatorsmarket.com^
 ||marketscreener.com^
 ||arydigital.tv^
+||gulfnews.com^
 ||bigissue.com^
 ||gamejolt.com^
 ||porndoe.com^
@@ -1678,7 +1681,6 @@ $script,3p,denyallow=doodcdn.io|doodcdn.io|fastly.net|statically.io|sharecast.ws
 ||gobankingrates.com^
 ||stuff.co.nz^
 ||scribd.com^
-||mindbodygreen.com^
 ||hotnewhiphop.com^
 ||english.mathrubhumi.com^
 ||bgr.com^
@@ -3534,6 +3536,7 @@ $script,3p,denyallow=doodcdn.io|doodcdn.io|fastly.net|statically.io|sharecast.ws
 ||hotstar.com^
 ||qwant.com^
 ||g2a.com^
+||hulldailymail.co.uk^
 ||audi-sport.net^
 ||serververify.com^
 ||chrome-stats.com^
@@ -9999,7 +10002,6 @@ $script,3p,denyallow=doodcdn.io|doodcdn.io|fastly.net|statically.io|sharecast.ws
 ||papergames.io^
 ||budgetlightforum.com^
 ||nudogram.com^
-||gulfnews.com^
 ||tactics.tools^
 ||dpm.lol^
 ||hdaud.io^
@@ -10709,7 +10711,6 @@ $script,3p,denyallow=doodcdn.io|doodcdn.io|fastly.net|statically.io|sharecast.ws
 ||boards.vinylcollective.com^
 ||belfastmedia.com^
 ||captainaltcoin.com^
-||hulldailymail.co.uk^
 ||autocarpro.in^
 ||saveur.com^
 ||ain.capital^
@@ -11789,7 +11790,6 @@ $script,3p,denyallow=doodcdn.io|doodcdn.io|fastly.net|statically.io|sharecast.ws
 ||sentinelassam.com^
 ||thetechbasket.com^
 ||filmyplex123.blogspot.com^
-||metoffice.gov.uk^
 ||hecoinfo.com^
 ||scriptinghelpers.org^
 ||wsvn.com^

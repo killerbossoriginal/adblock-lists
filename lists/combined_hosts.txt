@@ -365,6 +365,7 @@
 0.0.0.0 partnerkin.com
 0.0.0.0 filmibeat.com
 0.0.0.0 kyivindependent.com
+0.0.0.0 mindbodygreen.com
 0.0.0.0 mybanktracker.com
 0.0.0.0 thesun.co.uk
 0.0.0.0 timesofmalta.com
@@ -695,6 +696,7 @@
 0.0.0.0 friv.com
 0.0.0.0 irishnews.com
 0.0.0.0 ebab.com
+0.0.0.0 metoffice.gov.uk
 0.0.0.0 dailydooh.com
 0.0.0.0 sansabanews.com
 0.0.0.0 techrepublic.com
@@ -1038,6 +1040,7 @@
 0.0.0.0 aviatorsmarket.com
 0.0.0.0 marketscreener.com
 0.0.0.0 arydigital.tv
+0.0.0.0 gulfnews.com
 0.0.0.0 bigissue.com
 0.0.0.0 gamejolt.com
 0.0.0.0 porndoe.com
@@ -1651,7 +1654,6 @@
 0.0.0.0 gobankingrates.com
 0.0.0.0 stuff.co.nz
 0.0.0.0 scribd.com
-0.0.0.0 mindbodygreen.com
 0.0.0.0 hotnewhiphop.com
 0.0.0.0 english.mathrubhumi.com
 0.0.0.0 bgr.com
@@ -3507,6 +3509,7 @@
 0.0.0.0 hotstar.com
 0.0.0.0 qwant.com
 0.0.0.0 g2a.com
+0.0.0.0 hulldailymail.co.uk
 0.0.0.0 audi-sport.net
 0.0.0.0 serververify.com
 0.0.0.0 chrome-stats.com
@@ -9972,7 +9975,6 @@
 0.0.0.0 papergames.io
 0.0.0.0 budgetlightforum.com
 0.0.0.0 nudogram.com
-0.0.0.0 gulfnews.com
 0.0.0.0 tactics.tools
 0.0.0.0 dpm.lol
 0.0.0.0 hdaud.io
@@ -10682,7 +10684,6 @@
 0.0.0.0 boards.vinylcollective.com
 0.0.0.0 belfastmedia.com
 0.0.0.0 captainaltcoin.com
-0.0.0.0 hulldailymail.co.uk
 0.0.0.0 autocarpro.in
 0.0.0.0 saveur.com
 0.0.0.0 ain.capital
@@ -11762,7 +11763,6 @@
 0.0.0.0 sentinelassam.com
 0.0.0.0 thetechbasket.com
 0.0.0.0 filmyplex123.blogspot.com
-0.0.0.0 metoffice.gov.uk
 0.0.0.0 hecoinfo.com
 0.0.0.0 scriptinghelpers.org
 0.0.0.0 wsvn.com
