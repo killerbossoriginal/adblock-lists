@@ -746,7 +746,6 @@
 0.0.0.0 appleinsider.com
 0.0.0.0 pocketgamer.com
 0.0.0.0 cellmapper.net
-0.0.0.0 sourceforge.net
 0.0.0.0 mytuner-radio.com
 0.0.0.0 moviemistakes.com
 0.0.0.0 standard.co.uk
@@ -989,6 +988,7 @@
 0.0.0.0 savingcountrymusic.com
 0.0.0.0 capetownmagazine.com
 0.0.0.0 softexia.com
+0.0.0.0 sourceforge.net
 0.0.0.0 progameguides.com
 0.0.0.0 gamepur.com
 0.0.0.0 walterfootball.com
@@ -9072,6 +9072,8 @@
 0.0.0.0 tunemovie.fun
 0.0.0.0 www.youtube.com
 0.0.0.0 hentai-id.tv
+0.0.0.0 nine.com.au
+0.0.0.0 primagames.com
 0.0.0.0 braflix.win
 0.0.0.0 mavink.com
 0.0.0.0 simplywall.st
@@ -10314,7 +10316,6 @@
 0.0.0.0 elle.com
 0.0.0.0 goworkship.com
 0.0.0.0 gaystream.pw
-0.0.0.0 primagames.com
 0.0.0.0 jizzbunker.com
 0.0.0.0 y99.in
 0.0.0.0 northerndailyleader.com.au
@@ -10974,7 +10975,6 @@
 0.0.0.0 electroniclinic.com
 0.0.0.0 allmath.com
 0.0.0.0 a10.com
-0.0.0.0 ebooxa.com
 0.0.0.0 gamessumo.com
 0.0.0.0 prinxy.app
 0.0.0.0 gameask.com
