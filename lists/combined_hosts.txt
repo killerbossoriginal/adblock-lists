@@ -4521,7 +4521,6 @@
 0.0.0.0 camsfinder.com
 0.0.0.0 elamigosgamez.net
 0.0.0.0 cnxxx.org
-0.0.0.0 planetf1.com
 0.0.0.0 ftuapps.farlad.com
 0.0.0.0 torupload.com
 0.0.0.0 cloudfam.io
@@ -4641,7 +4640,6 @@
 0.0.0.0 animefever.cc
 0.0.0.0 linkvegastheme.com
 0.0.0.0 sklinker.in
-0.0.0.0 goldengoalsfinance.com
 0.0.0.0 bdstream.site
 0.0.0.0 lonefun.com
 0.0.0.0 livehindustan.com
@@ -4679,6 +4677,7 @@
 0.0.0.0 teatmik.ee
 0.0.0.0 wouterplanet.com
 0.0.0.0 numbeo.com
+0.0.0.0 leeapk.com
 0.0.0.0 pokemon-project.com
 0.0.0.0 apkhosto.com
 0.0.0.0 dramafren.org
@@ -4704,7 +4703,6 @@
 0.0.0.0 rimworldbase.com
 0.0.0.0 modernjs.com
 0.0.0.0 worldmak.com
-0.0.0.0 call-bomber.info
 0.0.0.0 qrcodemonkey.net
 0.0.0.0 proboxtv.com
 0.0.0.0 poophd.video-src.com
@@ -4912,7 +4910,6 @@
 0.0.0.0 apkmoddone.phongroblox.com
 0.0.0.0 mhn.quest
 0.0.0.0 hardreset.info
-0.0.0.0 poscishd.online
 0.0.0.0 xszav1.com
 0.0.0.0 elektrotanya.com
 0.0.0.0 play.dictionary.com
@@ -5099,7 +5096,6 @@
 0.0.0.0 sportsplays.com
 0.0.0.0 upzone.ga
 0.0.0.0 techacrobat.com
-0.0.0.0 sbchill.com
 0.0.0.0 deezer.com
 0.0.0.0 watchhentai.net
 0.0.0.0 hanime.xxx
@@ -5132,7 +5128,6 @@
 0.0.0.0 cinemablind.com
 0.0.0.0 bagpipe.news
 0.0.0.0 tool-box.xyz
-0.0.0.0 9koala.com
 0.0.0.0 blog.nationapk.com
 0.0.0.0 darkhub-v4.maxt.church
 0.0.0.0 scamdoc.com
@@ -5146,7 +5141,6 @@
 0.0.0.0 ftuapps.dev
 0.0.0.0 cboxera.com
 0.0.0.0 codingdeft.com
-0.0.0.0 sportsguild.net
 0.0.0.0 upshrink.com
 0.0.0.0 watchtv24.com
 0.0.0.0 codingnepalweb.com
@@ -8877,6 +8871,7 @@
 0.0.0.0 totalcsgo.com
 0.0.0.0 fieldandstream.com
 0.0.0.0 popphoto.com
+0.0.0.0 planetf1.com
 0.0.0.0 olyrix.com
 0.0.0.0 theaviationist.com
 0.0.0.0 ygoprodeck.com

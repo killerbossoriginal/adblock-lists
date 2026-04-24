@@ -1,6 +1,6 @@
 ! Title: Combined custom list (DNS)
-! Last modified: 2026-04-23T19:52:55Z
-! Entries: 14068
+! Last modified: 2026-04-24T04:01:08Z
+! Entries: 14063
 ! Generated automatically
 
 /ads?client=
@@ -4548,7 +4548,6 @@ $script,3p,denyallow=doodcdn.io|doodcdn.io|fastly.net|statically.io|sharecast.ws
 ||camsfinder.com^
 ||elamigosgamez.net^
 ||cnxxx.org^
-||planetf1.com^
 ||ftuapps.farlad.com^
 ||torupload.com^
 ||cloudfam.io^
@@ -4668,7 +4667,6 @@ $script,3p,denyallow=doodcdn.io|doodcdn.io|fastly.net|statically.io|sharecast.ws
 ||animefever.cc^
 ||linkvegastheme.com^
 ||sklinker.in^
-||goldengoalsfinance.com^
 ||bdstream.site^
 ||lonefun.com^
 ||livehindustan.com^
@@ -4706,6 +4704,7 @@ $script,3p,denyallow=doodcdn.io|doodcdn.io|fastly.net|statically.io|sharecast.ws
 ||teatmik.ee^
 ||wouterplanet.com^
 ||numbeo.com^
+||leeapk.com^
 ||pokemon-project.com^
 ||apkhosto.com^
 ||dramafren.org^
@@ -4731,7 +4730,6 @@ $script,3p,denyallow=doodcdn.io|doodcdn.io|fastly.net|statically.io|sharecast.ws
 ||rimworldbase.com^
 ||modernjs.com^
 ||worldmak.com^
-||call-bomber.info^
 ||qrcodemonkey.net^
 ||proboxtv.com^
 ||poophd.video-src.com^
@@ -4939,7 +4937,6 @@ $script,3p,denyallow=doodcdn.io|doodcdn.io|fastly.net|statically.io|sharecast.ws
 ||apkmoddone.phongroblox.com^
 ||mhn.quest^
 ||hardreset.info^
-||poscishd.online^
 ||xszav1.com^
 ||elektrotanya.com^
 ||play.dictionary.com^
@@ -5126,7 +5123,6 @@ $script,3p,denyallow=doodcdn.io|doodcdn.io|fastly.net|statically.io|sharecast.ws
 ||sportsplays.com^
 ||upzone.ga^
 ||techacrobat.com^
-||sbchill.com^
 ||deezer.com^
 ||watchhentai.net^
 ||hanime.xxx^
@@ -5159,7 +5155,6 @@ $script,3p,denyallow=doodcdn.io|doodcdn.io|fastly.net|statically.io|sharecast.ws
 ||cinemablind.com^
 ||bagpipe.news^
 ||tool-box.xyz^
-||9koala.com^
 ||blog.nationapk.com^
 ||darkhub-v4.maxt.church^
 ||scamdoc.com^
@@ -5173,7 +5168,6 @@ $script,3p,denyallow=doodcdn.io|doodcdn.io|fastly.net|statically.io|sharecast.ws
 ||ftuapps.dev^
 ||cboxera.com^
 ||codingdeft.com^
-||sportsguild.net^
 ||upshrink.com^
 ||watchtv24.com^
 ||codingnepalweb.com^
@@ -8904,6 +8898,7 @@ $script,3p,denyallow=doodcdn.io|doodcdn.io|fastly.net|statically.io|sharecast.ws
 ||totalcsgo.com^
 ||fieldandstream.com^
 ||popphoto.com^
+||planetf1.com^
 ||olyrix.com^
 ||theaviationist.com^
 ||ygoprodeck.com^
