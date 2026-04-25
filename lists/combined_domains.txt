@@ -1223,10 +1223,12 @@ advrider.com
 buzzfeed.com
 kurocore.com
 radiopaedia.org
+wikiwand.com
 sciencenews.org
 am5.com
 diffchecker.com
 mv-voice.com
+cybernews.com
 ntvstream.cx
 imsa.com
 thisiscolossal.com
@@ -1534,7 +1536,6 @@ therecord.media
 accessonline.com
 financemagnates.com
 empireonline.com
-wikiwand.com
 gamewatcher.com
 news.artnet.com
 pixnoy.com
@@ -1678,7 +1679,6 @@ weatherpro.com
 techspot.com
 netweather.tv
 theyeshivaworld.com
-cybernews.com
 azscore.com
 softonic.com
 ehftv.com

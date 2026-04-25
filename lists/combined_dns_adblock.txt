@@ -1,5 +1,5 @@
 ! Title: Combined custom list (DNS)
-! Last modified: 2026-04-24T19:37:29Z
+! Last modified: 2026-04-25T03:44:04Z
 ! Entries: 14066
 ! Generated automatically
 
@@ -1250,10 +1250,12 @@ $script,3p,denyallow=doodcdn.io|doodcdn.io|fastly.net|statically.io|sharecast.ws
 ||buzzfeed.com^
 ||kurocore.com^
 ||radiopaedia.org^
+||wikiwand.com^
 ||sciencenews.org^
 ||am5.com^
 ||diffchecker.com^
 ||mv-voice.com^
+||cybernews.com^
 ||ntvstream.cx^
 ||imsa.com^
 ||thisiscolossal.com^
@@ -1561,7 +1563,6 @@ $script,3p,denyallow=doodcdn.io|doodcdn.io|fastly.net|statically.io|sharecast.ws
 ||accessonline.com^
 ||financemagnates.com^
 ||empireonline.com^
-||wikiwand.com^
 ||gamewatcher.com^
 ||news.artnet.com^
 ||pixnoy.com^
@@ -1705,7 +1706,6 @@ $script,3p,denyallow=doodcdn.io|doodcdn.io|fastly.net|statically.io|sharecast.ws
 ||techspot.com^
 ||netweather.tv^
 ||theyeshivaworld.com^
-||cybernews.com^
 ||azscore.com^
 ||softonic.com^
 ||ehftv.com^

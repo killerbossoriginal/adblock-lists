@@ -1223,10 +1223,12 @@
 0.0.0.0 buzzfeed.com
 0.0.0.0 kurocore.com
 0.0.0.0 radiopaedia.org
+0.0.0.0 wikiwand.com
 0.0.0.0 sciencenews.org
 0.0.0.0 am5.com
 0.0.0.0 diffchecker.com
 0.0.0.0 mv-voice.com
+0.0.0.0 cybernews.com
 0.0.0.0 ntvstream.cx
 0.0.0.0 imsa.com
 0.0.0.0 thisiscolossal.com
@@ -1534,7 +1536,6 @@
 0.0.0.0 accessonline.com
 0.0.0.0 financemagnates.com
 0.0.0.0 empireonline.com
-0.0.0.0 wikiwand.com
 0.0.0.0 gamewatcher.com
 0.0.0.0 news.artnet.com
 0.0.0.0 pixnoy.com
@@ -1678,7 +1679,6 @@
 0.0.0.0 techspot.com
 0.0.0.0 netweather.tv
 0.0.0.0 theyeshivaworld.com
-0.0.0.0 cybernews.com
 0.0.0.0 azscore.com
 0.0.0.0 softonic.com
 0.0.0.0 ehftv.com
