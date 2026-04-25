@@ -1,6 +1,6 @@
 ! Title: Combined custom list (DNS)
-! Last modified: 2026-04-25T13:49:39Z
-! Entries: 14067
+! Last modified: 2026-04-25T19:32:07Z
+! Entries: 14069
 ! Generated automatically
 
 /ads?client=
@@ -4547,6 +4547,7 @@ $script,3p,denyallow=doodcdn.io|doodcdn.io|fastly.net|statically.io|sharecast.ws
 ||delicious-audio.com^
 ||trshow.info^
 ||ru-clip.com^
+||smksports.live^
 ||rule34hentai.net^
 ||links.lootlabs.gg^
 ||file-me.top^
@@ -8128,6 +8129,7 @@ $script,3p,denyallow=doodcdn.io|doodcdn.io|fastly.net|statically.io|sharecast.ws
 ||javboss.me^
 ||brandbuffet.in.th^
 ||asilmedia.org^
+||animehay01.site^
 ||arigl.com^
 ||storage.googleapiscdn.com^
 ||phim-18.tv^

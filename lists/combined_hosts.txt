@@ -4520,6 +4520,7 @@
 0.0.0.0 delicious-audio.com
 0.0.0.0 trshow.info
 0.0.0.0 ru-clip.com
+0.0.0.0 smksports.live
 0.0.0.0 rule34hentai.net
 0.0.0.0 links.lootlabs.gg
 0.0.0.0 file-me.top
@@ -8101,6 +8102,7 @@
 0.0.0.0 javboss.me
 0.0.0.0 brandbuffet.in.th
 0.0.0.0 asilmedia.org
+0.0.0.0 animehay01.site
 0.0.0.0 arigl.com
 0.0.0.0 storage.googleapiscdn.com
 0.0.0.0 phim-18.tv
