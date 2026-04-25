@@ -1,6 +1,6 @@
 ! Title: Combined custom list (DNS)
-! Last modified: 2026-04-25T03:44:04Z
-! Entries: 14066
+! Last modified: 2026-04-25T07:53:30Z
+! Entries: 14067
 ! Generated automatically
 
 /ads?client=
@@ -1472,6 +1472,7 @@ $script,3p,denyallow=doodcdn.io|doodcdn.io|fastly.net|statically.io|sharecast.ws
 ||salon.com^
 ||topsmerch.com^
 ||devdiscourse.com^
+||tctmd.com^
 ||boardgamegeek.com^
 ||hotdogwater.dog^
 ||dermnetnz.org^

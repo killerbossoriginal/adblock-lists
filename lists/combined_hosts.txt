@@ -1445,6 +1445,7 @@
 0.0.0.0 salon.com
 0.0.0.0 topsmerch.com
 0.0.0.0 devdiscourse.com
+0.0.0.0 tctmd.com
 0.0.0.0 boardgamegeek.com
 0.0.0.0 hotdogwater.dog
 0.0.0.0 dermnetnz.org
