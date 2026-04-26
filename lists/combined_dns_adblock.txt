@@ -1,6 +1,6 @@
 ! Title: Combined custom list (DNS)
-! Last modified: 2026-04-26T04:06:32Z
-! Entries: 14069
+! Last modified: 2026-04-26T08:06:57Z
+! Entries: 14070
 ! Generated automatically
 
 /ads?client=
@@ -2572,6 +2572,7 @@ $script,3p,denyallow=doodcdn.io|doodcdn.io|fastly.net|statically.io|sharecast.ws
 ||cleaner.com^
 ||duckduckgo.com^
 ||finextra.com^
+||topographic-map.com^
 ||dfir.training^
 ||beckershospitalreview.com^
 ||monsoonjournal.com^
