@@ -411,6 +411,7 @@
 0.0.0.0 komikcast.site
 0.0.0.0 nzherald.co.nz
 0.0.0.0 vueuse.org
+0.0.0.0 wrestletalk.com
 0.0.0.0 post-gazette.com
 0.0.0.0 safetydetectives.com
 0.0.0.0 usnews.com
@@ -4521,6 +4522,7 @@
 0.0.0.0 delicious-audio.com
 0.0.0.0 trshow.info
 0.0.0.0 ru-clip.com
+0.0.0.0 xswiper.com
 0.0.0.0 smksports.live
 0.0.0.0 rule34hentai.net
 0.0.0.0 links.lootlabs.gg
