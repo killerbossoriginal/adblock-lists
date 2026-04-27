@@ -1,6 +1,6 @@
 ! Title: Combined custom list (DNS)
-! Last modified: 2026-04-27T14:36:27Z
-! Entries: 14075
+! Last modified: 2026-04-27T19:57:22Z
+! Entries: 14076
 ! Generated automatically
 
 /ads?client=
@@ -9111,6 +9111,8 @@ $script,3p,denyallow=doodcdn.io|doodcdn.io|fastly.net|statically.io|sharecast.ws
 ||tunemovie.fun^
 ||www.youtube.com^
 ||hentai-id.tv^
+||safefileku.com^
+||bavarianfootballworks.com^
 ||seatemperature.info^
 ||babez.live^
 ||aetv.com^
@@ -9944,7 +9946,6 @@ $script,3p,denyallow=doodcdn.io|doodcdn.io|fastly.net|statically.io|sharecast.ws
 ||stbturbo.xyz^
 ||easy2boot.xyz^
 ||decrypt.day^
-||safefileku.com^
 ||uira.live^
 ||uploadnow.io^
 ||grandforksherald.com^

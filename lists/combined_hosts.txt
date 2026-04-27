@@ -9084,6 +9084,8 @@
 0.0.0.0 tunemovie.fun
 0.0.0.0 www.youtube.com
 0.0.0.0 hentai-id.tv
+0.0.0.0 safefileku.com
+0.0.0.0 bavarianfootballworks.com
 0.0.0.0 seatemperature.info
 0.0.0.0 babez.live
 0.0.0.0 aetv.com
@@ -9917,7 +9919,6 @@
 0.0.0.0 stbturbo.xyz
 0.0.0.0 easy2boot.xyz
 0.0.0.0 decrypt.day
-0.0.0.0 safefileku.com
 0.0.0.0 uira.live
 0.0.0.0 uploadnow.io
 0.0.0.0 grandforksherald.com
