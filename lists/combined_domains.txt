@@ -3694,6 +3694,7 @@ tympanus.net
 psychcentral.com
 creepypasta.com
 hashrate.no
+downornot.net
 flightradar24.com
 healthyrex.com
 fandomwire.com
@@ -3805,7 +3806,6 @@ corvetteblogger.com
 digg.com
 docs.openwebui.com
 dotesports.com
-downornot.net
 dropstab.com
 fiverr.com
 gamersnexus.net

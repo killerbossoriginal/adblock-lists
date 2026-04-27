@@ -3694,6 +3694,7 @@
 0.0.0.0 psychcentral.com
 0.0.0.0 creepypasta.com
 0.0.0.0 hashrate.no
+0.0.0.0 downornot.net
 0.0.0.0 flightradar24.com
 0.0.0.0 healthyrex.com
 0.0.0.0 fandomwire.com
@@ -3805,7 +3806,6 @@
 0.0.0.0 digg.com
 0.0.0.0 docs.openwebui.com
 0.0.0.0 dotesports.com
-0.0.0.0 downornot.net
 0.0.0.0 dropstab.com
 0.0.0.0 fiverr.com
 0.0.0.0 gamersnexus.net

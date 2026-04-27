@@ -1,5 +1,5 @@
 ! Title: Combined custom list (DNS)
-! Last modified: 2026-04-26T19:33:44Z
+! Last modified: 2026-04-27T04:21:50Z
 ! Entries: 14070
 ! Generated automatically
 
@@ -3721,6 +3721,7 @@ $script,3p,denyallow=doodcdn.io|doodcdn.io|fastly.net|statically.io|sharecast.ws
 ||psychcentral.com^
 ||creepypasta.com^
 ||hashrate.no^
+||downornot.net^
 ||flightradar24.com^
 ||healthyrex.com^
 ||fandomwire.com^
@@ -3832,7 +3833,6 @@ $script,3p,denyallow=doodcdn.io|doodcdn.io|fastly.net|statically.io|sharecast.ws
 ||digg.com^
 ||docs.openwebui.com^
 ||dotesports.com^
-||downornot.net^
 ||dropstab.com^
 ||fiverr.com^
 ||gamersnexus.net^
