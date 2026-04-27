@@ -333,6 +333,7 @@ funkypotato.com
 lingojam.com
 ip-address.org
 digitimes.com
+image.pi7.org
 byjus.com
 dict.leo.org
 leo.org
@@ -838,6 +839,7 @@ d4builds.gg
 thefastmode.com
 sporcle.com
 coincarp.com
+gransnet.com
 businessgreen.com
 slideserve.com
 shortwaveschedule.com
@@ -882,7 +884,6 @@ scotsman.com
 ubergizmo.com
 thebridalbox.com
 trucknetuk.com
-image.pi7.org
 disqus.com
 gephardtdaily.com
 yourharlow.com
@@ -3695,6 +3696,7 @@ tympanus.net
 psychcentral.com
 creepypasta.com
 hashrate.no
+cjleo.com
 downornot.net
 flightradar24.com
 healthyrex.com
@@ -4522,7 +4524,6 @@ igg-games.com
 delicious-audio.com
 trshow.info
 ru-clip.com
-xswiper.com
 smksports.live
 rule34hentai.net
 links.lootlabs.gg
@@ -9083,6 +9084,8 @@ animeflv.net
 tunemovie.fun
 www.youtube.com
 hentai-id.tv
+seatemperature.info
+babez.live
 aetv.com
 nine.com.au
 primagames.com

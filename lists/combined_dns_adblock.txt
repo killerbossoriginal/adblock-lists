@@ -1,6 +1,6 @@
 ! Title: Combined custom list (DNS)
-! Last modified: 2026-04-27T09:07:40Z
-! Entries: 14072
+! Last modified: 2026-04-27T14:36:27Z
+! Entries: 14075
 ! Generated automatically
 
 /ads?client=
@@ -360,6 +360,7 @@ $script,3p,denyallow=doodcdn.io|doodcdn.io|fastly.net|statically.io|sharecast.ws
 ||lingojam.com^
 ||ip-address.org^
 ||digitimes.com^
+||image.pi7.org^
 ||byjus.com^
 ||dict.leo.org^
 ||leo.org^
@@ -865,6 +866,7 @@ $script,3p,denyallow=doodcdn.io|doodcdn.io|fastly.net|statically.io|sharecast.ws
 ||thefastmode.com^
 ||sporcle.com^
 ||coincarp.com^
+||gransnet.com^
 ||businessgreen.com^
 ||slideserve.com^
 ||shortwaveschedule.com^
@@ -909,7 +911,6 @@ $script,3p,denyallow=doodcdn.io|doodcdn.io|fastly.net|statically.io|sharecast.ws
 ||ubergizmo.com^
 ||thebridalbox.com^
 ||trucknetuk.com^
-||image.pi7.org^
 ||disqus.com^
 ||gephardtdaily.com^
 ||yourharlow.com^
@@ -3722,6 +3723,7 @@ $script,3p,denyallow=doodcdn.io|doodcdn.io|fastly.net|statically.io|sharecast.ws
 ||psychcentral.com^
 ||creepypasta.com^
 ||hashrate.no^
+||cjleo.com^
 ||downornot.net^
 ||flightradar24.com^
 ||healthyrex.com^
@@ -4549,7 +4551,6 @@ $script,3p,denyallow=doodcdn.io|doodcdn.io|fastly.net|statically.io|sharecast.ws
 ||delicious-audio.com^
 ||trshow.info^
 ||ru-clip.com^
-||xswiper.com^
 ||smksports.live^
 ||rule34hentai.net^
 ||links.lootlabs.gg^
@@ -9110,6 +9111,8 @@ $script,3p,denyallow=doodcdn.io|doodcdn.io|fastly.net|statically.io|sharecast.ws
 ||tunemovie.fun^
 ||www.youtube.com^
 ||hentai-id.tv^
+||seatemperature.info^
+||babez.live^
 ||aetv.com^
 ||nine.com.au^
 ||primagames.com^

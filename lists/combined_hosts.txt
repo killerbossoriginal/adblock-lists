@@ -333,6 +333,7 @@
 0.0.0.0 lingojam.com
 0.0.0.0 ip-address.org
 0.0.0.0 digitimes.com
+0.0.0.0 image.pi7.org
 0.0.0.0 byjus.com
 0.0.0.0 dict.leo.org
 0.0.0.0 leo.org
@@ -838,6 +839,7 @@
 0.0.0.0 thefastmode.com
 0.0.0.0 sporcle.com
 0.0.0.0 coincarp.com
+0.0.0.0 gransnet.com
 0.0.0.0 businessgreen.com
 0.0.0.0 slideserve.com
 0.0.0.0 shortwaveschedule.com
@@ -882,7 +884,6 @@
 0.0.0.0 ubergizmo.com
 0.0.0.0 thebridalbox.com
 0.0.0.0 trucknetuk.com
-0.0.0.0 image.pi7.org
 0.0.0.0 disqus.com
 0.0.0.0 gephardtdaily.com
 0.0.0.0 yourharlow.com
@@ -3695,6 +3696,7 @@
 0.0.0.0 psychcentral.com
 0.0.0.0 creepypasta.com
 0.0.0.0 hashrate.no
+0.0.0.0 cjleo.com
 0.0.0.0 downornot.net
 0.0.0.0 flightradar24.com
 0.0.0.0 healthyrex.com
@@ -4522,7 +4524,6 @@
 0.0.0.0 delicious-audio.com
 0.0.0.0 trshow.info
 0.0.0.0 ru-clip.com
-0.0.0.0 xswiper.com
 0.0.0.0 smksports.live
 0.0.0.0 rule34hentai.net
 0.0.0.0 links.lootlabs.gg
@@ -9083,6 +9084,8 @@
 0.0.0.0 tunemovie.fun
 0.0.0.0 www.youtube.com
 0.0.0.0 hentai-id.tv
+0.0.0.0 seatemperature.info
+0.0.0.0 babez.live
 0.0.0.0 aetv.com
 0.0.0.0 nine.com.au
 0.0.0.0 primagames.com
