@@ -1,6 +1,6 @@
 ! Title: Combined custom list (DNS)
-! Last modified: 2026-04-28T09:07:02Z
-! Entries: 14077
+! Last modified: 2026-04-28T15:08:59Z
+! Entries: 14078
 ! Generated automatically
 
 /ads?client=
@@ -9112,6 +9112,8 @@ $script,3p,denyallow=doodcdn.io|doodcdn.io|fastly.net|statically.io|sharecast.ws
 ||tunemovie.fun^
 ||www.youtube.com^
 ||hentai-id.tv^
+||thedailycatch.org^
+||fapnow.xxx^
 ||forums.hardwarezone.com.sg^
 ||safefileku.com^
 ||bavarianfootballworks.com^
@@ -11154,7 +11156,6 @@ $script,3p,denyallow=doodcdn.io|doodcdn.io|fastly.net|statically.io|sharecast.ws
 ||its.porn^
 ||streamlivenow.me^
 ||pornrewind.com^
-||fapnow.xxx^
 ||collectiveray.com^
 ||matureporn.com^
 ||snipboard.io^

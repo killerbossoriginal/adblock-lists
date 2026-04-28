@@ -9085,6 +9085,8 @@
 0.0.0.0 tunemovie.fun
 0.0.0.0 www.youtube.com
 0.0.0.0 hentai-id.tv
+0.0.0.0 thedailycatch.org
+0.0.0.0 fapnow.xxx
 0.0.0.0 forums.hardwarezone.com.sg
 0.0.0.0 safefileku.com
 0.0.0.0 bavarianfootballworks.com
@@ -11127,7 +11129,6 @@
 0.0.0.0 its.porn
 0.0.0.0 streamlivenow.me
 0.0.0.0 pornrewind.com
-0.0.0.0 fapnow.xxx
 0.0.0.0 collectiveray.com
 0.0.0.0 matureporn.com
 0.0.0.0 snipboard.io
