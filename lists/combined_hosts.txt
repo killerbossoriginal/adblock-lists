@@ -9084,6 +9084,8 @@
 0.0.0.0 tunemovie.fun
 0.0.0.0 www.youtube.com
 0.0.0.0 hentai-id.tv
+0.0.0.0 forums.hardwarezone.com.sg
+0.0.0.0 thegamer.com
 0.0.0.0 safefileku.com
 0.0.0.0 bavarianfootballworks.com
 0.0.0.0 seatemperature.info
@@ -12525,7 +12527,6 @@
 0.0.0.0 mangarock.com
 0.0.0.0 forvo.com
 0.0.0.0 film21.online
-0.0.0.0 forums.hardwarezone.com.sg
 0.0.0.0 game-debate.com
 0.0.0.0 forums.watchuseek.com
 0.0.0.0 mangadog.club
