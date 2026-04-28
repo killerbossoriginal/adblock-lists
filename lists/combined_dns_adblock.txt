@@ -1,6 +1,6 @@
 ! Title: Combined custom list (DNS)
-! Last modified: 2026-04-28T15:08:59Z
-! Entries: 14078
+! Last modified: 2026-04-28T20:05:18Z
+! Entries: 14080
 ! Generated automatically
 
 /ads?client=
@@ -8494,6 +8494,7 @@ $script,3p,denyallow=doodcdn.io|doodcdn.io|fastly.net|statically.io|sharecast.ws
 ||video-to-mp3-converter.com^
 ||sportssoccer.club^
 ||oko.sh^
+||paramountplus.com^
 ||ctfile.com^
 ||papahd.club^
 ||javbangers.com^
@@ -9113,6 +9114,7 @@ $script,3p,denyallow=doodcdn.io|doodcdn.io|fastly.net|statically.io|sharecast.ws
 ||www.youtube.com^
 ||hentai-id.tv^
 ||thedailycatch.org^
+||voyeurhit.tube^
 ||fapnow.xxx^
 ||forums.hardwarezone.com.sg^
 ||safefileku.com^

@@ -8467,6 +8467,7 @@
 0.0.0.0 video-to-mp3-converter.com
 0.0.0.0 sportssoccer.club
 0.0.0.0 oko.sh
+0.0.0.0 paramountplus.com
 0.0.0.0 ctfile.com
 0.0.0.0 papahd.club
 0.0.0.0 javbangers.com
@@ -9086,6 +9087,7 @@
 0.0.0.0 www.youtube.com
 0.0.0.0 hentai-id.tv
 0.0.0.0 thedailycatch.org
+0.0.0.0 voyeurhit.tube
 0.0.0.0 fapnow.xxx
 0.0.0.0 forums.hardwarezone.com.sg
 0.0.0.0 safefileku.com
