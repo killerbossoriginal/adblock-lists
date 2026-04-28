@@ -7968,6 +7968,7 @@
 0.0.0.0 athirvu.in
 0.0.0.0 cinema.dinamalar.com
 0.0.0.0 vatantat.ru
+0.0.0.0 xn--y3cta3b5d6a.net
 0.0.0.0 jav24hda.com
 0.0.0.0 animewaku.com
 0.0.0.0 overmovies.com
@@ -9085,7 +9086,6 @@
 0.0.0.0 www.youtube.com
 0.0.0.0 hentai-id.tv
 0.0.0.0 forums.hardwarezone.com.sg
-0.0.0.0 thegamer.com
 0.0.0.0 safefileku.com
 0.0.0.0 bavarianfootballworks.com
 0.0.0.0 seatemperature.info

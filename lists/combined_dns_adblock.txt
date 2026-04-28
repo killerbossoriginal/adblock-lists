@@ -1,5 +1,5 @@
 ! Title: Combined custom list (DNS)
-! Last modified: 2026-04-28T04:24:54Z
+! Last modified: 2026-04-28T09:07:02Z
 ! Entries: 14077
 ! Generated automatically
 
@@ -7995,6 +7995,7 @@ $script,3p,denyallow=doodcdn.io|doodcdn.io|fastly.net|statically.io|sharecast.ws
 ||athirvu.in^
 ||cinema.dinamalar.com^
 ||vatantat.ru^
+||xn--y3cta3b5d6a.net^
 ||jav24hda.com^
 ||animewaku.com^
 ||overmovies.com^
@@ -9112,7 +9113,6 @@ $script,3p,denyallow=doodcdn.io|doodcdn.io|fastly.net|statically.io|sharecast.ws
 ||www.youtube.com^
 ||hentai-id.tv^
 ||forums.hardwarezone.com.sg^
-||thegamer.com^
 ||safefileku.com^
 ||bavarianfootballworks.com^
 ||seatemperature.info^
