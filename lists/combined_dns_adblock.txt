@@ -1,6 +1,6 @@
 ! Title: Combined custom list (DNS)
-! Last modified: 2026-04-29T04:20:44Z
-! Entries: 14080
+! Last modified: 2026-04-29T08:59:47Z
+! Entries: 14081
 ! Generated automatically
 
 /ads?client=
@@ -6044,6 +6044,7 @@ $script,3p,denyallow=doodcdn.io|doodcdn.io|fastly.net|statically.io|sharecast.ws
 ||extra.cz^
 ||olympijskytym.cz^
 ||horoskopy.cz^
+||autickar.cz^
 ||sauto.cz^
 ||stream.cz^
 ||pravda.sk^
@@ -9114,7 +9115,6 @@ $script,3p,denyallow=doodcdn.io|doodcdn.io|fastly.net|statically.io|sharecast.ws
 ||www.youtube.com^
 ||hentai-id.tv^
 ||thedailycatch.org^
-||voyeurhit.tube^
 ||fapnow.xxx^
 ||forums.hardwarezone.com.sg^
 ||safefileku.com^
@@ -11396,7 +11396,6 @@ $script,3p,denyallow=doodcdn.io|doodcdn.io|fastly.net|statically.io|sharecast.ws
 ||images4u.cc^
 ||kronenberg.org^
 ||listcrawler.eu^
-||txxxporn.tube^
 ||calendardate.com^
 ||thatviralfeed.com^
 ||fc2covid.com^
@@ -13476,6 +13475,7 @@ $script,3p,denyallow=doodcdn.io|doodcdn.io|fastly.net|statically.io|sharecast.ws
 ||dir.indiamart.com^
 ||oscobo.com^
 ||animeland.tv^
+||txxxporn.tube^
 ||cgtips.org^
 ||uploadboy.com^
 ||streambuddy.live^
@@ -13784,6 +13784,7 @@ $script,3p,denyallow=doodcdn.io|doodcdn.io|fastly.net|statically.io|sharecast.ws
 ||camera.aeonax.com^
 ||repo.hackyouriphone.org^
 ||circleofcricket.com^
+||khaddavi.net^
 ||watch.shout-tv.com^
 ||esladvice.com^
 ||pornuse.com^

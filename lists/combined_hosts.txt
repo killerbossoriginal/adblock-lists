@@ -6017,6 +6017,7 @@
 0.0.0.0 extra.cz
 0.0.0.0 olympijskytym.cz
 0.0.0.0 horoskopy.cz
+0.0.0.0 autickar.cz
 0.0.0.0 sauto.cz
 0.0.0.0 stream.cz
 0.0.0.0 pravda.sk
@@ -9087,7 +9088,6 @@
 0.0.0.0 www.youtube.com
 0.0.0.0 hentai-id.tv
 0.0.0.0 thedailycatch.org
-0.0.0.0 voyeurhit.tube
 0.0.0.0 fapnow.xxx
 0.0.0.0 forums.hardwarezone.com.sg
 0.0.0.0 safefileku.com
@@ -11369,7 +11369,6 @@
 0.0.0.0 images4u.cc
 0.0.0.0 kronenberg.org
 0.0.0.0 listcrawler.eu
-0.0.0.0 txxxporn.tube
 0.0.0.0 calendardate.com
 0.0.0.0 thatviralfeed.com
 0.0.0.0 fc2covid.com
@@ -13449,6 +13448,7 @@
 0.0.0.0 dir.indiamart.com
 0.0.0.0 oscobo.com
 0.0.0.0 animeland.tv
+0.0.0.0 txxxporn.tube
 0.0.0.0 cgtips.org
 0.0.0.0 uploadboy.com
 0.0.0.0 streambuddy.live
@@ -13757,6 +13757,7 @@
 0.0.0.0 camera.aeonax.com
 0.0.0.0 repo.hackyouriphone.org
 0.0.0.0 circleofcricket.com
+0.0.0.0 khaddavi.net
 0.0.0.0 watch.shout-tv.com
 0.0.0.0 esladvice.com
 0.0.0.0 pornuse.com
