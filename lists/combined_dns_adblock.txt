@@ -1,6 +1,6 @@
 ! Title: Combined custom list (DNS)
-! Last modified: 2026-04-29T08:59:47Z
-! Entries: 14081
+! Last modified: 2026-04-29T14:56:21Z
+! Entries: 14082
 ! Generated automatically
 
 /ads?client=
@@ -4551,6 +4551,7 @@ $script,3p,denyallow=doodcdn.io|doodcdn.io|fastly.net|statically.io|sharecast.ws
 ||delicious-audio.com^
 ||trshow.info^
 ||ru-clip.com^
+||healthy4pepole.com^
 ||smksports.live^
 ||rule34hentai.net^
 ||links.lootlabs.gg^
@@ -5128,7 +5129,6 @@ $script,3p,denyallow=doodcdn.io|doodcdn.io|fastly.net|statically.io|sharecast.ws
 ||hdstockimages.com^
 ||viu.tv^
 ||androidecuatoriano.xyz^
-||healthy4pepole.com^
 ||osmanonline.co.uk^
 ||sportsplays.com^
 ||upzone.ga^
@@ -6718,6 +6718,7 @@ $script,3p,denyallow=doodcdn.io|doodcdn.io|fastly.net|statically.io|sharecast.ws
 ||movie76.com^
 ||wardhanime.net^
 ||dm5.com^
+||iphoneitalia.com^
 ||vocegiallorossa.it^
 ||open.online^
 ||hdblog.it^
@@ -6728,7 +6729,6 @@ $script,3p,denyallow=doodcdn.io|doodcdn.io|fastly.net|statically.io|sharecast.ws
 ||tomshw.it^
 ||tecnoandroid.it^
 ||tp24.it^
-||iphoneitalia.com^
 ||ilfattoquotidiano.it^
 ||macitynet.it^
 ||calciomercato.com^
@@ -9105,6 +9105,7 @@ $script,3p,denyallow=doodcdn.io|doodcdn.io|fastly.net|statically.io|sharecast.ws
 ||chinatownav.com^
 ||mail.live.com^
 ||4pda.to^
+||toyotanation.com^
 ||programme-tv.net^
 ||quefaire.be^
 ||dogdrip.net^

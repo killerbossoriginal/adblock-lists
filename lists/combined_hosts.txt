@@ -4524,6 +4524,7 @@
 0.0.0.0 delicious-audio.com
 0.0.0.0 trshow.info
 0.0.0.0 ru-clip.com
+0.0.0.0 healthy4pepole.com
 0.0.0.0 smksports.live
 0.0.0.0 rule34hentai.net
 0.0.0.0 links.lootlabs.gg
@@ -5101,7 +5102,6 @@
 0.0.0.0 hdstockimages.com
 0.0.0.0 viu.tv
 0.0.0.0 androidecuatoriano.xyz
-0.0.0.0 healthy4pepole.com
 0.0.0.0 osmanonline.co.uk
 0.0.0.0 sportsplays.com
 0.0.0.0 upzone.ga
@@ -6691,6 +6691,7 @@
 0.0.0.0 movie76.com
 0.0.0.0 wardhanime.net
 0.0.0.0 dm5.com
+0.0.0.0 iphoneitalia.com
 0.0.0.0 vocegiallorossa.it
 0.0.0.0 open.online
 0.0.0.0 hdblog.it
@@ -6701,7 +6702,6 @@
 0.0.0.0 tomshw.it
 0.0.0.0 tecnoandroid.it
 0.0.0.0 tp24.it
-0.0.0.0 iphoneitalia.com
 0.0.0.0 ilfattoquotidiano.it
 0.0.0.0 macitynet.it
 0.0.0.0 calciomercato.com
@@ -9078,6 +9078,7 @@
 0.0.0.0 chinatownav.com
 0.0.0.0 mail.live.com
 0.0.0.0 4pda.to
+0.0.0.0 toyotanation.com
 0.0.0.0 programme-tv.net
 0.0.0.0 quefaire.be
 0.0.0.0 dogdrip.net
