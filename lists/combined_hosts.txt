@@ -429,6 +429,7 @@
 0.0.0.0 dodi-repacks.site
 0.0.0.0 appleworld.today
 0.0.0.0 raspians.com
+0.0.0.0 flyingmag.com
 0.0.0.0 upfivedown.com
 0.0.0.0 club386.com
 0.0.0.0 game-news24.com
@@ -1030,6 +1031,7 @@
 0.0.0.0 itnews.com.au
 0.0.0.0 shawlocal.com
 0.0.0.0 amazon.com
+0.0.0.0 livescience.com
 0.0.0.0 watnopaarpunjabinews.com
 0.0.0.0 etherealgames.com
 0.0.0.0 wiki.gg
@@ -2108,7 +2110,6 @@
 0.0.0.0 idropnews.com
 0.0.0.0 bdnews24.com
 0.0.0.0 nelomanga.net
-0.0.0.0 flyingmag.com
 0.0.0.0 golinuxcloud.com
 0.0.0.0 wst.tv
 0.0.0.0 game8.co
@@ -2233,6 +2234,7 @@
 0.0.0.0 defence-industry.eu
 0.0.0.0 apps.npr.org
 0.0.0.0 maxroll.gg
+0.0.0.0 cinemablend.com
 0.0.0.0 androidcentral.com
 0.0.0.0 girlswithmuscle.com
 0.0.0.0 trendhunter.com
@@ -9022,7 +9024,6 @@
 0.0.0.0 dl.ccbluex.net
 0.0.0.0 kyssfm.com
 0.0.0.0 medicalnewstoday.com
-0.0.0.0 livescience.com
 0.0.0.0 evanstonnow.com
 0.0.0.0 1337x.st
 0.0.0.0 dvbtmap.eu
@@ -9088,6 +9089,7 @@
 0.0.0.0 tunemovie.fun
 0.0.0.0 www.youtube.com
 0.0.0.0 hentai-id.tv
+0.0.0.0 willyweather.com.au
 0.0.0.0 thedailycatch.org
 0.0.0.0 fapnow.xxx
 0.0.0.0 forums.hardwarezone.com.sg
@@ -11983,7 +11985,6 @@
 0.0.0.0 downloads-anymovies.com
 0.0.0.0 newsobserver.com
 0.0.0.0 themaclife.com
-0.0.0.0 cinemablend.com
 0.0.0.0 dnschecker.org
 0.0.0.0 c4ddownload.com
 0.0.0.0 hobokengirl.com

@@ -1,6 +1,6 @@
 ! Title: Combined custom list (DNS)
-! Last modified: 2026-04-30T04:23:00Z
-! Entries: 14082
+! Last modified: 2026-04-30T09:00:56Z
+! Entries: 14083
 ! Generated automatically
 
 /ads?client=
@@ -456,6 +456,7 @@ $script,3p,denyallow=doodcdn.io|doodcdn.io|fastly.net|statically.io|sharecast.ws
 ||dodi-repacks.site^
 ||appleworld.today^
 ||raspians.com^
+||flyingmag.com^
 ||upfivedown.com^
 ||club386.com^
 ||game-news24.com^
@@ -1057,6 +1058,7 @@ $script,3p,denyallow=doodcdn.io|doodcdn.io|fastly.net|statically.io|sharecast.ws
 ||itnews.com.au^
 ||shawlocal.com^
 ||amazon.com^
+||livescience.com^
 ||watnopaarpunjabinews.com^
 ||etherealgames.com^
 ||wiki.gg^
@@ -2135,7 +2137,6 @@ $script,3p,denyallow=doodcdn.io|doodcdn.io|fastly.net|statically.io|sharecast.ws
 ||idropnews.com^
 ||bdnews24.com^
 ||nelomanga.net^
-||flyingmag.com^
 ||golinuxcloud.com^
 ||wst.tv^
 ||game8.co^
@@ -2260,6 +2261,7 @@ $script,3p,denyallow=doodcdn.io|doodcdn.io|fastly.net|statically.io|sharecast.ws
 ||defence-industry.eu^
 ||apps.npr.org^
 ||maxroll.gg^
+||cinemablend.com^
 ||androidcentral.com^
 ||girlswithmuscle.com^
 ||trendhunter.com^
@@ -9049,7 +9051,6 @@ $script,3p,denyallow=doodcdn.io|doodcdn.io|fastly.net|statically.io|sharecast.ws
 ||dl.ccbluex.net^
 ||kyssfm.com^
 ||medicalnewstoday.com^
-||livescience.com^
 ||evanstonnow.com^
 ||1337x.st^
 ||dvbtmap.eu^
@@ -9115,6 +9116,7 @@ $script,3p,denyallow=doodcdn.io|doodcdn.io|fastly.net|statically.io|sharecast.ws
 ||tunemovie.fun^
 ||www.youtube.com^
 ||hentai-id.tv^
+||willyweather.com.au^
 ||thedailycatch.org^
 ||fapnow.xxx^
 ||forums.hardwarezone.com.sg^
@@ -12010,7 +12012,6 @@ $script,3p,denyallow=doodcdn.io|doodcdn.io|fastly.net|statically.io|sharecast.ws
 ||downloads-anymovies.com^
 ||newsobserver.com^
 ||themaclife.com^
-||cinemablend.com^
 ||dnschecker.org^
 ||c4ddownload.com^
 ||hobokengirl.com^
