@@ -10068,7 +10068,6 @@
 0.0.0.0 archive.ph
 0.0.0.0 wordmark.it
 0.0.0.0 quins.us
-0.0.0.0 edmontonjournal.com
 0.0.0.0 neomagazine.com
 0.0.0.0 entrackr.com
 0.0.0.0 billoreilly.com

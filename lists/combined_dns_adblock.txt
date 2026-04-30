@@ -1,6 +1,6 @@
 ! Title: Combined custom list (DNS)
-! Last modified: 2026-04-30T09:00:56Z
-! Entries: 14083
+! Last modified: 2026-04-30T14:37:41Z
+! Entries: 14082
 ! Generated automatically
 
 /ads?client=
@@ -10095,7 +10095,6 @@ $script,3p,denyallow=doodcdn.io|doodcdn.io|fastly.net|statically.io|sharecast.ws
 ||archive.ph^
 ||wordmark.it^
 ||quins.us^
-||edmontonjournal.com^
 ||neomagazine.com^
 ||entrackr.com^
 ||billoreilly.com^
