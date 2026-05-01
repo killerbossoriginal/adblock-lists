@@ -418,6 +418,7 @@
 0.0.0.0 usnews.com
 0.0.0.0 solution-hub.com
 0.0.0.0 shellshock.io
+0.0.0.0 advrider.com
 0.0.0.0 versus.com
 0.0.0.0 thegazette.com
 0.0.0.0 inquirer.net
@@ -1223,7 +1224,6 @@
 0.0.0.0 paryatanbazar.com
 0.0.0.0 allbusiness.com
 0.0.0.0 geotastic.net
-0.0.0.0 advrider.com
 0.0.0.0 buzzfeed.com
 0.0.0.0 kurocore.com
 0.0.0.0 radiopaedia.org
@@ -1359,6 +1359,7 @@
 0.0.0.0 longevity.technology
 0.0.0.0 nesabamedia.com
 0.0.0.0 fastcompany.com
+0.0.0.0 bettycrocker.com
 0.0.0.0 aish.com
 0.0.0.0 ping0.cc
 0.0.0.0 tedium.co
@@ -2399,6 +2400,7 @@
 0.0.0.0 pdc.tv
 0.0.0.0 iphonelife.com
 0.0.0.0 wwe.com
+0.0.0.0 gagadget.com
 0.0.0.0 keybr.com
 0.0.0.0 letssingit.com
 0.0.0.0 wzstats.gg
@@ -2765,7 +2767,6 @@
 0.0.0.0 forebet.com
 0.0.0.0 just-dice.com
 0.0.0.0 tasteofhome.com
-0.0.0.0 bettycrocker.com
 0.0.0.0 goodmorningamerica.com
 0.0.0.0 videocelebs.net
 0.0.0.0 streamtvinsider.com
@@ -3466,6 +3467,7 @@
 0.0.0.0 inverse.com
 0.0.0.0 liverpoolway.co.uk
 0.0.0.0 lifehacker.com
+0.0.0.0 tribuna.com
 0.0.0.0 aajtakcampus.in
 0.0.0.0 thefiscaltimes.com
 0.0.0.0 arkadium.com
@@ -9372,7 +9374,6 @@
 0.0.0.0 6abc.com
 0.0.0.0 ukaudiomart.com
 0.0.0.0 ultrasurfing.com
-0.0.0.0 tribuna.com
 0.0.0.0 canuckaudiomart.com
 0.0.0.0 pdfdrive.to
 0.0.0.0 calgaryherald.com
@@ -10775,7 +10776,6 @@
 0.0.0.0 charlieintel.com
 0.0.0.0 gaadiwaadi.com
 0.0.0.0 tsn.ca
-0.0.0.0 gagadget.com
 0.0.0.0 apiyoutube.cc
 0.0.0.0 storagereview.com
 0.0.0.0 dev.miuiflash.com

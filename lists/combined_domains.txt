@@ -418,6 +418,7 @@ safetydetectives.com
 usnews.com
 solution-hub.com
 shellshock.io
+advrider.com
 versus.com
 thegazette.com
 inquirer.net
@@ -1223,7 +1224,6 @@ hollywoodlife.com
 paryatanbazar.com
 allbusiness.com
 geotastic.net
-advrider.com
 buzzfeed.com
 kurocore.com
 radiopaedia.org
@@ -1359,6 +1359,7 @@ citationmachine.net
 longevity.technology
 nesabamedia.com
 fastcompany.com
+bettycrocker.com
 aish.com
 ping0.cc
 tedium.co
@@ -2399,6 +2400,7 @@ wantedinafrica.com
 pdc.tv
 iphonelife.com
 wwe.com
+gagadget.com
 keybr.com
 letssingit.com
 wzstats.gg
@@ -2765,7 +2767,6 @@ epicdope.com
 forebet.com
 just-dice.com
 tasteofhome.com
-bettycrocker.com
 goodmorningamerica.com
 videocelebs.net
 streamtvinsider.com
@@ -3466,6 +3467,7 @@ home.cricketwireless.com
 inverse.com
 liverpoolway.co.uk
 lifehacker.com
+tribuna.com
 aajtakcampus.in
 thefiscaltimes.com
 arkadium.com
@@ -9372,7 +9374,6 @@ libreshot.com
 6abc.com
 ukaudiomart.com
 ultrasurfing.com
-tribuna.com
 canuckaudiomart.com
 pdfdrive.to
 calgaryherald.com
@@ -10775,7 +10776,6 @@ virtualizationhowto.com
 charlieintel.com
 gaadiwaadi.com
 tsn.ca
-gagadget.com
 apiyoutube.cc
 storagereview.com
 dev.miuiflash.com

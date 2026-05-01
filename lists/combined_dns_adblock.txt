@@ -1,5 +1,5 @@
 ! Title: Combined custom list (DNS)
-! Last modified: 2026-05-01T08:31:06Z
+! Last modified: 2026-05-01T14:04:27Z
 ! Entries: 14082
 ! Generated automatically
 
@@ -445,6 +445,7 @@ $script,3p,denyallow=doodcdn.io|doodcdn.io|fastly.net|statically.io|sharecast.ws
 ||usnews.com^
 ||solution-hub.com^
 ||shellshock.io^
+||advrider.com^
 ||versus.com^
 ||thegazette.com^
 ||inquirer.net^
@@ -1250,7 +1251,6 @@ $script,3p,denyallow=doodcdn.io|doodcdn.io|fastly.net|statically.io|sharecast.ws
 ||paryatanbazar.com^
 ||allbusiness.com^
 ||geotastic.net^
-||advrider.com^
 ||buzzfeed.com^
 ||kurocore.com^
 ||radiopaedia.org^
@@ -1386,6 +1386,7 @@ $script,3p,denyallow=doodcdn.io|doodcdn.io|fastly.net|statically.io|sharecast.ws
 ||longevity.technology^
 ||nesabamedia.com^
 ||fastcompany.com^
+||bettycrocker.com^
 ||aish.com^
 ||ping0.cc^
 ||tedium.co^
@@ -2426,6 +2427,7 @@ $script,3p,denyallow=doodcdn.io|doodcdn.io|fastly.net|statically.io|sharecast.ws
 ||pdc.tv^
 ||iphonelife.com^
 ||wwe.com^
+||gagadget.com^
 ||keybr.com^
 ||letssingit.com^
 ||wzstats.gg^
@@ -2792,7 +2794,6 @@ $script,3p,denyallow=doodcdn.io|doodcdn.io|fastly.net|statically.io|sharecast.ws
 ||forebet.com^
 ||just-dice.com^
 ||tasteofhome.com^
-||bettycrocker.com^
 ||goodmorningamerica.com^
 ||videocelebs.net^
 ||streamtvinsider.com^
@@ -3493,6 +3494,7 @@ $script,3p,denyallow=doodcdn.io|doodcdn.io|fastly.net|statically.io|sharecast.ws
 ||inverse.com^
 ||liverpoolway.co.uk^
 ||lifehacker.com^
+||tribuna.com^
 ||aajtakcampus.in^
 ||thefiscaltimes.com^
 ||arkadium.com^
@@ -9399,7 +9401,6 @@ $script,3p,denyallow=doodcdn.io|doodcdn.io|fastly.net|statically.io|sharecast.ws
 ||6abc.com^
 ||ukaudiomart.com^
 ||ultrasurfing.com^
-||tribuna.com^
 ||canuckaudiomart.com^
 ||pdfdrive.to^
 ||calgaryherald.com^
@@ -10802,7 +10803,6 @@ $script,3p,denyallow=doodcdn.io|doodcdn.io|fastly.net|statically.io|sharecast.ws
 ||charlieintel.com^
 ||gaadiwaadi.com^
 ||tsn.ca^
-||gagadget.com^
 ||apiyoutube.cc^
 ||storagereview.com^
 ||dev.miuiflash.com^
