@@ -2938,6 +2938,7 @@
 0.0.0.0 rs-online.com
 0.0.0.0 lookfantastic.com
 0.0.0.0 circleid.com
+0.0.0.0 thenextweb.com
 0.0.0.0 canadiantire.ca
 0.0.0.0 foojay.io
 0.0.0.0 salixos.org
@@ -3041,7 +3042,6 @@
 0.0.0.0 themighty.com
 0.0.0.0 trademe.co.nz
 0.0.0.0 thenewstack.io
-0.0.0.0 thenextweb.com
 0.0.0.0 nybooks.com
 0.0.0.0 justinweather.com
 0.0.0.0 jamieoliver.com

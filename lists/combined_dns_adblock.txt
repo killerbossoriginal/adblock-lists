@@ -1,5 +1,5 @@
 ! Title: Combined custom list (DNS)
-! Last modified: 2026-05-01T04:39:07Z
+! Last modified: 2026-05-01T08:31:06Z
 ! Entries: 14082
 ! Generated automatically
 
@@ -2965,6 +2965,7 @@ $script,3p,denyallow=doodcdn.io|doodcdn.io|fastly.net|statically.io|sharecast.ws
 ||rs-online.com^
 ||lookfantastic.com^
 ||circleid.com^
+||thenextweb.com^
 ||canadiantire.ca^
 ||foojay.io^
 ||salixos.org^
@@ -3068,7 +3069,6 @@ $script,3p,denyallow=doodcdn.io|doodcdn.io|fastly.net|statically.io|sharecast.ws
 ||themighty.com^
 ||trademe.co.nz^
 ||thenewstack.io^
-||thenextweb.com^
 ||nybooks.com^
 ||justinweather.com^
 ||jamieoliver.com^

@@ -2938,6 +2938,7 @@ freesvg.org
 rs-online.com
 lookfantastic.com
 circleid.com
+thenextweb.com
 canadiantire.ca
 foojay.io
 salixos.org
@@ -3041,7 +3042,6 @@ blendernation.com
 themighty.com
 trademe.co.nz
 thenewstack.io
-thenextweb.com
 nybooks.com
 justinweather.com
 jamieoliver.com
