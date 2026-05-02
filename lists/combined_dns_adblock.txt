@@ -1,6 +1,6 @@
 ! Title: Combined custom list (DNS)
-! Last modified: 2026-05-02T04:02:32Z
-! Entries: 14082
+! Last modified: 2026-05-02T08:12:35Z
+! Entries: 14083
 ! Generated automatically
 
 /ads?client=
@@ -2545,6 +2545,7 @@ $script,3p,denyallow=doodcdn.io|doodcdn.io|fastly.net|statically.io|sharecast.ws
 ||wethegeek.com^
 ||earth911.com^
 ||citizen.digital^
+||fdiintelligence.com^
 ||newsday.com^
 ||tradetrucks.com.au^
 ||ibtimes.co.uk^

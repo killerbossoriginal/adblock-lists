@@ -2518,6 +2518,7 @@
 0.0.0.0 wethegeek.com
 0.0.0.0 earth911.com
 0.0.0.0 citizen.digital
+0.0.0.0 fdiintelligence.com
 0.0.0.0 newsday.com
 0.0.0.0 tradetrucks.com.au
 0.0.0.0 ibtimes.co.uk
