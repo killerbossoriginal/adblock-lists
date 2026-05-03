@@ -1146,6 +1146,7 @@
 0.0.0.0 afar.com
 0.0.0.0 apnews.com
 0.0.0.0 ask.com
+0.0.0.0 noon.com
 0.0.0.0 cubbyathome.com
 0.0.0.0 thekitchn.com
 0.0.0.0 stocktwits.com
@@ -3630,7 +3631,6 @@
 0.0.0.0 livetv.sx
 0.0.0.0 hookerhillstudios.com
 0.0.0.0 news.mydramalist.com
-0.0.0.0 noon.com
 0.0.0.0 momondo.com
 0.0.0.0 euobserver.com
 0.0.0.0 etsy.com
@@ -4532,6 +4532,7 @@
 0.0.0.0 delicious-audio.com
 0.0.0.0 trshow.info
 0.0.0.0 ru-clip.com
+0.0.0.0 waredata.com
 0.0.0.0 healthy4pepole.com
 0.0.0.0 smksports.live
 0.0.0.0 rule34hentai.net
@@ -5987,6 +5988,7 @@
 0.0.0.0 eprevodilac.com
 0.0.0.0 njuskalo.hr
 0.0.0.0 mob.hr
+0.0.0.0 playarcady.com
 0.0.0.0 fxstreet.cz
 0.0.0.0 mediaguru.cz
 0.0.0.0 cas.sk
@@ -9095,6 +9097,7 @@
 0.0.0.0 tunemovie.fun
 0.0.0.0 www.youtube.com
 0.0.0.0 hentai-id.tv
+0.0.0.0 azcentral.com
 0.0.0.0 positioniseverything.net
 0.0.0.0 willyweather.com.au
 0.0.0.0 thedailycatch.org
@@ -11267,7 +11270,6 @@
 0.0.0.0 filmxy.pw
 0.0.0.0 0gomovie.tv
 0.0.0.0 wrestlezone.com
-0.0.0.0 azcentral.com
 0.0.0.0 newzimbabwe.com
 0.0.0.0 gamitisa.com
 0.0.0.0 zimlive.com

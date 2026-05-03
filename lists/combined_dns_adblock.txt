@@ -1,6 +1,6 @@
 ! Title: Combined custom list (DNS)
-! Last modified: 2026-05-03T13:58:14Z
-! Entries: 14087
+! Last modified: 2026-05-03T19:40:02Z
+! Entries: 14089
 ! Generated automatically
 
 /ads?client=
@@ -1173,6 +1173,7 @@ $script,3p,denyallow=doodcdn.io|doodcdn.io|fastly.net|statically.io|sharecast.ws
 ||afar.com^
 ||apnews.com^
 ||ask.com^
+||noon.com^
 ||cubbyathome.com^
 ||thekitchn.com^
 ||stocktwits.com^
@@ -3657,7 +3658,6 @@ $script,3p,denyallow=doodcdn.io|doodcdn.io|fastly.net|statically.io|sharecast.ws
 ||livetv.sx^
 ||hookerhillstudios.com^
 ||news.mydramalist.com^
-||noon.com^
 ||momondo.com^
 ||euobserver.com^
 ||etsy.com^
@@ -4559,6 +4559,7 @@ $script,3p,denyallow=doodcdn.io|doodcdn.io|fastly.net|statically.io|sharecast.ws
 ||delicious-audio.com^
 ||trshow.info^
 ||ru-clip.com^
+||waredata.com^
 ||healthy4pepole.com^
 ||smksports.live^
 ||rule34hentai.net^
@@ -6014,6 +6015,7 @@ $script,3p,denyallow=doodcdn.io|doodcdn.io|fastly.net|statically.io|sharecast.ws
 ||eprevodilac.com^
 ||njuskalo.hr^
 ||mob.hr^
+||playarcady.com^
 ||fxstreet.cz^
 ||mediaguru.cz^
 ||cas.sk^
@@ -9122,6 +9124,7 @@ $script,3p,denyallow=doodcdn.io|doodcdn.io|fastly.net|statically.io|sharecast.ws
 ||tunemovie.fun^
 ||www.youtube.com^
 ||hentai-id.tv^
+||azcentral.com^
 ||positioniseverything.net^
 ||willyweather.com.au^
 ||thedailycatch.org^
@@ -11294,7 +11297,6 @@ $script,3p,denyallow=doodcdn.io|doodcdn.io|fastly.net|statically.io|sharecast.ws
 ||filmxy.pw^
 ||0gomovie.tv^
 ||wrestlezone.com^
-||azcentral.com^
 ||newzimbabwe.com^
 ||gamitisa.com^
 ||zimlive.com^
