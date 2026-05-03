@@ -1,6 +1,6 @@
 ! Title: Combined custom list (DNS)
-! Last modified: 2026-05-03T04:31:43Z
-! Entries: 14085
+! Last modified: 2026-05-03T08:23:13Z
+! Entries: 14087
 ! Generated automatically
 
 /ads?client=
@@ -2950,6 +2950,7 @@ $script,3p,denyallow=doodcdn.io|doodcdn.io|fastly.net|statically.io|sharecast.ws
 ||bloomingdales.com^
 ||salary.com^
 ||freeonlineapps.net^
+||watchsports.to^
 ||freebusinessapps.net^
 ||semiengineering.com^
 ||academickids.com^
@@ -3300,6 +3301,7 @@ $script,3p,denyallow=doodcdn.io|doodcdn.io|fastly.net|statically.io|sharecast.ws
 ||sythe.org^
 ||tlidb.com^
 ||photorumors.com^
+||thetimes.com.au^
 ||duplichecker.com^
 ||wikifeet.com^
 ||patio.so^
