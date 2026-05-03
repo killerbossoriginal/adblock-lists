@@ -816,6 +816,7 @@
 0.0.0.0 epicload.com
 0.0.0.0 bankinfosecurity.com
 0.0.0.0 chaseyoursport.com
+0.0.0.0 ratehub.ca
 0.0.0.0 ultrabookreview.com
 0.0.0.0 fastpeoplesearch.com
 0.0.0.0 time.com
@@ -9092,6 +9093,7 @@
 0.0.0.0 tunemovie.fun
 0.0.0.0 www.youtube.com
 0.0.0.0 hentai-id.tv
+0.0.0.0 positioniseverything.net
 0.0.0.0 willyweather.com.au
 0.0.0.0 thedailycatch.org
 0.0.0.0 fapnow.xxx
