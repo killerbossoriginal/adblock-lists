@@ -8126,6 +8126,7 @@
 0.0.0.0 asilmedia.org
 0.0.0.0 animehay01.site
 0.0.0.0 arigl.com
+0.0.0.0 animevietsub.bz
 0.0.0.0 storage.googleapiscdn.com
 0.0.0.0 phim-18.tv
 0.0.0.0 cdn.loadvid.com

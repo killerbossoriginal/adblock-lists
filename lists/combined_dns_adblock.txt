@@ -1,6 +1,6 @@
 ! Title: Combined custom list (DNS)
-! Last modified: 2026-05-04T14:55:45Z
-! Entries: 14097
+! Last modified: 2026-05-04T20:06:09Z
+! Entries: 14098
 ! Generated automatically
 
 /ads?client=
@@ -8153,6 +8153,7 @@ $script,3p,denyallow=doodcdn.io|doodcdn.io|fastly.net|statically.io|sharecast.ws
 ||asilmedia.org^
 ||animehay01.site^
 ||arigl.com^
+||animevietsub.bz^
 ||storage.googleapiscdn.com^
 ||phim-18.tv^
 ||cdn.loadvid.com^
