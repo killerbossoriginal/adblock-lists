@@ -4533,6 +4533,7 @@
 0.0.0.0 delicious-audio.com
 0.0.0.0 trshow.info
 0.0.0.0 ru-clip.com
+0.0.0.0 metabot.gg
 0.0.0.0 vidbox.dev
 0.0.0.0 waredata.com
 0.0.0.0 healthy4pepole.com
@@ -7184,6 +7185,7 @@
 0.0.0.0 gospodarkamorska.pl
 0.0.0.0 onet.pl
 0.0.0.0 pograne.eu
+0.0.0.0 forumrowerowe.org
 0.0.0.0 miasto.in
 0.0.0.0 hiperinfo.pl
 0.0.0.0 ostrow24.tv
@@ -9099,6 +9101,8 @@
 0.0.0.0 tunemovie.fun
 0.0.0.0 www.youtube.com
 0.0.0.0 hentai-id.tv
+0.0.0.0 vik1ngfile.site
+0.0.0.0 manoramamax.com
 0.0.0.0 azcentral.com
 0.0.0.0 positioniseverything.net
 0.0.0.0 willyweather.com.au
@@ -9438,7 +9442,6 @@
 0.0.0.0 dustebin.com
 0.0.0.0 pornditt.com
 0.0.0.0 leitesculinaria.com
-0.0.0.0 vik1ngfile.site
 0.0.0.0 severeporn.com
 0.0.0.0 xcams.com
 0.0.0.0 roundtable.io

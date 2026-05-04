@@ -1,6 +1,6 @@
 ! Title: Combined custom list (DNS)
-! Last modified: 2026-05-04T04:30:31Z
-! Entries: 14091
+! Last modified: 2026-05-04T09:08:32Z
+! Entries: 14094
 ! Generated automatically
 
 /ads?client=
@@ -4560,6 +4560,7 @@ $script,3p,denyallow=doodcdn.io|doodcdn.io|fastly.net|statically.io|sharecast.ws
 ||delicious-audio.com^
 ||trshow.info^
 ||ru-clip.com^
+||metabot.gg^
 ||vidbox.dev^
 ||waredata.com^
 ||healthy4pepole.com^
@@ -7211,6 +7212,7 @@ $script,3p,denyallow=doodcdn.io|doodcdn.io|fastly.net|statically.io|sharecast.ws
 ||gospodarkamorska.pl^
 ||onet.pl^
 ||pograne.eu^
+||forumrowerowe.org^
 ||miasto.in^
 ||hiperinfo.pl^
 ||ostrow24.tv^
@@ -9126,6 +9128,8 @@ $script,3p,denyallow=doodcdn.io|doodcdn.io|fastly.net|statically.io|sharecast.ws
 ||tunemovie.fun^
 ||www.youtube.com^
 ||hentai-id.tv^
+||vik1ngfile.site^
+||manoramamax.com^
 ||azcentral.com^
 ||positioniseverything.net^
 ||willyweather.com.au^
@@ -9465,7 +9469,6 @@ $script,3p,denyallow=doodcdn.io|doodcdn.io|fastly.net|statically.io|sharecast.ws
 ||dustebin.com^
 ||pornditt.com^
 ||leitesculinaria.com^
-||vik1ngfile.site^
 ||severeporn.com^
 ||xcams.com^
 ||roundtable.io^
