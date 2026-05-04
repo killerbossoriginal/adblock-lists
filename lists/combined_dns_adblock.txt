@@ -1,6 +1,6 @@
 ! Title: Combined custom list (DNS)
-! Last modified: 2026-05-04T09:08:32Z
-! Entries: 14094
+! Last modified: 2026-05-04T14:55:45Z
+! Entries: 14097
 ! Generated automatically
 
 /ads?client=
@@ -4560,6 +4560,7 @@ $script,3p,denyallow=doodcdn.io|doodcdn.io|fastly.net|statically.io|sharecast.ws
 ||delicious-audio.com^
 ||trshow.info^
 ||ru-clip.com^
+||avnsgames.com^
 ||metabot.gg^
 ||vidbox.dev^
 ||waredata.com^
@@ -5859,6 +5860,7 @@ $script,3p,denyallow=doodcdn.io|doodcdn.io|fastly.net|statically.io|sharecast.ws
 ||1in.am^
 ||tiv1.am^
 ||auto.am^
+||mast.az^
 ||caliber.az^
 ||valyuta.com^
 ||bakues.az^
@@ -9128,6 +9130,8 @@ $script,3p,denyallow=doodcdn.io|doodcdn.io|fastly.net|statically.io|sharecast.ws
 ||tunemovie.fun^
 ||www.youtube.com^
 ||hentai-id.tv^
+||every.to^
+||localnow.com^
 ||vik1ngfile.site^
 ||manoramamax.com^
 ||azcentral.com^
@@ -9371,7 +9375,6 @@ $script,3p,denyallow=doodcdn.io|doodcdn.io|fastly.net|statically.io|sharecast.ws
 ||xtapes.porn^
 ||readnovel.eu^
 ||yhprn.com^
-||abtranny.com^
 ||coinglass.com^
 ||mamamia.com.au^
 ||tomshardware.com^

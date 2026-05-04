@@ -4533,6 +4533,7 @@
 0.0.0.0 delicious-audio.com
 0.0.0.0 trshow.info
 0.0.0.0 ru-clip.com
+0.0.0.0 avnsgames.com
 0.0.0.0 metabot.gg
 0.0.0.0 vidbox.dev
 0.0.0.0 waredata.com
@@ -5832,6 +5833,7 @@
 0.0.0.0 1in.am
 0.0.0.0 tiv1.am
 0.0.0.0 auto.am
+0.0.0.0 mast.az
 0.0.0.0 caliber.az
 0.0.0.0 valyuta.com
 0.0.0.0 bakues.az
@@ -9101,6 +9103,8 @@
 0.0.0.0 tunemovie.fun
 0.0.0.0 www.youtube.com
 0.0.0.0 hentai-id.tv
+0.0.0.0 every.to
+0.0.0.0 localnow.com
 0.0.0.0 vik1ngfile.site
 0.0.0.0 manoramamax.com
 0.0.0.0 azcentral.com
@@ -9344,7 +9348,6 @@
 0.0.0.0 xtapes.porn
 0.0.0.0 readnovel.eu
 0.0.0.0 yhprn.com
-0.0.0.0 abtranny.com
 0.0.0.0 coinglass.com
 0.0.0.0 mamamia.com.au
 0.0.0.0 tomshardware.com
