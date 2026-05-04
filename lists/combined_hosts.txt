@@ -3373,6 +3373,7 @@
 0.0.0.0 elitepvpers.com
 0.0.0.0 mobiforge.com
 0.0.0.0 cript.to
+0.0.0.0 scloud.ws
 0.0.0.0 steam.design
 0.0.0.0 marinelink.com
 0.0.0.0 newstalkflorida.com
@@ -4532,6 +4533,7 @@
 0.0.0.0 delicious-audio.com
 0.0.0.0 trshow.info
 0.0.0.0 ru-clip.com
+0.0.0.0 vidbox.dev
 0.0.0.0 waredata.com
 0.0.0.0 healthy4pepole.com
 0.0.0.0 smksports.live
