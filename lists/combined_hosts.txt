@@ -5274,7 +5274,6 @@
 0.0.0.0 cheatermad.com
 0.0.0.0 searchresults.cc
 0.0.0.0 nagarlyricshub.blogspot.com
-0.0.0.0 toolxox.com
 0.0.0.0 adinserter.pro
 0.0.0.0 itscybertech.com
 0.0.0.0 coin-free.com
@@ -9106,6 +9105,8 @@
 0.0.0.0 tunemovie.fun
 0.0.0.0 www.youtube.com
 0.0.0.0 hentai-id.tv
+0.0.0.0 upstyledaily.com
+0.0.0.0 jlwranglerforums.com
 0.0.0.0 regfiles.net
 0.0.0.0 every.to
 0.0.0.0 localnow.com

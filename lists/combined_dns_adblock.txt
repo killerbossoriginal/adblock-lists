@@ -1,6 +1,6 @@
 ! Title: Combined custom list (DNS)
-! Last modified: 2026-05-05T14:34:24Z
-! Entries: 14100
+! Last modified: 2026-05-05T20:00:29Z
+! Entries: 14101
 ! Generated automatically
 
 /ads?client=
@@ -5301,7 +5301,6 @@ $script,3p,denyallow=doodcdn.io|doodcdn.io|fastly.net|statically.io|sharecast.ws
 ||cheatermad.com^
 ||searchresults.cc^
 ||nagarlyricshub.blogspot.com^
-||toolxox.com^
 ||adinserter.pro^
 ||itscybertech.com^
 ||coin-free.com^
@@ -9133,6 +9132,8 @@ $script,3p,denyallow=doodcdn.io|doodcdn.io|fastly.net|statically.io|sharecast.ws
 ||tunemovie.fun^
 ||www.youtube.com^
 ||hentai-id.tv^
+||upstyledaily.com^
+||jlwranglerforums.com^
 ||regfiles.net^
 ||every.to^
 ||localnow.com^
