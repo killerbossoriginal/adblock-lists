@@ -1,5 +1,5 @@
 ! Title: Combined custom list (DNS)
-! Last modified: 2026-05-04T20:06:09Z
+! Last modified: 2026-05-05T03:59:20Z
 ! Entries: 14098
 ! Generated automatically
 
@@ -2910,6 +2910,7 @@ $script,3p,denyallow=doodcdn.io|doodcdn.io|fastly.net|statically.io|sharecast.ws
 ||freeseotoolbox.net^
 ||uquiz.com^
 ||tutorialrepublic.com^
+||maison-et-domotique.com^
 ||jayisgames.com^
 ||nfcw.com^
 ||gameflare.com^
@@ -14090,7 +14091,6 @@ $script,3p,denyallow=doodcdn.io|doodcdn.io|fastly.net|statically.io|sharecast.ws
 ||visible.com^
 ||usaa.com^
 ||bolighub.dk^
-||gbatemp.net^
 ||anikore.jp^
 ||mwed.jp^
 ||nicovideo.jp^

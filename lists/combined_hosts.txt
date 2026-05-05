@@ -2883,6 +2883,7 @@
 0.0.0.0 freeseotoolbox.net
 0.0.0.0 uquiz.com
 0.0.0.0 tutorialrepublic.com
+0.0.0.0 maison-et-domotique.com
 0.0.0.0 jayisgames.com
 0.0.0.0 nfcw.com
 0.0.0.0 gameflare.com
@@ -14062,7 +14063,6 @@
 0.0.0.0 visible.com
 0.0.0.0 usaa.com
 0.0.0.0 bolighub.dk
-0.0.0.0 gbatemp.net
 0.0.0.0 anikore.jp
 0.0.0.0 mwed.jp
 0.0.0.0 nicovideo.jp
