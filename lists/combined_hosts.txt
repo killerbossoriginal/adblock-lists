@@ -9105,6 +9105,7 @@
 0.0.0.0 tunemovie.fun
 0.0.0.0 www.youtube.com
 0.0.0.0 hentai-id.tv
+0.0.0.0 regfiles.net
 0.0.0.0 every.to
 0.0.0.0 localnow.com
 0.0.0.0 vik1ngfile.site
