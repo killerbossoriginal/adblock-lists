@@ -1,6 +1,6 @@
 ! Title: Combined custom list (DNS)
-! Last modified: 2026-05-05T08:58:57Z
-! Entries: 14099
+! Last modified: 2026-05-05T14:34:24Z
+! Entries: 14100
 ! Generated automatically
 
 /ads?client=
@@ -3208,6 +3208,7 @@ $script,3p,denyallow=doodcdn.io|doodcdn.io|fastly.net|statically.io|sharecast.ws
 ||warezload.net^
 ||paultan.org^
 ||tftactics.gg^
+||thatprivacyguy.com^
 ||forums.ventoy.net^
 ||waterfordwhispersnews.com^
 ||mcpmag.com^

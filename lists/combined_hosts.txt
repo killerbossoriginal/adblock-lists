@@ -3181,6 +3181,7 @@
 0.0.0.0 warezload.net
 0.0.0.0 paultan.org
 0.0.0.0 tftactics.gg
+0.0.0.0 thatprivacyguy.com
 0.0.0.0 forums.ventoy.net
 0.0.0.0 waterfordwhispersnews.com
 0.0.0.0 mcpmag.com
