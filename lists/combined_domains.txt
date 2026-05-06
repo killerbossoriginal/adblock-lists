@@ -1081,7 +1081,6 @@ yandex.com
 kids-in-mind.com
 tennesseestar.com
 aimagazine.com
-suffolknews.co.uk
 thesouthafrican.com
 bbcearth.com
 phoenixnewtimes.com
@@ -1135,6 +1134,7 @@ doodle.com
 inverness-courier.co.uk
 laprensalatina.com
 kentonline.co.uk
+apnews.com
 theurbanlist.com
 nationalgeographic.com
 wired.com
@@ -1144,7 +1144,6 @@ chronicle.com
 newscientist.com
 govtech.com
 afar.com
-apnews.com
 ask.com
 noon.com
 cubbyathome.com

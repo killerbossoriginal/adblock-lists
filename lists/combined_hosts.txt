@@ -1081,7 +1081,6 @@
 0.0.0.0 kids-in-mind.com
 0.0.0.0 tennesseestar.com
 0.0.0.0 aimagazine.com
-0.0.0.0 suffolknews.co.uk
 0.0.0.0 thesouthafrican.com
 0.0.0.0 bbcearth.com
 0.0.0.0 phoenixnewtimes.com
@@ -1135,6 +1134,7 @@
 0.0.0.0 inverness-courier.co.uk
 0.0.0.0 laprensalatina.com
 0.0.0.0 kentonline.co.uk
+0.0.0.0 apnews.com
 0.0.0.0 theurbanlist.com
 0.0.0.0 nationalgeographic.com
 0.0.0.0 wired.com
@@ -1144,7 +1144,6 @@
 0.0.0.0 newscientist.com
 0.0.0.0 govtech.com
 0.0.0.0 afar.com
-0.0.0.0 apnews.com
 0.0.0.0 ask.com
 0.0.0.0 noon.com
 0.0.0.0 cubbyathome.com

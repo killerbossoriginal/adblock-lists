@@ -1,6 +1,6 @@
 ! Title: Combined custom list (DNS)
-! Last modified: 2026-05-06T04:24:44Z
-! Entries: 14102
+! Last modified: 2026-05-06T09:11:42Z
+! Entries: 14101
 ! Generated automatically
 
 /ads?client=
@@ -1108,7 +1108,6 @@ $script,3p,denyallow=doodcdn.io|doodcdn.io|fastly.net|statically.io|sharecast.ws
 ||kids-in-mind.com^
 ||tennesseestar.com^
 ||aimagazine.com^
-||suffolknews.co.uk^
 ||thesouthafrican.com^
 ||bbcearth.com^
 ||phoenixnewtimes.com^
@@ -1162,6 +1161,7 @@ $script,3p,denyallow=doodcdn.io|doodcdn.io|fastly.net|statically.io|sharecast.ws
 ||inverness-courier.co.uk^
 ||laprensalatina.com^
 ||kentonline.co.uk^
+||apnews.com^
 ||theurbanlist.com^
 ||nationalgeographic.com^
 ||wired.com^
@@ -1171,7 +1171,6 @@ $script,3p,denyallow=doodcdn.io|doodcdn.io|fastly.net|statically.io|sharecast.ws
 ||newscientist.com^
 ||govtech.com^
 ||afar.com^
-||apnews.com^
 ||ask.com^
 ||noon.com^
 ||cubbyathome.com^
