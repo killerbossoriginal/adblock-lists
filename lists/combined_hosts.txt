@@ -3047,6 +3047,7 @@
 0.0.0.0 blendernation.com
 0.0.0.0 themighty.com
 0.0.0.0 trademe.co.nz
+0.0.0.0 ticketnews.com
 0.0.0.0 thenewstack.io
 0.0.0.0 nybooks.com
 0.0.0.0 justinweather.com

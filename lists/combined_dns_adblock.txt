@@ -1,6 +1,6 @@
 ! Title: Combined custom list (DNS)
-! Last modified: 2026-05-05T20:00:29Z
-! Entries: 14101
+! Last modified: 2026-05-06T04:24:44Z
+! Entries: 14102
 ! Generated automatically
 
 /ads?client=
@@ -3074,6 +3074,7 @@ $script,3p,denyallow=doodcdn.io|doodcdn.io|fastly.net|statically.io|sharecast.ws
 ||blendernation.com^
 ||themighty.com^
 ||trademe.co.nz^
+||ticketnews.com^
 ||thenewstack.io^
 ||nybooks.com^
 ||justinweather.com^
